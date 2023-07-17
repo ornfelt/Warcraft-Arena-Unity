@@ -18,10 +18,10 @@ MonoBehaviour:
   actionBarSlot: 4
   classType: 8
   defaultPresets:
-  - {fileID: 11400000, guid: bbff32fcbcc7f1e49936fa0cc3459ed8, type: 2}
-  - {fileID: 11400000, guid: bbff32fcbcc7f1e49936fa0cc3459ed8, type: 2}
-  - {fileID: 11400000, guid: bbff32fcbcc7f1e49936fa0cc3459ed8, type: 2}
-  - {fileID: 11400000, guid: bbff32fcbcc7f1e49936fa0cc3459ed8, type: 2}
+  - {fileID: 11400000, guid: 3eeb641152dd92e4db82461677a1fff0, type: 2}
+  - {fileID: 11400000, guid: 63446fad7cd6efc4fac58dbc0ff14ff3, type: 2}
+  - {fileID: 11400000, guid: 9479f5e56dcda3446be5bcf4f267db6c, type: 2}
+  - {fileID: 11400000, guid: 5392bb18832ef55419933fd4c8fca00e, type: 2}
   - {fileID: 11400000, guid: bbff32fcbcc7f1e49936fa0cc3459ed8, type: 2}
   - {fileID: 11400000, guid: bbff32fcbcc7f1e49936fa0cc3459ed8, type: 2}
   - {fileID: 11400000, guid: bbff32fcbcc7f1e49936fa0cc3459ed8, type: 2}

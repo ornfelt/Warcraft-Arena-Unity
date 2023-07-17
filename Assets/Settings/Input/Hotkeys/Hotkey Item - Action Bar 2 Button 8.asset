@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: {fileID: 11400000, guid: 899dff3e7662461489d8d3e369ab42b3, type: 2}
   id: Action Bar 2 Button 8
-  key: 114
-  modifier: 3
+  key: 102
+  modifier: 0
