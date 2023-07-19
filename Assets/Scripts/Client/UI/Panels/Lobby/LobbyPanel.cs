@@ -89,7 +89,8 @@ namespace Client
         {
             base.PanelInitialized();
 
-            playerNameInput.text = PlayerPrefs.GetString(PrefUtils.PlayerNamePref, $"Player{Random.Range(1, 99999).ToString().PadLeft(5, ' ')}");
+            //playerNameInput.text = PlayerPrefs.GetString(PrefUtils.PlayerNamePref, $"Player{Random.Range(1, 99999).ToString().PadLeft(5, ' ')}");
+            playerNameInput.text = PlayerPrefs.GetString(PrefUtils.PlayerNamePref, $"Player{UnityEngine.Random.Range(1, 99999).ToString().PadLeft(5, ' ')}");
             serverNameInput.text = PlayerPrefs.GetString(PrefUtils.PlayerServerNamePref, $"\"{playerNameInput.text}\" Server");
 
             regionDropdown.ClearOptions();
@@ -122,12 +123,12 @@ namespace Client
             mapSlots[0].Select();
             versionName.text = photonReference.Version;
 
-            EventHandler.RegisterEvent(photonReference.UnderlyingController, GameEvents.SessionListUpdated, OnPhotonControllerSessionListUpdated);
+            Common.EventHandler.RegisterEvent(photonReference.UnderlyingController, GameEvents.SessionListUpdated, OnPhotonControllerSessionListUpdated);
         }
 
         protected override void PanelDeinitialized()
         {
-            EventHandler.UnregisterEvent(photonReference.UnderlyingController, GameEvents.SessionListUpdated, OnPhotonControllerSessionListUpdated);
+            Common.EventHandler.UnregisterEvent(photonReference.UnderlyingController, GameEvents.SessionListUpdated, OnPhotonControllerSessionListUpdated);
 
             for (int i = 0; i < SessionDisplayCount; i++)
             {
@@ -295,7 +296,12 @@ namespace Client
 
             UpdateInputState(false);
 
+            // HEHE
+            // Don't use PhotonBolt
             photonReference.StartSinglePlayer(new ServerRoomToken(serverNameInput.text, playerNameInput.text, selectedMapSlot.MapDefinition.MapName), OnServerStartSuccess, OnServerStartFail);
+            //SinglePlayerNonBolt singlePlayerNonBolt = new SinglePlayerNonBolt();
+            //StopAllCoroutines();
+            //singlePlayerNonBolt.StartSinglePlayerNonBolt(new ServerRoomToken(serverNameInput.text, playerNameInput.text, selectedMapSlot.MapDefinition.MapName), OnServerStartSuccess, OnServerStartFail);
 
             void OnServerStartFail()
             {

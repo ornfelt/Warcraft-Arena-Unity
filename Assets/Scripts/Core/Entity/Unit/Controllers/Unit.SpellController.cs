@@ -297,7 +297,10 @@ namespace Core
                 if (!Mathf.Approximately(critModifier, 0.0f))
                     critBonus = critBonus.AddPercentage(critModifier);
 
-                return System.Math.Max(0, damage + critBonus);
+                //return System.Math.Max(0, damage + critBonus);
+                if (spellInfo.Id == 20)
+                    return System.Math.Max(0, damage + (critBonus*3));
+                return System.Math.Max(0, damage + (critBonus*2));
             }
 
             internal void HandleAbsorb(ref SpellDamageInfo damageInfo)

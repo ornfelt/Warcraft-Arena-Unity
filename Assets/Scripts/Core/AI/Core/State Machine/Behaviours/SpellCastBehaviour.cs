@@ -96,7 +96,7 @@ namespace Core
                         Unit.Motion.ModifyConfusedMovement(false);
                     }
 
-                    if (!Unit.IsAlive && RandomNumb < 2) // 2 % chance to ress
+                    if (!Unit.IsAlive && RandomNumb < 4) // Chance to ress
                         Unit.GetBalance().SpellInfosById.TryGetValue(2, out newSpellInfo); // Ress
 
                     spellInfo = newSpellInfo;
