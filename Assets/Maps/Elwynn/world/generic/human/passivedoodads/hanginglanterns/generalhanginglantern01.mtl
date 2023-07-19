@@ -1,0 +1,9 @@
+newmtl mat_hanginglantern01
+illum 1
+map_Kd ..\..\..\dwarf\passivedoodads\lanterns\hanginglantern01.png
+newmtl mat_lightglass02
+illum 1
+map_Kd lightglass02.png
+newmtl mat_glow32
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\lamppost\glow32.png

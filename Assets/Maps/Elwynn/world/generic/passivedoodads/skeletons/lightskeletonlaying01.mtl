@@ -1,0 +1,9 @@
+newmtl mat_bonelight
+illum 1
+map_Kd bonelight.png
+newmtl mat_skeletalhandlight
+illum 1
+map_Kd skeletalhandlight.png
+newmtl mat_skull01light
+illum 1
+map_Kd skull01light.png

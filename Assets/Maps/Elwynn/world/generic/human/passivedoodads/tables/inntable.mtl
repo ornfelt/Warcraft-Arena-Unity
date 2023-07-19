@@ -1,0 +1,3 @@
+newmtl mat_mm_strmwnd_int_furniture_01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\decoration\mm_strmwnd_int_furniture_01.png

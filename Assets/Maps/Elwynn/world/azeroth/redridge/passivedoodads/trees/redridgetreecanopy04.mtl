@@ -1,0 +1,9 @@
+newmtl mat_elwynntreetallcanopy_new04
+illum 1
+map_Kd elwynntreetallcanopy_new04.png
+newmtl mat_redridgetreetrunkbottom
+illum 1
+map_Kd redridgetreetrunkbottom.png
+newmtl mat_redridgetreetrunktop
+illum 1
+map_Kd redridgetreetrunktop.png

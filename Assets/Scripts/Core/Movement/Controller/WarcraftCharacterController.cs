@@ -39,7 +39,8 @@ namespace Core
 
         void IUnitBehaviour.DoUpdate(int deltaTime)
         {
-            if (IsMovementController)
+            //if (IsMovementController)
+            if (IsMovementController || unit.IsPlayerAI)
             {
                 IControllerInputProvider inputProvider = unit.Motion.HasMovementControl
                     ? currentInputProvider ?? defaultInputProvider
@@ -51,7 +52,8 @@ namespace Core
 
                 // slow down when moving backward
                 if (inputVelocity.z < 0)
-                    inputVelocity *= 0.3f;
+                    //inputVelocity *= 0.3f;
+                    inputVelocity *= 0.5f;
 
                 if (shouldJump && unit.IsMovementBlocked)
                     shouldJump = false;
@@ -97,6 +99,7 @@ namespace Core
                 unit.SetMovementFlag(MovementFlags.Forward, rawInputVelocity.z > 0);
 
                 if (unit.IsAlive && unit.Motion.HasMovementControl)
+                //if (unit.IsAlive && (unit.Motion.HasMovementControl || unit.IsPlayerAI))
                     transform.rotation = inputRotation;
             }
         }

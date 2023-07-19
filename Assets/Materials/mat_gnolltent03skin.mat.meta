@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 39e4e3f2c365e5e48a1d8e98c518b41e
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_gnolltent03skin
+    second: {fileID: 2100000, guid: 39e4e3f2c365e5e48a1d8e98c518b41e, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

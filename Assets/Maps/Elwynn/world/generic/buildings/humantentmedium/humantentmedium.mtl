@@ -1,0 +1,15 @@
+newmtl mat_humantentsdoor
+illum 1
+map_Kd ..\..\..\environment\building\stranglethorn\humantents\textures\brian\humantentsdoor.png
+newmtl mat_humantentstop
+illum 1
+map_Kd humantentstop.png
+newmtl mat_humantentspike
+illum 1
+map_Kd humantentspike.png
+newmtl mat_humantentsrope
+illum 1
+map_Kd humantentsrope.png
+newmtl mat_elwynnfence
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wood\elwynnfence.png

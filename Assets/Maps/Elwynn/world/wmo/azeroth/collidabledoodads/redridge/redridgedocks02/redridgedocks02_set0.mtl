@@ -1,0 +1,12 @@
+newmtl mat_redridgedockplank02
+illum 1
+map_Kd ..\..\..\..\..\azeroth\redridge\passivedoodads\dockpieces\redridgedockplank02.png
+newmtl mat_redridgedockplank01
+illum 1
+map_Kd ..\..\..\..\..\azeroth\redridge\passivedoodads\dockpieces\redridgedockplank01.png
+newmtl mat_redridgedockspylonend01
+illum 1
+map_Kd ..\..\..\..\..\azeroth\redridge\passivedoodads\dockpieces\redridgedockspylonend01.png
+newmtl mat_redridgedockspylon01
+illum 1
+map_Kd ..\..\..\..\..\azeroth\redridge\passivedoodads\dockpieces\redridgedockspylon01.png

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7e5a1ce2f19653641a16eb6cbdda32f0
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_strmwnd_trim_01
+    second: {fileID: 2100000, guid: 7e5a1ce2f19653641a16eb6cbdda32f0, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,6 @@
+newmtl mat_redridgetreetrunkskin
+illum 1
+map_Kd redridgetreetrunkskin.png
+newmtl mat_redridgetreemid02skin
+illum 1
+map_Kd redridgetreemid02skin.png

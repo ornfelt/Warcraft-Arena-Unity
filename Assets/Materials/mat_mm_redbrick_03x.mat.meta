@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0a412a766f917be41916749d3395f94b
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_redbrick_03x
+    second: {fileID: 2100000, guid: 0a412a766f917be41916749d3395f94b, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

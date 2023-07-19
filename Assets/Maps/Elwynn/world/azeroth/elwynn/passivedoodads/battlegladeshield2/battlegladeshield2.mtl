@@ -1,0 +1,6 @@
+newmtl mat_battlegladeshield03
+illum 1
+map_Kd battlegladeshield03.png
+newmtl mat_battlegladearrow
+illum 1
+map_Kd ..\ballistaruined\battlegladearrow.png

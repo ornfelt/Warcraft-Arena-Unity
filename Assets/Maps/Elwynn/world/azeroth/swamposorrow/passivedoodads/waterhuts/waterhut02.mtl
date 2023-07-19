@@ -1,0 +1,9 @@
+newmtl mat_battlegladeskulldarkgreen
+illum 1
+map_Kd ..\..\..\..\..\textures\elwynn\battleglade\skulls\battlegladeskulldarkgreen.png
+newmtl mat_waterhutall01
+illum 1
+map_Kd waterhutall01.png
+newmtl mat_waterhutseeweed01
+illum 1
+map_Kd ..\..\..\..\environment\building\general\murlochuts\texture\brian\waterhutseeweed01.png

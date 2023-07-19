@@ -1,0 +1,6 @@
+newmtl mat_alphahay
+illum 1
+map_Kd alphahay.png
+newmtl mat_hay01
+illum 1
+map_Kd hay01.png

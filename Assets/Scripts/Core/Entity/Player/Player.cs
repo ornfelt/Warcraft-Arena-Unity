@@ -30,6 +30,9 @@ namespace Core
                 base.Attached(player);
 
                 player.Name = PlayerName;
+                if (PlayerName.Contains("Player AI"))
+                    player.IsPlayerAI = true;
+                Debug.Log("Spawning player: " + PlayerName + ", id: " + player.Id + ", pos: " + player.Position + ", IsPlayerAI: " + player.IsPlayerAI);
             }
         }
 

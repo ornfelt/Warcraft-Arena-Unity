@@ -1,0 +1,9 @@
+newmtl mat_darkyellowbone
+illum 1
+map_Kd darkyellowbone.png
+newmtl mat_darkyellowskeletalhand
+illum 1
+map_Kd darkyellowskeletalhand.png
+newmtl mat_darkyellowskull01
+illum 1
+map_Kd darkyellowskull01.png

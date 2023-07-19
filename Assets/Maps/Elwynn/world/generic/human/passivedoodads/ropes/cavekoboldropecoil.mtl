@@ -1,0 +1,3 @@
+newmtl mat_ropecoil
+illum 1
+map_Kd ropecoil.png

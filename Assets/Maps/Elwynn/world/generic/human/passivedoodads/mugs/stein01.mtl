@@ -1,0 +1,3 @@
+newmtl mat_mug_004_foam
+illum 1
+map_Kd mug_004_foam.png

@@ -1,0 +1,6 @@
+newmtl mat_deerhead01
+illum 1
+map_Kd deerhead01.png
+newmtl mat_duskwoodfurniture01
+illum 1
+map_Kd ..\tables\duskwoodfurniture01.png

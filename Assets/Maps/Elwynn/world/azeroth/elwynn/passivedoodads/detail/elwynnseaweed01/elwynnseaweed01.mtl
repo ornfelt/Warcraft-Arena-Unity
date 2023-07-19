@@ -1,0 +1,3 @@
+newmtl mat_kelp01
+illum 1
+map_Kd kelp01.png

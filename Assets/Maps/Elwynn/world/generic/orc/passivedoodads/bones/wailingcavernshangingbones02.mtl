@@ -1,0 +1,15 @@
+newmtl mat_rope02
+illum 1
+map_Kd rope02.png
+newmtl mat_bone02
+illum 1
+map_Kd bone02.png
+newmtl mat_stonered
+illum 1
+map_Kd stonered.png
+newmtl mat_stoneblue
+illum 1
+map_Kd stoneblue.png
+newmtl mat_stonewhite
+illum 1
+map_Kd stonewhite.png

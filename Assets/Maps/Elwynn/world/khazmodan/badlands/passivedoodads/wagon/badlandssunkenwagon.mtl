@@ -1,0 +1,9 @@
+newmtl mat_westfallwagonwoodcopy
+illum 1
+map_Kd ..\..\..\..\generic\goblin\passivedoodads\goblinrocketcarts\westfallwagonwoodcopy.png
+newmtl mat_westfallwagonwheel01
+illum 1
+map_Kd ..\..\..\..\azeroth\westfall\passivedoodads\rakecart\westfallwagonwheel01.png
+newmtl mat_westfallwagonwoodcopy
+illum 1
+map_Kd ..\..\..\..\generic\goblin\passivedoodads\goblinrocketcarts\westfallwagonwoodcopy.png

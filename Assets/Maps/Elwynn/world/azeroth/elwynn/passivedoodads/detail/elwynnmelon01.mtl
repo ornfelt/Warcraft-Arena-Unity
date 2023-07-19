@@ -1,0 +1,6 @@
+newmtl mat_elwynnwatermelon_leaf
+illum 1
+map_Kd elwynnwatermelon_leaf.png
+newmtl mat_elwynnwatermelon_128
+illum 1
+map_Kd elwynnwatermelon_128.png

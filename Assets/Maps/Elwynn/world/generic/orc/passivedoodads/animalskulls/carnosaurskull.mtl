@@ -1,0 +1,3 @@
+newmtl mat_carnosaurcopy
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\carlo\carnosaurcopy.png

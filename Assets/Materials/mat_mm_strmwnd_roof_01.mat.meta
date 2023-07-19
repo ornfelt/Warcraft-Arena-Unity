@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1658402e298b8de4e8aa182b41341328
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_strmwnd_roof_01
+    second: {fileID: 2100000, guid: 1658402e298b8de4e8aa182b41341328, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

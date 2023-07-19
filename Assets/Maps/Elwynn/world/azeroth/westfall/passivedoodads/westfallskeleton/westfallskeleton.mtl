@@ -1,0 +1,6 @@
+newmtl mat_skull01
+illum 1
+map_Kd ..\..\..\..\generic\troll\passivedoodads\trollskullpile\skull01.png
+newmtl mat_battlegladespinelight
+illum 1
+map_Kd battlegladespinelight.png

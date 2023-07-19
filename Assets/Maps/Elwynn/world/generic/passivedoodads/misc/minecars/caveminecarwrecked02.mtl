@@ -1,0 +1,9 @@
+newmtl mat_caveminecar_front
+illum 1
+map_Kd ..\..\..\orc\passivedoodads\kodowagon\caveminecar_front.png
+newmtl mat_caveminecar_detachedwheel
+illum 1
+map_Kd caveminecar_detachedwheel.png
+newmtl mat_caveminecar_side
+illum 1
+map_Kd caveminecar_side.png

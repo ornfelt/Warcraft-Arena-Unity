@@ -1,0 +1,3 @@
+newmtl mat_voodoodoll
+illum 1
+map_Kd voodoodoll.png

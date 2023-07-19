@@ -1,0 +1,12 @@
+newmtl mat_mm_minefront_01
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\rock\mm_minefront_01.png
+newmtl mat_mm_cavefloor_03
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\floor\mm_cavefloor_03.png
+newmtl mat_mm_cavewall_09
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\rock\mm_cavewall_09.png
+newmtl mat_mm_minerocks_01
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\rock\mm_minerocks_01.png

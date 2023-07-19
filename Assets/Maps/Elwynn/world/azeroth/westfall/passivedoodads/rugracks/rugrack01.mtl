@@ -1,0 +1,6 @@
+newmtl mat_deadmineswood01
+illum 1
+map_Kd deadmineswood01.png
+newmtl mat_deadminesrug02
+illum 1
+map_Kd ..\..\..\..\generic\human\passivedoodads\rugs\deadminesrug02.png

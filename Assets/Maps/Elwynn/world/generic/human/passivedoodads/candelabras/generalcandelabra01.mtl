@@ -1,0 +1,9 @@
+newmtl mat_candelabra01
+illum 1
+map_Kd candelabra01.png
+newmtl mat_glowwhite32
+illum 1
+map_Kd glowwhite32.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png

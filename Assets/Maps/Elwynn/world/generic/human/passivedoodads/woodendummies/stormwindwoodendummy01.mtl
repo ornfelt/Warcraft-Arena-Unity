@@ -1,0 +1,3 @@
+newmtl mat_woodendummy
+illum 1
+map_Kd ..\dolls\woodendummy.png

@@ -1,0 +1,6 @@
+newmtl mat_forge
+illum 1
+map_Kd forge.png
+newmtl mat_anvil_01
+illum 1
+map_Kd anvil_01.png

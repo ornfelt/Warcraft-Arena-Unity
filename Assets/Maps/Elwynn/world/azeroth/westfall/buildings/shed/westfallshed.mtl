@@ -1,0 +1,15 @@
+newmtl mat_westfallweatheredbarn01skin
+illum 1
+map_Kd ..\..\..\..\environment\doodad\westwood\grainsilo\textures\westfallweatheredbarn01skin.png
+newmtl mat_westfallweatheredbarn01roofskin
+illum 1
+map_Kd ..\..\..\..\environment\doodad\westwood\grainsilo\textures\westfallweatheredbarn01roofskin.png
+newmtl mat_westfalldoor
+illum 1
+map_Kd ..\church\westfalldoor.png
+newmtl mat_westfallbasestone
+illum 1
+map_Kd ..\church\westfallbasestone.png
+newmtl mat_westfarmwindow
+illum 1
+map_Kd ..\church\westfarmwindow.png

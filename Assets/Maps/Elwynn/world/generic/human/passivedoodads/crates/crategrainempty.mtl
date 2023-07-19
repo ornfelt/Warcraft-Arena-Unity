@@ -1,0 +1,3 @@
+newmtl mat_graincratefull01
+illum 1
+map_Kd graincratefull01.png

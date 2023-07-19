@@ -62,13 +62,18 @@ namespace Core
             else
                 targetPosition = targetPosition - Vector3.up * topCheck * 2f;
 
-            if (target is Player player && !player.IsController && player.Motion.HasMovementControl)
-                EventHandler.ExecuteEvent(GameEvents.ServerPlayerTeleport, player, targetPosition);
-            else
-            {
-                target.SetMovementFlag(MovementFlags.Ascending, false);
-                target.transform.position = targetPosition;
-            }
+            // HEHE: allow player AI to blink
+            target.SetMovementFlag(MovementFlags.Ascending, false);
+            target.transform.position = targetPosition;
+            //if (target is Player player && !player.IsController && player.Motion.HasMovementControl)
+            //{
+            //    EventHandler.ExecuteEvent(GameEvents.ServerPlayerTeleport, player, targetPosition);
+            //}
+            //else
+            //{
+            //    target.SetMovementFlag(MovementFlags.Ascending, false);
+            //    target.transform.position = targetPosition;
+            //}
         }
     }
 }

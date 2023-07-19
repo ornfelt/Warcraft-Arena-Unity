@@ -1,0 +1,12 @@
+newmtl mat_skullcandle01
+illum 1
+map_Kd ..\..\..\..\expansion01\doodads\generic\arakkoa\tradeskill\skullcandle01.png
+newmtl mat_flame02
+illum 1
+map_Kd ..\..\..\..\..\particles\flame02.png
+newmtl mat_glowball
+illum 1
+map_Kd ..\..\..\..\expansion02\doodads\dalaran\glowball.png
+newmtl mat_candel_thread
+illum 1
+map_Kd ..\..\..\passivedoodads\lights\candel_thread.png

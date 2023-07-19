@@ -1,0 +1,12 @@
+newmtl mat_genericglowx
+illum 1
+map_Kd genericglowx.png
+newmtl mat_ironmaiden-1
+illum 1
+map_Kd ironmaiden-1.png
+newmtl mat_flamelick
+illum 1
+map_Kd ..\..\..\..\..\interface\glues\models\ui_mainmenu\flamelick.png
+newmtl mat_brazierwoodgreen
+illum 1
+map_Kd brazierwoodgreen.png

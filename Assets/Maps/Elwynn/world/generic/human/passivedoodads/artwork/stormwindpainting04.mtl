@@ -1,0 +1,3 @@
+newmtl mat_zulamanpainting
+illum 1
+map_Kd zulamanpainting.png

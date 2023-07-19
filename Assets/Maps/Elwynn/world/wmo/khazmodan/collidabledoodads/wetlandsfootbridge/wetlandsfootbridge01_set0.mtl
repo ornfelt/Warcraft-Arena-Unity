@@ -1,0 +1,6 @@
+newmtl mat_westfallfence
+illum 1
+map_Kd ..\..\..\..\azeroth\duskwood\passivedoodads\fence\westfallfence.png
+newmtl mat_wetlandsplank01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wood\wetlandsplank01.png

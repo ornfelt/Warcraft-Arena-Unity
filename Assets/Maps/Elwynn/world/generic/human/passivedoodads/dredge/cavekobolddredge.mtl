@@ -1,0 +1,12 @@
+newmtl mat_dredgemetal
+illum 1
+map_Kd ..\buckets\dredgemetal.png
+newmtl mat_dredgewood
+illum 1
+map_Kd ..\miningtroughs\dredgewood.png
+newmtl mat_dredgechain
+illum 1
+map_Kd ..\anchor\dredgechain.png
+newmtl mat_dredgewoodwheel
+illum 1
+map_Kd dredgewoodwheel.png

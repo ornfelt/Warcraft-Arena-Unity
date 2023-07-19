@@ -1,0 +1,12 @@
+newmtl mat_elwynnfence
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wood\elwynnfence.png
+newmtl mat_elwynnchain01
+illum 1
+map_Kd elwynnchain01.png
+newmtl mat_elwynnlantern01
+illum 1
+map_Kd ..\..\..\bootybay\passivedoodad\bootyentrance\elwynnlantern01.png
+newmtl mat_glow32
+illum 1
+map_Kd glow32.png

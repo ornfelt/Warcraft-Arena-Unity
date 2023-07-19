@@ -1,0 +1,15 @@
+newmtl mat_skull01
+illum 1
+map_Kd ..\..\troll\passivedoodads\trollskullpile\skull01.png
+newmtl mat_flamelicksmallblue
+illum 1
+map_Kd ..\..\..\azeroth\karazahn\passivedoodads\bonfire\flamelicksmallblue.png
+newmtl mat_candle
+illum 1
+map_Kd candle.png
+newmtl mat_glow32
+illum 1
+map_Kd ..\..\..\azeroth\elwynn\passivedoodads\lamppost\glow32.png
+newmtl mat_anvil_01
+illum 1
+map_Kd ..\..\..\skillactivated\tradeskillenablers\anvil_01.png

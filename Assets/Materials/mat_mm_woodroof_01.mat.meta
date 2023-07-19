@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2b9422d6c51634348a157d7b6737be44
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_woodroof_01
+    second: {fileID: 2100000, guid: 2b9422d6c51634348a157d7b6737be44, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

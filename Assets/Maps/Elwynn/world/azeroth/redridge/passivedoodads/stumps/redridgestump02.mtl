@@ -1,0 +1,6 @@
+newmtl mat_redridgestump02_trunk
+illum 1
+map_Kd redridgestump02_trunk.png
+newmtl mat_shrub02
+illum 1
+map_Kd shrub02.png

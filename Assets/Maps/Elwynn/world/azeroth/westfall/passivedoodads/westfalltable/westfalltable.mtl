@@ -1,0 +1,6 @@
+newmtl mat_westfallplanks
+illum 1
+map_Kd westfallplanks.png
+newmtl mat_bar_but_hay_har_car
+illum 1
+map_Kd ..\barrel\bar_but_hay_har_car.png

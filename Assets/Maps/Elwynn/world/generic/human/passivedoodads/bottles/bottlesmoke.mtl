@@ -1,0 +1,6 @@
+newmtl mat_vial05
+illum 1
+map_Kd ..\..\..\..\skillactivated\tradeskillenablers\vial05.png
+newmtl mat_waterfallsteam
+illum 1
+map_Kd ..\cauldrons\waterfallsteam.png

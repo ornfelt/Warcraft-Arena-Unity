@@ -1,0 +1,3 @@
+newmtl mat_duskwooddetails
+illum 1
+map_Kd ..\..\..\world\nodxt\detail\duskwooddetails.png

@@ -1,0 +1,6 @@
+newmtl mat_deadminenetswood
+illum 1
+map_Kd ..\..\..\tauren\passivedoodads\taurentravois\deadminenetswood.png
+newmtl mat_deadminefloornets4
+illum 1
+map_Kd ..\..\..\tauren\passivedoodads\taurentravois\deadminefloornets4.png

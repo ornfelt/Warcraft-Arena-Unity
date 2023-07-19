@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 12b27b4c851c86340b022ff447decc35
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_westfall_stonefloor_01
+    second: {fileID: 2100000, guid: 12b27b4c851c86340b022ff447decc35, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

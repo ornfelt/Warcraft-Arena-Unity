@@ -1,0 +1,6 @@
+newmtl mat_dwarventargetrangeboard
+illum 1
+map_Kd dwarventargetrangeboard.png
+newmtl mat_dwarvenrifle01
+illum 1
+map_Kd dwarvenrifle01.png

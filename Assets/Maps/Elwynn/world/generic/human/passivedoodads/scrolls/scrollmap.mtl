@@ -1,0 +1,3 @@
+newmtl mat_scrollmap
+illum 1
+map_Kd scrollmap.png

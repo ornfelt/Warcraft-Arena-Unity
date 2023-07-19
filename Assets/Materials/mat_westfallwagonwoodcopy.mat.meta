@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4dc3148fd6cbde148842a304505054e2
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_westfallwagonwoodcopy
+    second: {fileID: 2100000, guid: 4dc3148fd6cbde148842a304505054e2, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

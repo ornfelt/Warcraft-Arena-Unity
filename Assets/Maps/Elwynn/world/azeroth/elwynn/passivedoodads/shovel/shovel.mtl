@@ -1,0 +1,3 @@
+newmtl mat_shovel
+illum 1
+map_Kd ..\pick\shovel.png

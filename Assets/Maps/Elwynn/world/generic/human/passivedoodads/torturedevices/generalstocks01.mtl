@@ -1,0 +1,3 @@
+newmtl mat_stocks_01
+illum 1
+map_Kd stocks_01.png

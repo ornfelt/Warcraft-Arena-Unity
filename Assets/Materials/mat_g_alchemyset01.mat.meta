@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 93850bef713fa5042b2d3c14f3ede77c
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_g_alchemyset01
+    second: {fileID: 2100000, guid: 93850bef713fa5042b2d3c14f3ede77c, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

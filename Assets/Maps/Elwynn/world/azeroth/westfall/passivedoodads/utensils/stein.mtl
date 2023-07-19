@@ -1,0 +1,9 @@
+newmtl mat_deadmineslanternmount02
+illum 1
+map_Kd ..\lampdeadmines\deadmineslanternmount02.png
+newmtl mat_deadminesstein02
+illum 1
+map_Kd deadminesstein02.png
+newmtl mat_deadminesstein01
+illum 1
+map_Kd deadminesstein01.png

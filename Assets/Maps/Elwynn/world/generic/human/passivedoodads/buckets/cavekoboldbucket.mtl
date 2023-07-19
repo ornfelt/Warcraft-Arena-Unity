@@ -1,0 +1,6 @@
+newmtl mat_dredgemetal
+illum 1
+map_Kd dredgemetal.png
+newmtl mat_dredgewood
+illum 1
+map_Kd ..\miningtroughs\dredgewood.png

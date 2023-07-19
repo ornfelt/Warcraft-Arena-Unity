@@ -1,0 +1,9 @@
+newmtl mat_elwynndocksupport01
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\smalldock\elwynndocksupport01.png
+newmtl mat_polearm_2h_bladed_b_01black
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\polearm_2h_bladed_b_01black.png
+newmtl mat_armorreflect3
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\armorreflect3.png

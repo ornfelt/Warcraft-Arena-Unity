@@ -1,0 +1,6 @@
+newmtl mat_westfalltreetrunk
+illum 1
+map_Kd westfalltreetrunk.png
+newmtl mat_westfalltreetop03skin
+illum 1
+map_Kd westfalltreetop03skin.png

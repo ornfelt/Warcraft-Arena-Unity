@@ -1,0 +1,12 @@
+newmtl mat_westfallfence
+illum 1
+map_Kd ..\..\..\..\azeroth\duskwood\passivedoodads\fence\westfallfence.png
+newmtl mat_elwynnchain01
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\lamppost\elwynnchain01.png
+newmtl mat_duskwoodlantern01
+illum 1
+map_Kd duskwoodlantern01.png
+newmtl mat_glow32
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\lamppost\glow32.png

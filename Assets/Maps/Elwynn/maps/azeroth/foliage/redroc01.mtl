@@ -1,0 +1,3 @@
+newmtl mat_redridgedetails
+illum 1
+map_Kd ..\..\..\world\nodxt\detail\redridgedetails.png

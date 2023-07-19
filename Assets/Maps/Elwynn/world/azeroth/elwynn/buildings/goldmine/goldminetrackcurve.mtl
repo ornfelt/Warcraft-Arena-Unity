@@ -1,0 +1,6 @@
+newmtl mat_rack
+illum 1
+map_Kd rack.png
+newmtl mat_trackbar
+illum 1
+map_Kd trackbar.png

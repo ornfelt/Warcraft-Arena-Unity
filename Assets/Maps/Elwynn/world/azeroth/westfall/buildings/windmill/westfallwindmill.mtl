@@ -1,0 +1,12 @@
+newmtl mat_westfallfence
+illum 1
+map_Kd ..\..\..\duskwood\passivedoodads\fence\westfallfence.png
+newmtl mat_westfallwagonwoodcopy
+illum 1
+map_Kd ..\..\..\..\generic\goblin\passivedoodads\goblinrocketcarts\westfallwagonwoodcopy.png
+newmtl mat_millfan04
+illum 1
+map_Kd millfan04.png
+newmtl mat_westfallbasestone
+illum 1
+map_Kd ..\church\westfallbasestone.png

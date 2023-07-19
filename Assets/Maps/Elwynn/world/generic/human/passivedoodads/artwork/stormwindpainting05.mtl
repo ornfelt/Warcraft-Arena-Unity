@@ -1,0 +1,3 @@
+newmtl mat_silverpinepainting
+illum 1
+map_Kd silverpinepainting.png

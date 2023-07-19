@@ -1,0 +1,3 @@
+newmtl mat_potbase01
+illum 1
+map_Kd potbase01.png

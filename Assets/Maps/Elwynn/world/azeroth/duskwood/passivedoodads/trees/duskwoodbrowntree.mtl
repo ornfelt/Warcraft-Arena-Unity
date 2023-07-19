@@ -1,0 +1,6 @@
+newmtl mat_duskwoodwhitetreetop02skin
+illum 1
+map_Kd duskwoodwhitetreetop02skin.png
+newmtl mat_duskwoodwhitetree03skin
+illum 1
+map_Kd duskwoodwhitetree03skin.png

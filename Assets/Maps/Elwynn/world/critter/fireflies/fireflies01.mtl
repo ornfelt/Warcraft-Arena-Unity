@@ -1,0 +1,3 @@
+newmtl mat_firefly01
+illum 1
+map_Kd firefly01.png

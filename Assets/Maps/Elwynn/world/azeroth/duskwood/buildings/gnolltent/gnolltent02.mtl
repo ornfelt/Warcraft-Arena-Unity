@@ -1,0 +1,3 @@
+newmtl mat_gnolltent02skin
+illum 1
+map_Kd gnolltent02skin.png

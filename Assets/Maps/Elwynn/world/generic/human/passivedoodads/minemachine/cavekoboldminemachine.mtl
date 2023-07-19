@@ -1,0 +1,6 @@
+newmtl mat_minemachine
+illum 1
+map_Kd minemachine.png
+newmtl mat_minemachinebelt
+illum 1
+map_Kd minemachinebelt.png

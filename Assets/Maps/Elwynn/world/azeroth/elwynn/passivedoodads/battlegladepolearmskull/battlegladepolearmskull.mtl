@@ -1,0 +1,6 @@
+newmtl mat_battlegladepost03
+illum 1
+map_Kd ..\battlegladeorcgrave1\battlegladepost03.png
+newmtl mat_battlegladeaxe
+illum 1
+map_Kd battlegladeaxe.png

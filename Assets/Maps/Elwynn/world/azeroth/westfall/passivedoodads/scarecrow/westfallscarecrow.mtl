@@ -1,0 +1,3 @@
+newmtl mat_oldcloth01
+illum 1
+map_Kd oldcloth01.png

@@ -31,6 +31,8 @@ namespace Core
         internal CombatController Combat { get; } = new CombatController();
         internal MotionController Motion { get; } = new MotionController();
         internal SpellController Spells { get; } = new SpellController();
+        // HEHE
+        internal BalanceReference GetBalance() { return Balance; }
         internal WarcraftCharacterController CharacterController => characterController;
 
         internal ShapeShiftForm ShapeShiftForm { get; private set; }
@@ -82,6 +84,8 @@ namespace Core
         public ClassType ClassType { get => Attributes.ClassType; internal set => Attributes.ClassType = value; }
         public EmoteType EmoteType { get => Attributes.EmoteType; internal set => Attributes.EmoteType = value; }
         public int SlowFallSpeed { get => entityState.SlowFallSpeed; internal set => entityState.SlowFallSpeed = value; }
+        // HEHE
+        public bool IsPlayerAI { get; set; }
 
         public sealed override void Attached()
         {

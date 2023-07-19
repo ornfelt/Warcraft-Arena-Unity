@@ -1,0 +1,3 @@
+newmtl mat_clothstuff
+illum 1
+map_Kd ..\cloth\clothstuff.png

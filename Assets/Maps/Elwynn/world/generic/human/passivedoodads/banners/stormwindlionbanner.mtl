@@ -1,0 +1,9 @@
+newmtl mat_stormwindpost01
+illum 1
+map_Kd stormwindpost01.png
+newmtl mat_stormwindbanner02
+illum 1
+map_Kd stormwindbanner02.png
+newmtl mat_stormwindbanner01
+illum 1
+map_Kd stormwindbanner01.png

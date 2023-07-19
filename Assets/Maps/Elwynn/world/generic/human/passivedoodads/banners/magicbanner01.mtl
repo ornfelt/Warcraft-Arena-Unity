@@ -1,0 +1,3 @@
+newmtl mat_magicbanner01
+illum 1
+map_Kd magicbanner01.png

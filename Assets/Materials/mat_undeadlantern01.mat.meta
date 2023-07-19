@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ab010d894b65318409028f699572d82c
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_undeadlantern01
+    second: {fileID: 2100000, guid: ab010d894b65318409028f699572d82c, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

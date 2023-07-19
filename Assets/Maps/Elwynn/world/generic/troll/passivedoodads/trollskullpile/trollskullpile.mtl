@@ -1,0 +1,9 @@
+newmtl mat_skull04
+illum 1
+map_Kd ..\..\..\..\azeroth\theblastedlands\passivedoodads\bones\skull04.png
+newmtl mat_skull01
+illum 1
+map_Kd skull01.png
+newmtl mat_skull02
+illum 1
+map_Kd skull02.png

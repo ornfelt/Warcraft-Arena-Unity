@@ -1,0 +1,9 @@
+newmtl mat_lionstatue
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\doodads\lionstatue.png
+newmtl mat_lionarchesbasetop
+illum 1
+map_Kd lionarchesbasetop.png
+newmtl mat_stonewallbrian03
+illum 1
+map_Kd ..\..\buildings\humanguardtower\stonewallbrian03.png

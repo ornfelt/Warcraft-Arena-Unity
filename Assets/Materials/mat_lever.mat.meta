@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0c973b233afacdb42a6bbe575ba85ec3
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_lever
+    second: {fileID: 2100000, guid: 0c973b233afacdb42a6bbe575ba85ec3, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

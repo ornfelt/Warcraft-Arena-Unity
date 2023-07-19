@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1463219053b154a458ede9a3bade7cae
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_westfall_woodtrim_01
+    second: {fileID: 2100000, guid: 1463219053b154a458ede9a3bade7cae, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

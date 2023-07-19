@@ -1,0 +1,6 @@
+newmtl mat_lightbeamdim
+illum 1
+map_Kd lightbeamdim.png
+newmtl mat_snow1
+illum 1
+map_Kd ..\..\..\..\..\particles\snow1.png

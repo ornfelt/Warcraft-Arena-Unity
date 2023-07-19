@@ -1,0 +1,3 @@
+newmtl mat_desk
+illum 1
+map_Kd ..\buckets\desk.png

@@ -1,0 +1,6 @@
+newmtl mat_blade_sword1h_01
+illum 1
+map_Kd blade_sword1h_01.png
+newmtl mat_handle_sword1h_01
+illum 1
+map_Kd handle_sword1h_01.png

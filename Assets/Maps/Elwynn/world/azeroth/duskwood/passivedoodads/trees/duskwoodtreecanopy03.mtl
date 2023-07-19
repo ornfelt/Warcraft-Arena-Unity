@@ -1,0 +1,6 @@
+newmtl mat_duskwoodtree03_trunk03
+illum 1
+map_Kd duskwoodtree03_trunk03.png
+newmtl mat_duskwoodtree03_branch2
+illum 1
+map_Kd duskwoodtree03_branch2.png

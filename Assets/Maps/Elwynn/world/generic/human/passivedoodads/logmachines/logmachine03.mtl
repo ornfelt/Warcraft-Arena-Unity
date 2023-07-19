@@ -1,0 +1,6 @@
+newmtl mat_alteracwatertower01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\brian\alteracwatertower01.png
+newmtl mat_treerope01
+illum 1
+map_Kd ..\smokestack\treerope01.png

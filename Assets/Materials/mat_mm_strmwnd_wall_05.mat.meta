@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 411b638d2cc6f124095310c57b39363c
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_strmwnd_wall_05
+    second: {fileID: 2100000, guid: 411b638d2cc6f124095310c57b39363c, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

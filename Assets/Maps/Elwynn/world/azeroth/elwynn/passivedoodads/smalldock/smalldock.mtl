@@ -1,0 +1,15 @@
+newmtl mat_dockplanks
+illum 1
+map_Kd dockplanks.png
+newmtl mat_elwynndocksupport01
+illum 1
+map_Kd elwynndocksupport01.png
+newmtl mat_elwynnironsign01a
+illum 1
+map_Kd elwynnironsign01a.png
+newmtl mat_elwynnroadsignwood02
+illum 1
+map_Kd elwynnroadsignwood02.png
+newmtl mat_flamelicksmallblue
+illum 1
+map_Kd flamelicksmallblue.png

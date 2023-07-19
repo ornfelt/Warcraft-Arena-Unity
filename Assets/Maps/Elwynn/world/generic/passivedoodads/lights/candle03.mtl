@@ -1,0 +1,12 @@
+newmtl mat_candel_cave01
+illum 1
+map_Kd candel_cave01.png
+newmtl mat_candel_thread
+illum 1
+map_Kd candel_thread.png
+newmtl mat_flame01
+illum 1
+map_Kd ..\..\..\..\creature\infernal\flame01.png
+newmtl mat_glow
+illum 1
+map_Kd ..\..\nightelf\passivedoodads\magicalimplements\glow.png

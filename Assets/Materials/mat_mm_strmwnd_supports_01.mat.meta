@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: bb60f47720178d14d9c725d64d810592
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_strmwnd_supports_01
+    second: {fileID: 2100000, guid: bb60f47720178d14d9c725d64d810592, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

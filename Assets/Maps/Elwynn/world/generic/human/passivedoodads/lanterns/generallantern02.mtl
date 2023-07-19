@@ -1,0 +1,6 @@
+newmtl mat_gypsydoor_01
+illum 1
+map_Kd ..\..\..\..\azeroth\bootybay\passivedoodad\bootyentrance\gypsydoor_01.png
+newmtl mat_elwynnlantern02
+illum 1
+map_Kd elwynnlantern02.png

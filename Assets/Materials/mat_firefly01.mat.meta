@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7a92e51050729ef4db039a00aa338a99
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_firefly01
+    second: {fileID: 2100000, guid: 7a92e51050729ef4db039a00aa338a99, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

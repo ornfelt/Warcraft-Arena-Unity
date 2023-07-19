@@ -1,0 +1,3 @@
+newmtl mat_bottlegreen
+illum 1
+map_Kd ..\..\..\goblin\passivedoodads\goblinmachinery\bottlegreen.png

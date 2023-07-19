@@ -1,0 +1,6 @@
+newmtl mat_caverope01
+illum 1
+map_Kd ..\..\..\dwarf\passivedoodads\excavationcrane\caverope01.png
+newmtl mat_minecavepulley01_64
+illum 1
+map_Kd ..\..\..\dwarf\passivedoodads\excavationcrane\minecavepulley01_64.png

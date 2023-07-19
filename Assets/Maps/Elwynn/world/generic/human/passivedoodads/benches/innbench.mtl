@@ -1,0 +1,3 @@
+newmtl mat_mm_benchcombo
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wood\mm_benchcombo.png

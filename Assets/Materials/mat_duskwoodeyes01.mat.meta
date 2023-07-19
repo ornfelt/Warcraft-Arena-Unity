@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c6cea2da06d90e64e91c5f53f7eb3683
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_duskwoodeyes01
+    second: {fileID: 2100000, guid: c6cea2da06d90e64e91c5f53f7eb3683, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

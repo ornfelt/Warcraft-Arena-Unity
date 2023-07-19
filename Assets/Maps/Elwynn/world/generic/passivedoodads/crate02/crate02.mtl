@@ -1,0 +1,3 @@
+newmtl mat_crates02sides
+illum 1
+map_Kd ..\..\..\expansion01\doodads\hellfirepeninsula\supplies\crates02sides.png

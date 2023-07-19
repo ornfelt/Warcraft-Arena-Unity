@@ -15,4 +15,4 @@ MonoBehaviour:
   input: {fileID: 11400000, guid: 899dff3e7662461489d8d3e369ab42b3, type: 2}
   id: Action Bar 1 Button 6
   key: 115
-  modifier: 3
+  modifier: 1

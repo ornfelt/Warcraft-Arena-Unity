@@ -1,0 +1,6 @@
+newmtl mat_g_alchemyset01
+illum 1
+map_Kd g_alchemyset01.png
+newmtl mat_waterfallsteam
+illum 1
+map_Kd ..\generic\human\passivedoodads\cauldrons\waterfallsteam.png

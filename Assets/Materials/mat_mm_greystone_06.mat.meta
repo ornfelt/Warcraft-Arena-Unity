@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e6b705eff4478d04d87fd04fdf136df4
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_greystone_06
+    second: {fileID: 2100000, guid: e6b705eff4478d04d87fd04fdf136df4, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

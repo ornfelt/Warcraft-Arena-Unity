@@ -1,0 +1,6 @@
+newmtl mat_hammocknet02
+illum 1
+map_Kd hammocknet02.png
+newmtl mat_hammockbits02
+illum 1
+map_Kd hammockbits02.png

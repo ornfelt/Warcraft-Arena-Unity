@@ -1,0 +1,3 @@
+newmtl mat_deadwinddetails01
+illum 1
+map_Kd ..\..\..\world\nodxt\detail\deadwinddetails01.png

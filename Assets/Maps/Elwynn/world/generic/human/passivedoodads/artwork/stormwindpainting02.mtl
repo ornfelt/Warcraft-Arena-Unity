@@ -1,0 +1,3 @@
+newmtl mat_coastlinesunset
+illum 1
+map_Kd coastlinesunset.png

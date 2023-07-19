@@ -1,0 +1,6 @@
+newmtl mat_trunk0106
+illum 1
+map_Kd trunk0106.png
+newmtl mat_trunkend0104
+illum 1
+map_Kd trunkend0104.png

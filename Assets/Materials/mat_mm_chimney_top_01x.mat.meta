@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 23a81c566a608d7499e386353f7199f1
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_chimney_top_01x
+    second: {fileID: 2100000, guid: 23a81c566a608d7499e386353f7199f1, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

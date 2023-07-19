@@ -1,0 +1,3 @@
+newmtl mat_battlegladesword
+illum 1
+map_Kd ..\..\..\..\..\interface\glues\models\ui_orc\battlegladesword.png

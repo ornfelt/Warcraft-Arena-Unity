@@ -1,0 +1,3 @@
+newmtl mat_candelbra_brass01
+illum 1
+map_Kd candelbra_brass01.png

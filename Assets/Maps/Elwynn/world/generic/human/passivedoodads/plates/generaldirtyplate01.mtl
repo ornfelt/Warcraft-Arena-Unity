@@ -1,0 +1,3 @@
+newmtl mat_plate_01
+illum 1
+map_Kd plate_01.png

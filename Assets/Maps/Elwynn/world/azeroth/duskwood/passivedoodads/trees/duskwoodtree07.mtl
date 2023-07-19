@@ -1,0 +1,9 @@
+newmtl mat_dusktallcanopy_new03
+illum 1
+map_Kd dusktallcanopy_new03.png
+newmtl mat_dusktreetalltrunk_07
+illum 1
+map_Kd dusktreetalltrunk_07.png
+newmtl mat_dusktree07_talltrunk
+illum 1
+map_Kd dusktree07_talltrunk.png

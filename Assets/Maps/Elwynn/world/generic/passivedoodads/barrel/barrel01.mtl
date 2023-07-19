@@ -1,0 +1,3 @@
+newmtl mat_barrel04dark2
+illum 1
+map_Kd barrel04dark2.png

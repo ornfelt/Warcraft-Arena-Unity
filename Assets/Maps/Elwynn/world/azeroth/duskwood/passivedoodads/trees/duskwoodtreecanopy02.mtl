@@ -1,0 +1,15 @@
+newmtl mat_duskwoodtree02trunk3
+illum 1
+map_Kd ..\spooklesstrees\duskwoodtree02trunk3.png
+newmtl mat_duskwoodtree02leaves
+illum 1
+map_Kd ..\spooklesstrees\duskwoodtree02leaves.png
+newmtl mat_duskwoodtree01_web
+illum 1
+map_Kd duskwoodtree01_web.png
+newmtl mat_duskwoodtree01_leaves
+illum 1
+map_Kd ..\spooklesstrees\duskwoodtree01_leaves.png
+newmtl mat_duskwoodeyes01
+illum 1
+map_Kd ..\bush\duskwoodeyes01.png

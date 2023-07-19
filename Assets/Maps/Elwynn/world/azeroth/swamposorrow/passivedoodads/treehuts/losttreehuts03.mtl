@@ -1,0 +1,3 @@
+newmtl mat_losthutcover
+illum 1
+map_Kd ..\..\..\..\environment\building\swampofsorrow\lostonehut\texture\brian\losthutcover.png

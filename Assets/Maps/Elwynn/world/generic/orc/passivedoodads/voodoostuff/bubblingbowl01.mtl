@@ -1,0 +1,12 @@
+newmtl mat_voodoobowl
+illum 1
+map_Kd voodoobowl.png
+newmtl mat_bubble
+illum 1
+map_Kd ..\..\..\..\goober\bubble.png
+newmtl mat_genericglow1
+illum 1
+map_Kd genericglow1.png
+newmtl mat_voodoobroth01
+illum 1
+map_Kd voodoobroth01.png

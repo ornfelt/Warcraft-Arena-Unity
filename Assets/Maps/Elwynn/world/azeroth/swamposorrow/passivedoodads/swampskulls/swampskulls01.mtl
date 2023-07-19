@@ -1,0 +1,12 @@
+newmtl mat_battlegladeskull04green
+illum 1
+map_Kd ..\swampboats\battlegladeskull04green.png
+newmtl mat_swampdocksupport
+illum 1
+map_Kd ..\..\..\..\environment\doodad\swampofsorrows\dock\texture\brian\swampdocksupport.png
+newmtl mat_battlegladeskulldarkgreen
+illum 1
+map_Kd ..\..\..\..\..\textures\elwynn\battleglade\skulls\battlegladeskulldarkgreen.png
+newmtl mat_swampreeds01a
+illum 1
+map_Kd ..\..\..\..\environment\doodad\swampofsorrows\plants\reeds\texture\swampreeds01a.png

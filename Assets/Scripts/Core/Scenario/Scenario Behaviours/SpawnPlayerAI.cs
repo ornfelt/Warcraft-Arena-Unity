@@ -39,6 +39,9 @@ namespace Core.Scenario
                 Scale = customSpawnSettings.CustomScale
             };
 
+            // HEHE
+            //Debug.Log("Spawning player: " + customSpawnSettings.CustomNameId + ", pos: " + customSpawnSettings.SpawnPoint.position);
+
             World.UnitManager.Create<Player>(BoltPrefabs.Player, playerCreateToken);
         }
     }

@@ -1,0 +1,6 @@
+newmtl mat_swampreeds01a
+illum 1
+map_Kd ..\..\..\..\environment\doodad\swampofsorrows\plants\reeds\texture\swampreeds01a.png
+newmtl mat_westfallflower01
+illum 1
+map_Kd westfallflower01.png

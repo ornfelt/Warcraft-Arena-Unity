@@ -1,0 +1,9 @@
+newmtl mat_mm_beam_side__01x
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wood\mm_beam_side__01x.png
+newmtl mat_mm_quilt_opt
+illum 1
+map_Kd mm_quilt_opt.png
+newmtl mat_mm_beam_end__01x
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wood\mm_beam_end__01x.png

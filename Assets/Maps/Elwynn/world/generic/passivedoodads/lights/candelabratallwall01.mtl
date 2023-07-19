@@ -1,0 +1,12 @@
+newmtl mat_candelabra01
+illum 1
+map_Kd ..\..\human\passivedoodads\candelabras\candelabra01.png
+newmtl mat_candelbra_brass01
+illum 1
+map_Kd ..\..\human\passivedoodads\candelabras\candelbra_brass01.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png
+newmtl mat_glowwhite32
+illum 1
+map_Kd ..\..\human\passivedoodads\candelabras\glowwhite32.png

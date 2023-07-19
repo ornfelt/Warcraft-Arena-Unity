@@ -1,0 +1,9 @@
+newmtl mat_pick
+illum 1
+map_Kd pick.png
+newmtl mat_shovel
+illum 1
+map_Kd shovel.png
+newmtl mat_shoveltop
+illum 1
+map_Kd shoveltop.png

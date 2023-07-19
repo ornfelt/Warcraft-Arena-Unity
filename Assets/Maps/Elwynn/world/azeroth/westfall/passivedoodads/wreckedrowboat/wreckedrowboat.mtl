@@ -1,0 +1,3 @@
+newmtl mat_wood01
+illum 1
+map_Kd wood01.png

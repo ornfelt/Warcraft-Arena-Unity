@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5148733ec08d5cb44b6fb79ef8296eb6
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_metal_floor_border_01x
+    second: {fileID: 2100000, guid: 5148733ec08d5cb44b6fb79ef8296eb6, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3 @@
+newmtl mat_bookshelf
+illum 1
+map_Kd bookshelf.png

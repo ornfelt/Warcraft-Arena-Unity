@@ -1,0 +1,9 @@
+newmtl mat_woodside
+illum 1
+map_Kd ..\..\..\..\generic\human\passivedoodads\shack\woodside.png
+newmtl mat_westfallweatheredbarn01roofskin
+illum 1
+map_Kd ..\..\..\..\environment\doodad\westwood\grainsilo\textures\westfallweatheredbarn01roofskin.png
+newmtl mat_doorsupport
+illum 1
+map_Kd ..\..\..\..\generic\human\passivedoodads\shack\doorsupport.png

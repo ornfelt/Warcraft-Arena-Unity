@@ -1,0 +1,3 @@
+newmtl mat_bookstack01
+illum 1
+map_Kd ..\books\bookstack01.png

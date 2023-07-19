@@ -1,0 +1,3 @@
+newmtl mat_sunshield01bloody
+illum 1
+map_Kd sunshield01bloody.png

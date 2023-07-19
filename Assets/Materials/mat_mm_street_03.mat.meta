@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 38232a398e466b947ae908578625b8bf
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_street_03
+    second: {fileID: 2100000, guid: 38232a398e466b947ae908578625b8bf, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

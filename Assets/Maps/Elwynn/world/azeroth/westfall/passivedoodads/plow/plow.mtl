@@ -1,0 +1,3 @@
+newmtl mat_plow
+illum 1
+map_Kd plow.png

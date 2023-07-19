@@ -62,7 +62,8 @@ namespace Core
                 return true;
 
             if (nextMoveTime.Passed)
-                nextMoveTime.Reset(RandomUtils.Next(1000, 3000));
+                //nextMoveTime.Reset(RandomUtils.Next(1000, 3000));
+                nextMoveTime.Reset(1000);
             else
             {
                 nextMoveTime.Update(deltaTime);
@@ -70,7 +71,8 @@ namespace Core
                 {
                     unit.AddState(UnitControlState.ConfusedMove);
 
-                    Vector2 randomCircle = Random.insideUnitCircle * 4;
+                    //Vector2 randomCircle = Random.insideUnitCircle * 4;
+                    Vector2 randomCircle = Random.insideUnitCircle * 6;
                     Vector3 randomPosition = unit.Position + new Vector3(randomCircle.x, 0, randomCircle.y);
                     if (!NavMesh.SamplePosition(randomPosition, out NavMeshHit hit, MovementUtils.MaxNavMeshSampleRange, MovementUtils.WalkableAreaMask))
                         return TryAgainSoon();

@@ -107,6 +107,9 @@ namespace Core
 
         public bool CanSeeOrDetect(WorldEntity target, bool ignoreStealth = false, bool checkDistance = false)
         {
+            // HEHE: 
+            return true;
+
             if (this == target)
                 return true;
 

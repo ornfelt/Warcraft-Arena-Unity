@@ -1,0 +1,3 @@
+newmtl mat_turkeyskin
+illum 1
+map_Kd turkeyskin.png

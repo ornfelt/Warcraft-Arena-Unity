@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7a49b739a9d0c4e4bbefcf61c8d1acf6
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_westfall_int_ceiling_01
+    second: {fileID: 2100000, guid: 7a49b739a9d0c4e4bbefcf61c8d1acf6, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

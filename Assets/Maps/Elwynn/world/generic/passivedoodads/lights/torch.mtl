@@ -1,0 +1,9 @@
+newmtl mat_torch2
+illum 1
+map_Kd torch2.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png
+newmtl mat_gloworange32
+illum 1
+map_Kd gloworange32.png

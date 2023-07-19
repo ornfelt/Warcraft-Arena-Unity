@@ -1,0 +1,3 @@
+newmtl mat_redridgestump02_trunk
+illum 1
+map_Kd ..\stumps\redridgestump02_trunk.png

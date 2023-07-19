@@ -1,0 +1,6 @@
+newmtl mat_elwynnfence
+illum 1
+map_Kd ..\..\..\..\..\..\dungeons\textures\wood\elwynnfence.png
+newmtl mat_elwynnplankbottom02
+illum 1
+map_Kd ..\..\..\..\..\..\dungeons\textures\wood\elwynnplankbottom02.png

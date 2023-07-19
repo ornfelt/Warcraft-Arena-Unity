@@ -1,0 +1,9 @@
+ModelFile;PositionX;PositionY;PositionZ;RotationW;RotationX;RotationY;RotationZ;ScaleFactor;DoodadSet;FileDataID
+..\..\..\..\..\generic\human\passivedoodads\statues\statuelion.obj;8.952548027038574;-29.79990005493164;13.35059642791748;-7.549790126404332e-8;0;0;-1;1;Set_Stormwind;198563
+..\..\..\..\..\generic\human\passivedoodads\statues\statuelion.obj;9.034199714660645;29.4117431640625;13.35059642791748;1;0;0;0;1;Set_Stormwind;198563
+..\..\..\..\..\generic\human\passivedoodads\statues\statuelion.obj;-9.146589279174805;29.4117431640625;13.35059642791748;1;0;0;0;1;Set_Stormwind;198563
+..\..\..\..\..\generic\human\passivedoodads\banners\stormwindlionbanner.obj;-10.152860641479492;4.586101055145264;22.153648376464844;0.7071068286895752;0;0;-0.7071067094802856;1;Set_Stormwind;197996
+..\..\..\..\..\generic\human\passivedoodads\banners\stormwindlionbanner.obj;10.27938175201416;4.586103916168213;22.153650283813477;0.7071068286895752;0;0;-0.7071067094802856;1;Set_Stormwind;197996
+..\..\..\..\..\generic\human\passivedoodads\statues\statuelion.obj;-9.093361854553223;-29.79990005493164;13.35059642791748;-7.549790126404332e-8;0;0;-1;1;Set_Stormwind;198563
+..\..\..\..\..\generic\human\passivedoodads\banners\stormwindlionbanner.obj;-10.311542510986328;-4.769507884979248;22.153650283813477;0.7071067690849304;0;0;0.7071067690849304;1;Set_Stormwind;197996
+..\..\..\..\..\generic\human\passivedoodads\banners\stormwindlionbanner.obj;10.12070083618164;-4.7695088386535645;22.153648376464844;0.7071067690849304;0;0;0.7071067690849304;1;Set_Stormwind;197996

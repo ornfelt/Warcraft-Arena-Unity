@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f37e1263ed56b9e478396bcfc245fab3
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_elwynn_wnd_int__01
+    second: {fileID: 2100000, guid: f37e1263ed56b9e478396bcfc245fab3, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

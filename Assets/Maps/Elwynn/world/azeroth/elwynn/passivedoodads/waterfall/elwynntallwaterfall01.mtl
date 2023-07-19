@@ -1,0 +1,6 @@
+newmtl mat_waterfall02
+illum 1
+map_Kd ..\..\..\..\generic\passivedoodads\waterfalls\waterfall02.png
+newmtl mat_waterfalldrops
+illum 1
+map_Kd ..\..\..\stranglethorn\passivedoodads\waterfall\waterfalldrops.png

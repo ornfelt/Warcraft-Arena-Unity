@@ -1,0 +1,3 @@
+newmtl mat_torch2
+illum 1
+map_Kd torch2.png

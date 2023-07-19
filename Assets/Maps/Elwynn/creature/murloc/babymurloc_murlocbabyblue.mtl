@@ -1,0 +1,6 @@
+newmtl mat_murlocbabyblue
+illum 1
+map_Kd murlocbabyblue.png
+newmtl mat_tophat
+illum 1
+map_Kd tophat.png

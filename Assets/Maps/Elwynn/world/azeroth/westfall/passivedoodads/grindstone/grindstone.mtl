@@ -1,0 +1,15 @@
+newmtl mat_bar
+illum 1
+map_Kd ..\..\..\..\generic\dwarf\passivedoodads\sharpeningwheel\bar.png
+newmtl mat_middlebar
+illum 1
+map_Kd ..\..\..\..\generic\dwarf\passivedoodads\sharpeningwheel\middlebar.png
+newmtl mat_sandrock
+illum 1
+map_Kd sandrock.png
+newmtl mat_wood02
+illum 1
+map_Kd wood02.png
+newmtl mat_wood01
+illum 1
+map_Kd wood01.png

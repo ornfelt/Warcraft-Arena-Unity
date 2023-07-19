@@ -54,6 +54,7 @@ namespace Core
             internal SpellCastResult CastSpell(SpellInfo spellInfo, SpellCastingOptions castOptions)
             {
                 Spell spell = new Spell(unit, spellInfo, castOptions);
+                //Debug.Log("Casting spell: " + spellInfo.name + ", " + spellInfo.Id);
 
                 ApplySpellModifier(spell, SpellModifierType.SpellValue, 1.0f);
 

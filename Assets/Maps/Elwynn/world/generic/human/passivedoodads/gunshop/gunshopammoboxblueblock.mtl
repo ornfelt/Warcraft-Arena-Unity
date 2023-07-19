@@ -1,0 +1,3 @@
+newmtl mat_gunshop
+illum 1
+map_Kd ..\..\..\..\goober\gunshop.png

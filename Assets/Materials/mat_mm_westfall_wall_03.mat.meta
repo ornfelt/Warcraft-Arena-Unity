@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 04cce1189a7cd2f4da143441a0d10b07
+NativeFormatImporter:
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mm_westfall_wall_03
+    second: {fileID: 2100000, guid: 04cce1189a7cd2f4da143441a0d10b07, type: 2}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

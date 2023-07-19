@@ -1,0 +1,6 @@
+newmtl mat_duskwoodtree01_trunk3
+illum 1
+map_Kd ..\trees\duskwoodtree01_trunk3.png
+newmtl mat_duskwoodtree01_leaves
+illum 1
+map_Kd duskwoodtree01_leaves.png

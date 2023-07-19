@@ -1,0 +1,6 @@
+newmtl mat_elwynntreehollow03
+illum 1
+map_Kd elwynntreehollow03.png
+newmtl mat_elwynntreebranch01b
+illum 1
+map_Kd elwynntreebranch01b.png
