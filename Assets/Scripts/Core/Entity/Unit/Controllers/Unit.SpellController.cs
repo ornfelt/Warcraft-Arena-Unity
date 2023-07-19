@@ -54,7 +54,9 @@ namespace Core
             internal SpellCastResult CastSpell(SpellInfo spellInfo, SpellCastingOptions castOptions)
             {
                 Spell spell = new Spell(unit, spellInfo, castOptions);
-                //Debug.Log("Casting spell: " + spellInfo.name + ", " + spellInfo.Id);
+                if (!unit.IsPlayerAI)
+                    Debug.Log("Player casting spell: " + spellInfo.name + ", " + spellInfo.Id + ". Pos: " +
+                        unit.Position.x + ", " + unit.Position.y + ", " + unit.Position.z);
 
                 ApplySpellModifier(spell, SpellModifierType.SpellValue, 1.0f);
 
