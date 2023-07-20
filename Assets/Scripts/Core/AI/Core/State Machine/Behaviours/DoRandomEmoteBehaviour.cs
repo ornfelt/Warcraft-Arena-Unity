@@ -29,7 +29,8 @@ namespace Core
             if (emoteTimeTracker.Passed && randomEmotes.Count > 0)
             {
                 Unit.ModifyEmoteState(RandomUtils.GetRandomElement(randomEmotes));
-                emoteTimeTracker.Reset(RandomUtils.Next(emoteIntervalMin, emoteIntervalMax));
+                //emoteTimeTracker.Reset(RandomUtils.Next(emoteIntervalMin, emoteIntervalMax));
+                emoteTimeTracker.Reset(RandomUtils.Next(emoteIntervalMin*5, emoteIntervalMax*5));
             }
         }
     }

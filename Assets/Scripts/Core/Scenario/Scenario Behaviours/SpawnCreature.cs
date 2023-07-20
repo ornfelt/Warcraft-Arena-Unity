@@ -25,23 +25,27 @@ namespace Core.Scenario
 
         private void OnServerLaunched()
         {
-            Creature creature = World.UnitManager.Create<Creature>(BoltPrefabs.Creature, new Creature.CreateToken
+            bool spawnCreatures = false;
+            if (spawnCreatures || customSpawnSettings.CustomNameId.Contains("Ragnaros"))
             {
-                Position = customSpawnSettings.SpawnPoint.position,
-                Rotation = customSpawnSettings.SpawnPoint.rotation,
-                OriginalAIInfoId = customSpawnSettings.UnitInfoAI?.Id ?? 0,
-                DeathState = DeathState.Alive,
-                FreeForAll = true,
-                ClassType = ClassType.Warrior,
-                ModelId = creatureInfo.ModelId,
-                OriginalModelId = creatureInfo.ModelId,
-                FactionId = Balance.DefaultFaction.FactionId,
-                CreatureInfoId = creatureInfo.Id,
-                CustomName = string.IsNullOrEmpty(customSpawnSettings.CustomNameId) ? creatureInfo.CreatureName : customSpawnSettings.CustomNameId,
-                Scale = customSpawnSettings.CustomScale
-            });
+                Creature creature = World.UnitManager.Create<Creature>(BoltPrefabs.Creature, new Creature.CreateToken
+                {
+                    Position = customSpawnSettings.SpawnPoint.position,
+                    Rotation = customSpawnSettings.SpawnPoint.rotation,
+                    OriginalAIInfoId = customSpawnSettings.UnitInfoAI?.Id ?? 0,
+                    DeathState = DeathState.Alive,
+                    FreeForAll = true,
+                    ClassType = ClassType.Warrior,
+                    ModelId = creatureInfo.ModelId,
+                    OriginalModelId = creatureInfo.ModelId,
+                    FactionId = Balance.DefaultFaction.FactionId,
+                    CreatureInfoId = creatureInfo.Id,
+                    CustomName = string.IsNullOrEmpty(customSpawnSettings.CustomNameId) ? creatureInfo.CreatureName : customSpawnSettings.CustomNameId,
+                    Scale = customSpawnSettings.CustomScale
+                });
 
-            creature.BoltEntity.TakeControl();
+                creature.BoltEntity.TakeControl();
+            }
         }
     }
 }

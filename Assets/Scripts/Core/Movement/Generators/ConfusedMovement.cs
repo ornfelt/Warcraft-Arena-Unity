@@ -62,8 +62,8 @@ namespace Core
                 return true;
 
             if (nextMoveTime.Passed)
-                //nextMoveTime.Reset(RandomUtils.Next(1000, 3000));
-                nextMoveTime.Reset(1000);
+                nextMoveTime.Reset(RandomUtils.Next(1000, 3000));
+                //nextMoveTime.Reset(1000);
             else
             {
                 nextMoveTime.Update(deltaTime);
