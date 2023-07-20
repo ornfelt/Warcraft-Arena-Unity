@@ -37,6 +37,12 @@ namespace Core
 
                 if (IsOutOfCellBounds(unit.Position, unit.CurrentCell))
                     mapGrid.relocatableEntities.Add(unit);
+
+                if (unit.Position.y < -4.0F || unit.Position.y > 5.0F)
+                {
+                    Debug.Log("Unit fell outside of map! " + unit.Name + ", " + unit.Position);
+                    unit.Position = mapGrid.map.Settings.DefaultSpawnPoint.position;
+                }
             }
 
             void IUnitVisitor.Visit(Player player)

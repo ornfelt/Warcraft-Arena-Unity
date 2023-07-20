@@ -4,12 +4,13 @@ using UnityEngine.AI;
 
 namespace Core
 {
-    internal sealed class ConfusedMovement : MovementGenerator
+    internal sealed class WanderMovement : MovementGenerator
     {
         private TimeTracker nextMoveTime = new TimeTracker();
-        private readonly NavMeshPath confusedNavMeshPath = new NavMeshPath();
+        private readonly NavMeshPath wanderNavMeshPath = new NavMeshPath();
 
-        public override MovementType Type => MovementType.Confused;
+        public override MovementType Type => MovementType.Wander;
+        private static System.Random RandomGen = new System.Random();
 
         public override void Begin(Unit unit)
         {
@@ -24,7 +25,7 @@ namespace Core
         public override void Finish(Unit unit)
         {
             unit.AI.NavMeshAgentEnabled = false;
-            unit.RemoveState(UnitControlState.ConfusedMove);
+            unit.RemoveState(UnitControlState.Wander);
             unit.StopMoving();
 
             nextMoveTime.Reset(0);
@@ -69,20 +70,51 @@ namespace Core
                 nextMoveTime.Update(deltaTime);
                 if (nextMoveTime.Passed)
                 {
-                    unit.AddState(UnitControlState.ConfusedMove);
+                    unit.AddState(UnitControlState.Wander);
 
-                    //Vector2 randomCircle = Random.insideUnitCircle * 4;
                     Vector2 randomCircle = Random.insideUnitCircle * 6;
                     Vector3 randomPosition = unit.Position + new Vector3(randomCircle.x, 0, randomCircle.y);
-                    if (!NavMesh.SamplePosition(randomPosition, out NavMeshHit hit, MovementUtils.MaxNavMeshSampleRange, MovementUtils.WalkableAreaMask))
+                    // Use wander nodes
+                    //if (!NavMesh.SamplePosition(randomPosition, out NavMeshHit hit, MovementUtils.MaxNavMeshSampleRange, MovementUtils.WalkableAreaMask))
+                    //    return TryAgainSoon();
+                    //randomPosition = hit.position;
+
+                    int RandomNumb = RandomGen.Next(100);
+                    if (RandomNumb < 20)
+                    {
+                        randomPosition.x = -28.947F;
+                        randomPosition.y = 0.002F;
+                        randomPosition.z = -3.875F;
+                    }
+                    else if (RandomNumb < 40)
+                    {
+                        randomPosition.x = -19.214F;
+                        randomPosition.y = -0.599F;
+                        randomPosition.z = 4.009F;
+                    }
+                    else if (RandomNumb < 60)
+                    {
+                        randomPosition.x = 12.316F;
+                        randomPosition.y = -0.188F;
+                        randomPosition.z = -7.486F;
+                    }
+                    else if (RandomNumb < 60)
+                    {
+                        randomPosition.x = -27.3932F;
+                        randomPosition.y = -1.137F;
+                        randomPosition.z = -9.289F;
+                    }
+                    else
+                    {
+                        randomPosition.x = 0.0782F;
+                        randomPosition.y = -0.438F;
+                        randomPosition.z = -9.5125F;
+                    }
+
+                    if (!NavMesh.CalculatePath(unit.Position, randomPosition, MovementUtils.WalkableAreaMask, wanderNavMeshPath))
                         return TryAgainSoon();
 
-                    if (hit.position.y > 0.0F && hit.position.y < 4.0F)
-                        randomPosition = hit.position;
-                    if (!NavMesh.CalculatePath(unit.Position, randomPosition, MovementUtils.WalkableAreaMask, confusedNavMeshPath))
-                        return TryAgainSoon();
-
-                    if (!unit.AI.SetPath(confusedNavMeshPath))
+                    if (!unit.AI.SetPath(wanderNavMeshPath))
                         return TryAgainSoon();
 
                     if (unit.AI.RemainingDistance > MovementUtils.MaxConfusedPath)

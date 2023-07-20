@@ -77,6 +77,14 @@ namespace Core
                     CancelMovement(MovementType.Confused, MovementSlot.Controlled);
             }
 
+            public void ModifyWanderMovement(bool isWandering)
+            {
+                if (isWandering)
+                    StartMovement(new WanderMovement(), MovementSlot.Controlled);
+                else
+                    CancelMovement(MovementType.Wander, MovementSlot.Controlled);
+            }
+
             public void StartChargingMovement(Vector3 chargePoint, float chargeSpeed)
             {
                 StartMovement(new ChargeMovement(chargePoint, chargeSpeed), MovementSlot.Controlled);

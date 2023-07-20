@@ -23,8 +23,9 @@ namespace Core
         FleeingMove = 1 << 15,
         ChaseMove = 1 << 16,
         FollowMove = 1 << 17,
+        Wander = 1 << 18,
 
-        Moving = RoamingMove | ConfusedMove | FleeingMove | ChaseMove | FollowMove,
+        Moving = RoamingMove | ConfusedMove | FleeingMove | ChaseMove | FollowMove | Wander,
         Controlled = Confused | Stunned | Fleeing,
         LostControl = Controlled | Jumping | Charging,
         CantMove = Root | Stunned | Died | Distracted

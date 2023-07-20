@@ -21,5 +21,6 @@ namespace Core
         Fleeing = 1 << 13,
         PlayerControlled = 1 << 14,
         NotSelectable = 1 << 15,
+        Wander = 1 << 16,
     }
 }

@@ -13,12 +13,18 @@ namespace Core
             return unitsByColliders.TryGetValue(unitCollider, out entity);
         }
 
+        public int AmountOfEntities()
+        {
+            return Entities.Count;
+        }
+
         internal TEntity Create<TEntity>(PrefabId prefabId, Entity.CreateToken createToken = null) where TEntity : Unit
         {
             TEntity entity = BoltNetwork.Instantiate(prefabId, createToken).GetComponent<TEntity>();
             entity.ModifyDeathState(DeathState.Alive);
             entity.Attributes.SetHealth(entity.MaxHealth);
             entity.Motion.UpdateMovementControl(true);
+
             return entity;
         }
 

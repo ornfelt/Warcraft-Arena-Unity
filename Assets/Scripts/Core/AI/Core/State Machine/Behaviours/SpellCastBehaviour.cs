@@ -30,11 +30,12 @@ namespace Core
 
             castTimeTracker.Update(deltaTime);
 
-            if (!Unit.IsAlive && Unit.HasFlag(UnitFlags.Confused))
+            if (!Unit.IsAlive && Unit.HasFlag(UnitFlags.Wander))
             {
-                Unit.RemoveFlag(UnitFlags.Confused);
-                Unit.RemoveState(UnitControlState.Confused);
-                Unit.Motion.ModifyConfusedMovement(false);
+                Unit.RemoveFlag(UnitFlags.Wander);
+                Unit.RemoveState(UnitControlState.Wander);
+                //Unit.Motion.ModifyConfusedMovement(false);
+                Unit.Motion.ModifyWanderMovement(false);
             }
 
             if (castTimeTracker.Passed)
@@ -120,9 +121,10 @@ namespace Core
                                     Unit.GetBalance().SpellInfosById.TryGetValue(17, out newSpellInfo); // Polymorph
 
                                 // Stop moving
-                                Unit.RemoveFlag(UnitFlags.Confused);
-                                Unit.RemoveState(UnitControlState.Confused);
-                                Unit.Motion.ModifyConfusedMovement(false);
+                                //Unit.RemoveFlag(UnitFlags.Confused);
+                                //Unit.RemoveState(UnitControlState.Confused);
+                                //Unit.Motion.ModifyConfusedMovement(false);
+                                Unit.Motion.ModifyWanderMovement(false);
                             }
                         }
 
@@ -141,11 +143,12 @@ namespace Core
                 }
                 else
                 {
-                    if (!Unit.HasState(UnitControlState.Confused) && !Unit.SpellCast.IsCasting && Unit.IsAlive)
+                    if (!Unit.HasState(UnitControlState.Wander) && !Unit.SpellCast.IsCasting && Unit.IsAlive)
                     {
-                        Unit.SetFlag(UnitFlags.Confused);
-                        Unit.AddState(UnitControlState.Confused);
-                        Unit.Motion.ModifyConfusedMovement(true);
+                        Unit.SetFlag(UnitFlags.Wander);
+                        Unit.AddState(UnitControlState.Wander);
+                        //Unit.Motion.ModifyConfusedMovement(true);
+                        Unit.Motion.ModifyWanderMovement(true);
                     }
                     //castTimeTracker.Reset(RandomUtils.Next(castIntervalMin, castIntervalMax)); // castIntervalMin = 10000
                     //castTimeTracker.Reset(RandomUtils.Next(2000, 5000));
