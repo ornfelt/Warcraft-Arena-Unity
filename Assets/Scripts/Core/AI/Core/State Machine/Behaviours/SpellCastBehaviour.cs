@@ -46,20 +46,21 @@ namespace Core
                 Vector3 myPos = Unit.Position;
                 Vector3 targetPos = Unit.Position;
 
-                //if (!Unit.Target || !Unit.Target.IsAlive) // TODO: Get new target if no target or dead target
                 // Pick target
                 float radius = 15.0F;
                 List<Unit> targets = new List<Unit>();
                 Unit.Map.SearchAreaTargets(targets, radius, myPos, Unit, SpellTargetChecks.Enemy);
 
-                foreach (var target in targets)
-                    if (target.Name.Contains("Player") && target.IsAlive)
-                    {
-                        (Unit as Player).SetTarget(target);
-                        targetNear = true;
-                        targetPos = Unit.Target.Position;
-                        break;
-                    }
+                Unit closestTarget = GetClosestPlayerTarget(myPos, targets);
+                if (closestTarget)
+                {
+                    targetNear = true;
+                    (Unit as Player).SetTarget(closestTarget);
+                    targetPos = closestTarget.Position;
+                    Debug.Log("Target near! Me: " + Unit.Name + ", target: " + closestTarget.Name);
+                }
+                targetNear = false; // FOR TESTING
+
                 // Adjust rotation towards target
                 if (Unit.IsAlive)
                     Unit.transform.LookAt(targetPos);
@@ -121,9 +122,8 @@ namespace Core
                                     Unit.GetBalance().SpellInfosById.TryGetValue(17, out newSpellInfo); // Polymorph
 
                                 // Stop moving
-                                //Unit.RemoveFlag(UnitFlags.Confused);
-                                //Unit.RemoveState(UnitControlState.Confused);
-                                //Unit.Motion.ModifyConfusedMovement(false);
+                                Unit.RemoveFlag(UnitFlags.Wander);
+                                Unit.RemoveState(UnitControlState.Wander);
                                 Unit.Motion.ModifyWanderMovement(false);
                             }
                         }
@@ -145,6 +145,7 @@ namespace Core
                 {
                     if (!Unit.HasState(UnitControlState.Wander) && !Unit.SpellCast.IsCasting && Unit.IsAlive)
                     {
+                        Unit.CurrWanderNode = 100;
                         Unit.SetFlag(UnitFlags.Wander);
                         Unit.AddState(UnitControlState.Wander);
                         //Unit.Motion.ModifyConfusedMovement(true);
@@ -155,6 +156,29 @@ namespace Core
                     castTimeTracker.Reset(RandomUtils.Next(3000, 6000));
                 }
             }
+        }
+
+        private Unit GetClosestPlayerTarget(Vector3 myPos, List<Unit> targets)
+        {
+            Unit closestTarget = null;
+            float diffX, diffY, diffZ;
+            float closestDiff = 100.0F;
+            foreach (var target in targets)
+            {
+                if (target.Name.Contains("Player") && target.IsAlive)
+                {
+                    diffX = Mathf.Abs(myPos.x - target.Position.x);
+                    diffY = Mathf.Abs(myPos.y - target.Position.y);
+                    diffZ = Mathf.Abs(myPos.z - target.Position.z);
+                    float currDiff = diffX + diffY + diffZ;
+                    if (currDiff < closestDiff)
+                    {
+                        closestTarget = target;
+                        closestDiff = currDiff;
+                    }
+                }
+            }
+            return closestTarget;
         }
     }
 }

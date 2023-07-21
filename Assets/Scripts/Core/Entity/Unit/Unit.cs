@@ -86,6 +86,7 @@ namespace Core
         public int SlowFallSpeed { get => entityState.SlowFallSpeed; internal set => entityState.SlowFallSpeed = value; }
         // HEHE
         public bool IsPlayerAI { get; set; }
+        public int CurrWanderNode { get; set; }
 
         public sealed override void Attached()
         {

@@ -296,7 +296,6 @@ namespace Core
 
 				Debug.Log("Loading scene: " + serverToken.Map);
                 BoltNetwork.LoadScene(serverToken.Map, serverToken);
-				//BoltNetwork.LoadScene("Nagrand", serverToken);
             }
             else
             {

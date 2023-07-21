@@ -3,7 +3,17 @@ guid: 63888a2879102e94284855c5184ae8a2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_caverope01
+    second: {fileID: 2100000, guid: e36c0f9bb09c583459170a53f2355b37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_minecavepulley01_64
+    second: {fileID: 2100000, guid: cda230f230d008d45b86e6d702bb50bc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 1

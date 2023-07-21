@@ -296,6 +296,9 @@ namespace Core
                 }
             }
 
+            if (SpellInfo.Id == 17 && Caster.Target.Name.Contains("Ragnaros"))
+                return SpellCastResult.BadTargets;
+
             castResult = ValidateRange();
             if (castResult != SpellCastResult.Success)
                 return castResult;

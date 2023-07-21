@@ -3,7 +3,27 @@ guid: 0d2e6a0d0ed1cbb4090b9e4c2c914c7b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_alteracwatertower01
+    second: {fileID: 2100000, guid: 254cfc5ae87ea9448b1397c326a0c91a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_stonetreetrunk03
+    second: {fileID: 2100000, guid: 0629f896e70f1fa48bc7050ec9afbdf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_stonetreetrunk_fallen
+    second: {fileID: 2100000, guid: aadbbe4411c516448a056c45cd2f75a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_treerope01
+    second: {fileID: 2100000, guid: 656b765c44f99074baab002de29bd4c6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 1

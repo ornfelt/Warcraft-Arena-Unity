@@ -3,7 +3,17 @@ guid: 16ae5f09f9135704ba27e5f4db1b227d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_elwynnlantern01
+    second: {fileID: 2100000, guid: cf22a287d7cde234e9064421fefd63bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_gypsydoor_01
+    second: {fileID: 2100000, guid: c49e629dc9acd5148abc8d555f70ca64, type: 2}
   materials:
     materialImportMode: 2
     materialName: 1

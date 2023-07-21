@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lordaeron.unity
     guid: 2cf2bf6529546cb4197d067294adc7f0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nagrand.unity
     guid: 6490acdcdf597f742b44bab30cc961db
   m_configObjects: {}

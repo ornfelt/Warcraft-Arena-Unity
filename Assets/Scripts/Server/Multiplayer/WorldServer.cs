@@ -25,6 +25,8 @@ namespace Server
 
             spellListener = new GameSpellListener(this);
             playerListener = new GamePlayerListener(this);
+
+            Debug.Log("WorldServer Started");
         }
 
         public override void Dispose()
@@ -122,6 +124,7 @@ namespace Server
 
         internal void CreatePlayer(BoltConnection boltConnection = null)
         {
+            Debug.Log("CreatePlayer called");
             Map mainMap = MapManager.FindMap(1);
             Transform spawnPoint = RandomUtils.GetRandomElement(mainMap.Settings.FindSpawnPoints(Team.Alliance));
 

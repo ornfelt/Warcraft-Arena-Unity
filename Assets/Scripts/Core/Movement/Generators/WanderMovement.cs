@@ -1,6 +1,8 @@
 ﻿using Common;
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections.Generic;
+using System.Drawing.Text;
 
 namespace Core
 {
@@ -11,6 +13,13 @@ namespace Core
 
         public override MovementType Type => MovementType.Wander;
         private static System.Random RandomGen = new System.Random();
+
+        private static List<Vector3> WanderNodes = new List<Vector3> {
+            new Vector3(-19.13F, -0.60F, 17.18F), new Vector3(-17.87F, -1.20F, -18.05F), 
+            new Vector3(13.87F, -0.44F, -18.09F), new Vector3(12.84F, -0.63F, 18.75F), 
+            new Vector3(0.97F, -0.44F, -24.34F), new Vector3(0.39F, -0.43F, 26.41F)
+        };
+        private Vector3 LastVisitedNode;
 
         public override void Begin(Unit unit)
         {
@@ -64,60 +73,32 @@ namespace Core
 
             if (nextMoveTime.Passed)
                 nextMoveTime.Reset(RandomUtils.Next(1000, 3000));
-                //nextMoveTime.Reset(1000);
             else
             {
                 nextMoveTime.Update(deltaTime);
-                if (nextMoveTime.Passed)
+                //if (nextMoveTime.Passed)
+                if (HasReachedNode())
                 {
                     unit.AddState(UnitControlState.Wander);
 
                     Vector2 randomCircle = Random.insideUnitCircle * 6;
                     Vector3 randomPosition = unit.Position + new Vector3(randomCircle.x, 0, randomCircle.y);
-                    // Use wander nodes
-                    //if (!NavMesh.SamplePosition(randomPosition, out NavMeshHit hit, MovementUtils.MaxNavMeshSampleRange, MovementUtils.WalkableAreaMask))
-                    //    return TryAgainSoon();
-                    //randomPosition = hit.position;
 
-                    int RandomNumb = RandomGen.Next(100);
-                    if (RandomNumb < 20)
-                    {
-                        randomPosition.x = -28.947F;
-                        randomPosition.y = 0.002F;
-                        randomPosition.z = -3.875F;
-                    }
-                    else if (RandomNumb < 40)
-                    {
-                        randomPosition.x = -19.214F;
-                        randomPosition.y = -0.599F;
-                        randomPosition.z = 4.009F;
-                    }
-                    else if (RandomNumb < 60)
-                    {
-                        randomPosition.x = 12.316F;
-                        randomPosition.y = -0.188F;
-                        randomPosition.z = -7.486F;
-                    }
-                    else if (RandomNumb < 60)
-                    {
-                        randomPosition.x = -27.3932F;
-                        randomPosition.y = -1.137F;
-                        randomPosition.z = -9.289F;
-                    }
+                    Debug.Log("HasReachedNode: " + unit.CurrWanderNode);
+                    int newWanderNode;
+                    if (unit.CurrWanderNode == 100)
+                        newWanderNode = GetClosestWanderNode(unit.Position);
                     else
-                    {
-                        randomPosition.x = 0.0782F;
-                        randomPosition.y = -0.438F;
-                        randomPosition.z = -9.5125F;
-                    }
+                        newWanderNode = GetNextNode();
+
+                    randomPosition = WanderNodes[newWanderNode];
+                    unit.CurrWanderNode = newWanderNode;
+                    Debug.Log("newNode: " + unit.CurrWanderNode);
 
                     if (!NavMesh.CalculatePath(unit.Position, randomPosition, MovementUtils.WalkableAreaMask, wanderNavMeshPath))
                         return TryAgainSoon();
 
                     if (!unit.AI.SetPath(wanderNavMeshPath))
-                        return TryAgainSoon();
-
-                    if (unit.AI.RemainingDistance > MovementUtils.MaxConfusedPath)
                         return TryAgainSoon();
                 }
             }
@@ -128,6 +109,48 @@ namespace Core
             {
                 nextMoveTime.Reset(100);
                 return true;
+            }
+
+            bool HasReachedNode()
+            {
+                if (unit.CurrWanderNode == 100)
+                    return true;
+                float diffX = Mathf.Abs(unit.Position.x - WanderNodes[unit.CurrWanderNode].x);
+                float diffY = Mathf.Abs(unit.Position.y - WanderNodes[unit.CurrWanderNode].y);
+                float diffZ = Mathf.Abs(unit.Position.z - WanderNodes[unit.CurrWanderNode].z);
+                return (diffX + diffY + diffZ) < 0.5;
+            }
+
+            int GetNextNode()
+            {
+                if (unit.CurrWanderNode == 5)
+                    return 0;
+                else
+                    return unit.CurrWanderNode + 1;
+            }
+
+            int GetClosestWanderNode(Vector3 myPos)
+            {
+                int closestNode = 0;
+                float diffX, diffY, diffZ;
+                float closestDiff = 100.0F;
+                int nodeIdx = 0;
+
+                foreach (var node in WanderNodes)
+                {
+                    diffX = Mathf.Abs(myPos.x - node.x);
+                    diffY = Mathf.Abs(myPos.y - node.y);
+                    diffZ = Mathf.Abs(myPos.z - node.z);
+                    float currDiff = diffX + diffY + diffZ;
+                    if (currDiff > 1.0F && currDiff < closestDiff)
+                    {
+                        closestNode = nodeIdx;
+                        closestDiff = currDiff;
+                    }
+                    ++nodeIdx;
+                }
+
+                return closestNode;
             }
         }
     }

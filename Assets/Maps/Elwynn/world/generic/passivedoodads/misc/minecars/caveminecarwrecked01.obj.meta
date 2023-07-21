@@ -3,7 +3,22 @@ guid: 182af43988b1fd94eacb25610ccf7953
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_caveminecar_front
+    second: {fileID: 2100000, guid: 3642c75af37bb3e42b491f0c33683db7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_caveminecar_side
+    second: {fileID: 2100000, guid: 1d1f57d8600b9ce4a96f370435b5193e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_caveminecar_wheel
+    second: {fileID: 2100000, guid: d73d0e8f942dae74ea70def654308b63, type: 2}
   materials:
     materialImportMode: 2
     materialName: 1
