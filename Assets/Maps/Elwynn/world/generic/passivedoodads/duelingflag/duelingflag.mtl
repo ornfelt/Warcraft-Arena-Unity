@@ -1,0 +1,12 @@
+newmtl mat_bm_troll_supports01
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wood\bm_troll_supports01.png
+newmtl mat_flag12
+illum 1
+map_Kd flag12.png
+newmtl mat_partrock
+illum 1
+map_Kd ..\..\..\..\creature\elementalearth\partrock.png
+newmtl mat_dust2b
+illum 1
+map_Kd dust2b.png

@@ -1,0 +1,1344 @@
+fileFormatVersion: 2
+guid: a68a0b2a342282a4da00c1cf78393b11
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_0
+    second: {fileID: 2100000, guid: 5e7a21151a30c2d4a806b7fee0c92c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_1
+    second: {fileID: 2100000, guid: c3dbbe950f8815d469f4350a2f08d99d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_10
+    second: {fileID: 2100000, guid: fd90a2f75eeb8d744853477937ce1bf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_100
+    second: {fileID: 2100000, guid: e958af2efc03f4b408a5e713ec9e76ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_101
+    second: {fileID: 2100000, guid: c4a793826488c864282d83195356d1f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_102
+    second: {fileID: 2100000, guid: 10e4f1a644b4d2d4a8d33b110c3c6271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_106
+    second: {fileID: 2100000, guid: 585e55a9df221f94d934082af9f35240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_107
+    second: {fileID: 2100000, guid: c77bf4fff55e57e4aa848c8e7eb47bc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_108
+    second: {fileID: 2100000, guid: ca18443f65e2fbf498d44ba6ed23bac5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_109
+    second: {fileID: 2100000, guid: 9857a87e8654fce429a77e9ddacb0372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_11
+    second: {fileID: 2100000, guid: 8e432d33ab1084c41945a03bff3b7632, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_110
+    second: {fileID: 2100000, guid: 34b2c47127a4ba5408f68e9e2a66dca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_111
+    second: {fileID: 2100000, guid: 26c0e3f574e20544a8635905606866a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_112
+    second: {fileID: 2100000, guid: 6441c584586653142bb9e4e3c2784a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_113
+    second: {fileID: 2100000, guid: 33e995e1788ce7745b3c7302069afad4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_114
+    second: {fileID: 2100000, guid: a5b792e703687f74c8c49faf0dc01c0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_115
+    second: {fileID: 2100000, guid: c7523e466fc03f5438ff7364c13e7e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_116
+    second: {fileID: 2100000, guid: 10ef003b4d89ed042b4adb305f6948bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_117
+    second: {fileID: 2100000, guid: c80b6e97d4e72b24c83626dfb4889735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_118
+    second: {fileID: 2100000, guid: 2f39e4eb1fb1f9c4b9e0facb9af2dd87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_119
+    second: {fileID: 2100000, guid: 3ae13e1c09f3f46429e5fd33bf3c140f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_12
+    second: {fileID: 2100000, guid: 16b5b9586d1e1144f82aecf5009d0967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_122
+    second: {fileID: 2100000, guid: fdf9e3fa10d6c794194dda5355cb7344, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_123
+    second: {fileID: 2100000, guid: 6a4b9def5b595a0448decd34e7f8a293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_124
+    second: {fileID: 2100000, guid: 2b9aabce596d9f04dbe757be92bb6cc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_125
+    second: {fileID: 2100000, guid: 386a92d87c210804b94f2ec7b4f96b91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_126
+    second: {fileID: 2100000, guid: 35c24ce85ca21ab4586a35a166a43f21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_127
+    second: {fileID: 2100000, guid: 2aec1b51ae75af2449a6f994f5d751ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_128
+    second: {fileID: 2100000, guid: 2d882b95b2999ae4eaf63039a1d4973a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_129
+    second: {fileID: 2100000, guid: faf6a97a8fe2cf3408bc6135ca7d5ea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_13
+    second: {fileID: 2100000, guid: c0c66687303a43d47b0fbb1a579ef3bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_130
+    second: {fileID: 2100000, guid: 7d5d9119c2358fd4699f8c7879269d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_131
+    second: {fileID: 2100000, guid: ab500c1ec275df2418c77d857576df19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_132
+    second: {fileID: 2100000, guid: 65724a9a1a12ac0428458b28b6ed88f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_133
+    second: {fileID: 2100000, guid: 9e6267cfa3739674fa1a0e7b6f0aafc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_134
+    second: {fileID: 2100000, guid: dc0fd062aa6601a47bb241332547548a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_135
+    second: {fileID: 2100000, guid: 006d8d832af01914294254792e5edf89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_136
+    second: {fileID: 2100000, guid: 3765653789b90854c93d1c602f57900e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_137
+    second: {fileID: 2100000, guid: 7890dacdbfe84d74fa9ead30e41de8c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_138
+    second: {fileID: 2100000, guid: 4ad5d6df239fce3428fd3eb079f1682d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_139
+    second: {fileID: 2100000, guid: a23b2785e956e9d44a224896e24dab60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_14
+    second: {fileID: 2100000, guid: b61c6208f56731042999a30b62fc848d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_140
+    second: {fileID: 2100000, guid: 65ebcfb8be3667749b13e1fac523f3e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_141
+    second: {fileID: 2100000, guid: 283f9b3c23c82d44f98ed65c3739c907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_142
+    second: {fileID: 2100000, guid: 71419bffbb4948f4b91229511d804571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_143
+    second: {fileID: 2100000, guid: 8c73873bde679aa45bcf681f4287ec07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_144
+    second: {fileID: 2100000, guid: 9b1272a9ce100ee46b65d7b4b394e37d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_145
+    second: {fileID: 2100000, guid: 6b8a0ad89a1cb7b4e8e53d1ed390a27a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_146
+    second: {fileID: 2100000, guid: 12e53752c87f5334b889b18c9f282ad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_147
+    second: {fileID: 2100000, guid: 65627018c1c34d943966b99fa168ef6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_148
+    second: {fileID: 2100000, guid: 071523618f15f0a4181a9050d310074a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_149
+    second: {fileID: 2100000, guid: 473b676f9ee4a90418f14ec2faa810fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_15
+    second: {fileID: 2100000, guid: 63e1ae8025ab6374fb7f642043c940f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_150
+    second: {fileID: 2100000, guid: 50adc23d6e7e8534a8b056a4c9e231a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_151
+    second: {fileID: 2100000, guid: 6523bde82d0bb794cba897e16866a7b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_152
+    second: {fileID: 2100000, guid: 50633521966cd74419b72486b2ef2125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_153
+    second: {fileID: 2100000, guid: 98bba5526bb732b40af3f663d789a03c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_154
+    second: {fileID: 2100000, guid: 4b77deeaf53c7184c868702bd043e5ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_155
+    second: {fileID: 2100000, guid: 3ea7eb447802be14e80f86699fcdca1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_156
+    second: {fileID: 2100000, guid: 8d2e7b337a947a44c9d9428347590db6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_157
+    second: {fileID: 2100000, guid: 0617324b770c49941919fc6e05672bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_158
+    second: {fileID: 2100000, guid: 0a8053bdacbc17d43a7d1ff45dceb3f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_159
+    second: {fileID: 2100000, guid: 433ff9f1efdc0a947b623c3cbb70a1be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_16
+    second: {fileID: 2100000, guid: a0043440a86187e4f8e2c3a5b349b0d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_160
+    second: {fileID: 2100000, guid: c34c1519a43ebee408b470ae8d682a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_161
+    second: {fileID: 2100000, guid: fc8c6fb5cadfd484e9cc6786449f0362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_162
+    second: {fileID: 2100000, guid: 48c655914d116594cac16f0d59f682c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_163
+    second: {fileID: 2100000, guid: 279aa3bc727eab0419fe1e561bdf1799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_164
+    second: {fileID: 2100000, guid: e15bd02fea2c9334b8cd552fb7113e90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_165
+    second: {fileID: 2100000, guid: 2c72abf4528977449836dc75832990a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_166
+    second: {fileID: 2100000, guid: 4c5c0298a62ee6f41bb1ce810ff8456a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_167
+    second: {fileID: 2100000, guid: 27e857e3f1502ab4fbd8117328ee23eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_168
+    second: {fileID: 2100000, guid: 63885b370f6670b4ab73354a1cc11f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_169
+    second: {fileID: 2100000, guid: b97ea9a406183c546a39e2e0ccf2425d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_17
+    second: {fileID: 2100000, guid: 6c88aca874017d745960b44497965a1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_170
+    second: {fileID: 2100000, guid: 28eeb02b5d2ad3e4bb01576e7685522b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_171
+    second: {fileID: 2100000, guid: 6e4c79feb2ed06040ad592687385cae7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_172
+    second: {fileID: 2100000, guid: b5d8bf611df21744d9bda2a3265c05eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_173
+    second: {fileID: 2100000, guid: 2fd04123a96614644a0c7407e0a41d74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_174
+    second: {fileID: 2100000, guid: 01f6e517f4edf24488bd589138d00620, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_175
+    second: {fileID: 2100000, guid: c6e5c71092408284f81443338d7dd6f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_176
+    second: {fileID: 2100000, guid: 79ceb8768569ee540b2e99e8fc27ae08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_177
+    second: {fileID: 2100000, guid: 8209c09d4067dd74190ea73c145392f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_178
+    second: {fileID: 2100000, guid: 56e13c403d90a7d45a024c9252f9d630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_179
+    second: {fileID: 2100000, guid: 837ede1283540fc46a68c3a00f6a7ae1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_18
+    second: {fileID: 2100000, guid: 6dd101148ad75e94ab7e737dfcc25e93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_180
+    second: {fileID: 2100000, guid: 2d84fb6298879694c8d8bdf4ed5873a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_181
+    second: {fileID: 2100000, guid: e2f03d74fbd4d764fbddfa683056ef8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_182
+    second: {fileID: 2100000, guid: fdf49b0f27c0b9f459ea9ed2d0541f55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_183
+    second: {fileID: 2100000, guid: fe65117ca8674ca498eb1899778cbcbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_184
+    second: {fileID: 2100000, guid: 60dffc44a2320534d9f7699d7fb6d2cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_185
+    second: {fileID: 2100000, guid: 50a37f9f115a088419820a6966faa008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_186
+    second: {fileID: 2100000, guid: 3497522888d19c2478aa76891286bd3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_187
+    second: {fileID: 2100000, guid: 628a25a262c7eb04d901031584cd1647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_188
+    second: {fileID: 2100000, guid: 708af08830867854998548780c8d766e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_189
+    second: {fileID: 2100000, guid: 3043e1f47fc57b74fa5d1caf84860e2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_19
+    second: {fileID: 2100000, guid: 1327811bd7ef37644a6696c0089edc0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_190
+    second: {fileID: 2100000, guid: ae294a17aa5967143a73cafc0b529c29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_191
+    second: {fileID: 2100000, guid: 40950bd304a73ce44851ef2857befcea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_192
+    second: {fileID: 2100000, guid: f4bc4d5cbd24348499f0a8a821894f9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_193
+    second: {fileID: 2100000, guid: cc1d5f56da59b4e4cb85da74d0b79293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_194
+    second: {fileID: 2100000, guid: b27528f27ebd5754abae001aaf9b933b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_195
+    second: {fileID: 2100000, guid: f93092f0239b401469d69a3a15ec24f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_196
+    second: {fileID: 2100000, guid: 48d9c6cfa71df4e489aaa85ba0f76699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_197
+    second: {fileID: 2100000, guid: 8d7875214b0b48b449af04ab943d31b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_198
+    second: {fileID: 2100000, guid: 90a48b797babed946a5c4687af33d0da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_199
+    second: {fileID: 2100000, guid: 0d8dfc44923c25b4e938fce1dc9eb88c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_2
+    second: {fileID: 2100000, guid: 9eec8218a00b91a49b6ca4e75f3bba66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_20
+    second: {fileID: 2100000, guid: 8b24c296935956840bbb136f6d32cae9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_200
+    second: {fileID: 2100000, guid: 738158bd7ba38154aa16191f38767f9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_201
+    second: {fileID: 2100000, guid: 41eee19871d253542b81f1493a0726a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_202
+    second: {fileID: 2100000, guid: 7c788fb895ea11e468a43bc54b963517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_203
+    second: {fileID: 2100000, guid: c66613a3af1c5db49b5d9fb353019ecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_204
+    second: {fileID: 2100000, guid: 698ee95776e27d543a7214eb091fcbe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_205
+    second: {fileID: 2100000, guid: b95adc98cdfa6174aa01f3487a36a7b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_206
+    second: {fileID: 2100000, guid: fc434b3ace99f394a97e6feadf3aee01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_207
+    second: {fileID: 2100000, guid: a42001de52e28ae40a6216536cb81d3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_208
+    second: {fileID: 2100000, guid: 5ccc1de00b992b44fa2dee8d2bda0cad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_209
+    second: {fileID: 2100000, guid: 01cdb45affc9abe469c727fd38a4f778, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_21
+    second: {fileID: 2100000, guid: b410be5528bfd0a4d9fc948c3d64bf80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_210
+    second: {fileID: 2100000, guid: 3c7ab5f313c8dc244acc02eb668171bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_211
+    second: {fileID: 2100000, guid: 1569db3bd9d71994aab97258404a1b4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_212
+    second: {fileID: 2100000, guid: dab02ce60e645bf4cafa5cc764c2784f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_213
+    second: {fileID: 2100000, guid: ad7c26994e726dc4f9400e8888c01d92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_214
+    second: {fileID: 2100000, guid: 508a40c81e46f044d95f8b42afd7631a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_215
+    second: {fileID: 2100000, guid: a1737696e660554488167d3a94c0c9ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_216
+    second: {fileID: 2100000, guid: 997120d200fafc1499a8bfc145fd0220, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_217
+    second: {fileID: 2100000, guid: 411c66b207df4c248897adc8d28a9212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_218
+    second: {fileID: 2100000, guid: 96663de439b47a548acf0724cadef3ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_219
+    second: {fileID: 2100000, guid: 9b851040204cda04488ecda00f1f93a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_22
+    second: {fileID: 2100000, guid: c7aeb4794ab955e45876766a9a5d1b3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_220
+    second: {fileID: 2100000, guid: 3d761e1589e79c248ad213880abdd93a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_221
+    second: {fileID: 2100000, guid: 308f2b3cbb6c56342bb3a9658594014c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_222
+    second: {fileID: 2100000, guid: d2d3a6106af02ac4881a1f3a84fdcf67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_223
+    second: {fileID: 2100000, guid: 72013738954e3e84da960c46b60f15fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_224
+    second: {fileID: 2100000, guid: 33d6462ccde6a39459c1fdecfd0da2ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_225
+    second: {fileID: 2100000, guid: 2441f1f9479b67043a8acb087ac4aed3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_226
+    second: {fileID: 2100000, guid: b4f63936ba690564680937c150aace82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_227
+    second: {fileID: 2100000, guid: f75c45da1c9aebb489728843004f23b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_228
+    second: {fileID: 2100000, guid: aa1c8c2af13974144ac3fd4e1f3ee80a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_229
+    second: {fileID: 2100000, guid: bf7010fc4a23b1645a8ea70d640ef6bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_23
+    second: {fileID: 2100000, guid: c0a2f6e0d98ff6d40a9874efd9a0288d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_230
+    second: {fileID: 2100000, guid: 7d4492055e4be3a42b16530ccffbafad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_231
+    second: {fileID: 2100000, guid: 70de64e7b947eaa4c83a505d9747ad4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_232
+    second: {fileID: 2100000, guid: 3aa71b8b213797248a253f10b759bdf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_233
+    second: {fileID: 2100000, guid: 7b6a9852aa769374d83a685b1acc742f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_234
+    second: {fileID: 2100000, guid: bea41fecd28064e4f97229ffdde4b775, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_235
+    second: {fileID: 2100000, guid: 9ade7f89ec13ad54c8223198aeb1a975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_236
+    second: {fileID: 2100000, guid: a249c5ff726d6c546aaa4a0edcd2373a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_237
+    second: {fileID: 2100000, guid: 56f9a661aa36c384d875929980745e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_238
+    second: {fileID: 2100000, guid: 1d93b6df2b3bb234eabe6449f4d2ce15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_239
+    second: {fileID: 2100000, guid: fba41375c80c5854cace79229c50ec09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_24
+    second: {fileID: 2100000, guid: b1564eae51bc8cc43b3eb3fd6881edd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_240
+    second: {fileID: 2100000, guid: 2426c2fde6d94bd4c80c9f166d75b422, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_241
+    second: {fileID: 2100000, guid: 0ad65de4c8a9ffc40bf94cc3021a9dd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_242
+    second: {fileID: 2100000, guid: 8fc7ea19c4c6d024691849961347f79b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_243
+    second: {fileID: 2100000, guid: 99d62e4241fae4e4fbaa41d9b5184790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_244
+    second: {fileID: 2100000, guid: 3c75b4be6e24172419868e3e3cef3685, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_245
+    second: {fileID: 2100000, guid: b44d5cbc37d138745a67c129f74370cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_246
+    second: {fileID: 2100000, guid: cc00d2cdb10c4ca45beb1bda6508f63b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_247
+    second: {fileID: 2100000, guid: dd5aa6821d0c38b48bd08b2e72fd9d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_248
+    second: {fileID: 2100000, guid: 2172146771464c942b35263390110381, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_249
+    second: {fileID: 2100000, guid: 5fa7b6ef076e8974a8206a4ec66efb60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_25
+    second: {fileID: 2100000, guid: 70619f01de30261429bc50504cacbcb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_250
+    second: {fileID: 2100000, guid: 883daf42c5481394699fd0e6a7e644d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_251
+    second: {fileID: 2100000, guid: a92aa59e00246424e9de6175d076943c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_252
+    second: {fileID: 2100000, guid: 6b74ff8b2c293524888d797a3a3bf74e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_253
+    second: {fileID: 2100000, guid: fd05b257fc62a824e961bd8ee7e9d8de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_254
+    second: {fileID: 2100000, guid: a4360d531c4e97d4cbdbe0084c5b8bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_255
+    second: {fileID: 2100000, guid: b90f4b4ae0a48c64aa9ff8eeaf334a03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_26
+    second: {fileID: 2100000, guid: 4071ea0fddd2ac544bcea9fbe3db4592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_27
+    second: {fileID: 2100000, guid: 432bf4f97aa36034bb399c931610019b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_28
+    second: {fileID: 2100000, guid: d07da8cfeea5da848919d549cef733e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_29
+    second: {fileID: 2100000, guid: 6815f8595ec4164429efef7922d62d2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_3
+    second: {fileID: 2100000, guid: 5b3626c5e40afa14e91f3635bccb88f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_30
+    second: {fileID: 2100000, guid: 9c928df9b39a06a42a5ac20547ace37d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_31
+    second: {fileID: 2100000, guid: 54b1989a935de244a84cf1c008d8ac39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_32
+    second: {fileID: 2100000, guid: c96062c5566841240b71aa5e8486b412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_33
+    second: {fileID: 2100000, guid: e40787586b677ba4b874101cc4c0b86b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_34
+    second: {fileID: 2100000, guid: 3e7212b1d8f2078419caaadc208eb105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_35
+    second: {fileID: 2100000, guid: 5d6142c3ccde8374da3443c46cf4c5e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_36
+    second: {fileID: 2100000, guid: fcb36b21de9acb440a0d3cee31700948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_37
+    second: {fileID: 2100000, guid: b71d8e14690a3d24388a8edea10c2ccf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_38
+    second: {fileID: 2100000, guid: 49413f10bac919841a6a15d19d117ea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_39
+    second: {fileID: 2100000, guid: ff51685313c2a3f4083e3d686723e838, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_4
+    second: {fileID: 2100000, guid: 475f63e9aeb2fe7419109629443b2a1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_40
+    second: {fileID: 2100000, guid: fd051cbeccab65941b88e9c48bf8f54f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_41
+    second: {fileID: 2100000, guid: da767d8bd9f650d47874e5fea7eaa51a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_42
+    second: {fileID: 2100000, guid: b3bd1b19e6b23c141bef65cc5b3286a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_43
+    second: {fileID: 2100000, guid: 2ce768fff97394c468c55a556967c991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_44
+    second: {fileID: 2100000, guid: 69395a539503a39488940cea4f35b77f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_45
+    second: {fileID: 2100000, guid: ccfbb963ce6bc6541ba9678d4a6f6288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_46
+    second: {fileID: 2100000, guid: 6c8def198d38b3141b45ea2ef580d59b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_47
+    second: {fileID: 2100000, guid: aae30acabaf25d743914a0cbac7b3f19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_48
+    second: {fileID: 2100000, guid: 0797f2d907fcb584ea2a41e1fdce2b9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_49
+    second: {fileID: 2100000, guid: a1be52ecb9851894ab2d121a0f97af9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_5
+    second: {fileID: 2100000, guid: 5fd8709d22f4f494094943729c04c5cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_50
+    second: {fileID: 2100000, guid: 8b5f7c9897eb50845a644fc9724ee971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_51
+    second: {fileID: 2100000, guid: d45ffab91a52b764ab49d0bccbcf47f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_52
+    second: {fileID: 2100000, guid: 400d3f8ed4b363149a8fbc4477885167, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_53
+    second: {fileID: 2100000, guid: 11c9328140e16f5439a9b51316d09429, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_54
+    second: {fileID: 2100000, guid: dc35e28fd3375744a846637d36aa623f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_55
+    second: {fileID: 2100000, guid: e9e44c9923c566b48b249098f809c098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_56
+    second: {fileID: 2100000, guid: 9ef1ce195b29f544493400a8e6224a75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_57
+    second: {fileID: 2100000, guid: c3fc2509c7608964abf6026b6d27871e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_58
+    second: {fileID: 2100000, guid: 3c55a4659d56e364d88026f09cb5f392, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_59
+    second: {fileID: 2100000, guid: a5e38ceec0623254cb510db51ed72e4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_6
+    second: {fileID: 2100000, guid: 2861275e931216644b0affe570d440c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_60
+    second: {fileID: 2100000, guid: d9da12dd52f58c74b986a5506ba4fe1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_61
+    second: {fileID: 2100000, guid: 1918e727a5995fb48aa431611b1adfd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_62
+    second: {fileID: 2100000, guid: 722493ef0ede21243864e46624249984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_63
+    second: {fileID: 2100000, guid: 5892819315244a8418340387406917fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_64
+    second: {fileID: 2100000, guid: f4e3000ef2debbb49bbfdfd7c8282cf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_65
+    second: {fileID: 2100000, guid: 16b5c95d22f59b04cb04fff88b3cb590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_66
+    second: {fileID: 2100000, guid: 287a182d0e7852949924f611c2a553ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_67
+    second: {fileID: 2100000, guid: 6ff99784035028740b333f59f5683a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_68
+    second: {fileID: 2100000, guid: 62663951b870d4646a027cf5a91fb724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_69
+    second: {fileID: 2100000, guid: edb2bb12adca38c40827cef0832d491c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_7
+    second: {fileID: 2100000, guid: d74c9d569fc5ccf4e965f92243e035fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_70
+    second: {fileID: 2100000, guid: 840a961bb90c6a54fab20f9889f1d1f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_71
+    second: {fileID: 2100000, guid: 061bb63215a415a498035c917af218c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_73
+    second: {fileID: 2100000, guid: 7c2e228ec0e67ed4d8f6ed103bd4d5d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_74
+    second: {fileID: 2100000, guid: 3f9decc8bfe9f0f4b9141fae7fc3bd84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_75
+    second: {fileID: 2100000, guid: a3d13fa93a5630b4eaef2a212f74a390, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_76
+    second: {fileID: 2100000, guid: a5e68f0f25863d24db1e8e5b2bdd5bb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_77
+    second: {fileID: 2100000, guid: 356cb8861f7d26e4fa37abe033abcb8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_78
+    second: {fileID: 2100000, guid: a6c83c2c7e77ff6449cd198bb405789c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_79
+    second: {fileID: 2100000, guid: d85cab8683b9df0448f8120b2625670d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_8
+    second: {fileID: 2100000, guid: 03c2dff6cb878eb45b67e222e7c13eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_80
+    second: {fileID: 2100000, guid: 78143e7eb89413148bfb6bac85812c64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_81
+    second: {fileID: 2100000, guid: 90f01a04a83215b4ebb40a0d59aaa447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_82
+    second: {fileID: 2100000, guid: 1062059f05dc02941b223128d3cbddb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_83
+    second: {fileID: 2100000, guid: 6a411bad1b9971947b9dc631077f75e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_84
+    second: {fileID: 2100000, guid: 5b29c7755f2773a4fbfae9240f593f41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_85
+    second: {fileID: 2100000, guid: a10909da15165b64ea5d3866ae105aa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_86
+    second: {fileID: 2100000, guid: 19205a04c040ffc4792d249c386b14ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_9
+    second: {fileID: 2100000, guid: d0627cdf13c617041a285e0e56f68b90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_90
+    second: {fileID: 2100000, guid: bf1d404baa8100c4888f1c25070f5719, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_91
+    second: {fileID: 2100000, guid: 5beba0a6825e97843a51aee06e9bd60f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_92
+    second: {fileID: 2100000, guid: 365f805c17e5a8a4698341521416465b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_93
+    second: {fileID: 2100000, guid: 4a84812b04cae0b42aa2cdc5d3224669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_94
+    second: {fileID: 2100000, guid: c2843f49d6cf450449ffe98c493e8541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_95
+    second: {fileID: 2100000, guid: 0554d5a376fc9be4e9f2cf8a3a97d09b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_96
+    second: {fileID: 2100000, guid: 83f20970a2465ad4fa201b0cdcd522bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_97
+    second: {fileID: 2100000, guid: 145117bcdee9ad44f99b21180ee86f5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_98
+    second: {fileID: 2100000, guid: ed3ea0f2dd9384c44bbf8a373ee829fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_26_24_99
+    second: {fileID: 2100000, guid: c823901eef729fb4599d2f78715fd8e2, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 16
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

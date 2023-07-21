@@ -1,0 +1,9 @@
+newmtl mat_ogretorch03
+illum 1
+map_Kd ogretorch03.png
+newmtl mat_ember
+illum 1
+map_Kd ..\..\..\..\..\creature\fireelemental\ember.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png

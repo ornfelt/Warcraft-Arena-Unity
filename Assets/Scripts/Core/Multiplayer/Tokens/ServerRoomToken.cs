@@ -15,6 +15,7 @@ namespace Core
             LocalPlayerName = "Server Player";
             Name = "Default Server";
             Map = "Lordaeron";
+			//Map = "Nagrand";
         }
 
         public ServerRoomToken(string name, string localPlayerName, string map)

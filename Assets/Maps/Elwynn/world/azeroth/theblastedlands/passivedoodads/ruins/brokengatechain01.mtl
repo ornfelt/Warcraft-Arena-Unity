@@ -1,0 +1,3 @@
+newmtl mat_chain03
+illum 1
+map_Kd ..\..\..\burningsteppes\passivedoodads\lavaplugs\chain03.png

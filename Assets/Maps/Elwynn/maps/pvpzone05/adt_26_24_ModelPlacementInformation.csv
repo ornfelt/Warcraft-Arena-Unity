@@ -1,0 +1,2 @@
+ModelFile;PositionX;PositionY;PositionZ;RotationX;RotationY;RotationZ;RotationW;ScaleFactor;ModelId;Type;FileDataID;DoodadSetIndexes;DoodadSetNames
+..\..\world\wmo\pvp\buildings\ancientorcarena\ancorc_pvpstadium_inst_set0.obj;14145.646484375;11.442151069641113;13010.2060546875;0;28.235595703125;0;0;1;1022629;wmo;116222;0;Set_$DefaultGlobal

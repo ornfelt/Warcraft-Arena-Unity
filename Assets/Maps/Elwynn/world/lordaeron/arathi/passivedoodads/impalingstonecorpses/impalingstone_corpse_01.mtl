@@ -1,0 +1,3 @@
+newmtl mat_warningtreecorpse
+illum 1
+map_Kd ..\..\..\..\azeroth\duskwood\passivedoodads\warningtree\warningtreecorpse.png

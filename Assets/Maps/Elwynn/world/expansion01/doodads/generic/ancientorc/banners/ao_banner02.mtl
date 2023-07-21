@@ -1,0 +1,3 @@
+newmtl mat_ao_banner
+illum 1
+map_Kd ao_banner.png
