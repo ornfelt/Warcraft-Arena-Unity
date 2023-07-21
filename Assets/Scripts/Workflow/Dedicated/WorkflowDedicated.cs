@@ -46,6 +46,7 @@ namespace Game.Workflow.Dedicated
 
         private void StartServer()
         {
+			//Debug.Log("Starting dedicated server - map: Lordaeron");
             photon.StartServer(new ServerRoomToken("Dedicated Server", "Server", "Lordaeron"), false, OnSuccess, OnFail);
 
             void OnSuccess()
