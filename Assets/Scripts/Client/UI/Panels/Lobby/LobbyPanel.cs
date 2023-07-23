@@ -315,7 +315,7 @@ namespace Client
             void OnServerStartSuccess()
             {
                 statusLabel.SetString(serverStartSuccessString);
-
+                
                 UpdateInputState(true);
 
                 WindowController.HidePanel<LobbyPanel>();

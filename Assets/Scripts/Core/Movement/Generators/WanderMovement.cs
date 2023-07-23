@@ -15,9 +15,17 @@ namespace Core
         private static System.Random RandomGen = new System.Random();
 
         private static List<Vector3> WanderNodes = new List<Vector3> {
-            new Vector3(-19.13F, -0.60F, 17.18F), new Vector3(-17.87F, -1.20F, -18.05F), 
-            new Vector3(13.87F, -0.44F, -18.09F), new Vector3(12.84F, -0.63F, 18.75F), 
-            new Vector3(0.97F, -0.44F, -24.34F), new Vector3(0.39F, -0.43F, 26.41F)
+            new Vector3(-0.23F, -0.58F, 31.69F), new Vector3(5.11F, -0.44F, 27.19F),
+            new Vector3(11.30F, -0.68F, 21.9F), new Vector3(16.53F, -0.92F, 17.36F),
+            new Vector3(19.79F, -0.16F, 12.38F), new Vector3(21.53F, 1.15F, 6.72F),
+            new Vector3(22.62F, 1.97F, -1.65F), new Vector3(19.97F, 1.06F, -7.49F),
+            new Vector3(16.50F, -0.08F, -12.72F), new Vector3(12.83F, -0.44F, -18.19F),
+            new Vector3(7.70F, -0.44F, -23.46F), new Vector3(1.10F, -0.43F, -26.94F),
+            new Vector3(-5.20F, -0.43F, -26.87F), new Vector3(-10.73F, -0.64F, -23.41F),
+            new Vector3(-15.93F, -0.94F, -17.78F), new Vector3(-20.46F, -1.35F, -11.46F),
+            new Vector3(-24.07F, -1.07F, -3.50F), new Vector3(-25.47F, -1.08F, 3.55F),
+            new Vector3(-24.31F, -1.04F, 11.24F), new Vector3(-20.46F, -0.61F, 18.46F),
+            new Vector3(-14.83F, -0.49F, 22.16F), new Vector3(-7.81F, -0.43F, 25.83F)
         };
         private Vector3 LastVisitedNode;
 
@@ -84,7 +92,6 @@ namespace Core
                     Vector2 randomCircle = Random.insideUnitCircle * 6;
                     Vector3 randomPosition = unit.Position + new Vector3(randomCircle.x, 0, randomCircle.y);
 
-                    Debug.Log("HasReachedNode: " + unit.CurrWanderNode);
                     int newWanderNode;
                     if (unit.CurrWanderNode == 100)
                         newWanderNode = GetClosestWanderNode(unit.Position);
@@ -93,14 +100,17 @@ namespace Core
 
                     randomPosition = WanderNodes[newWanderNode];
                     unit.CurrWanderNode = newWanderNode;
-                    Debug.Log("newNode: " + unit.CurrWanderNode);
 
                     if (!NavMesh.CalculatePath(unit.Position, randomPosition, MovementUtils.WalkableAreaMask, wanderNavMeshPath))
+                    {
+                        unit.AI.SetDestination(randomPosition);
                         return TryAgainSoon();
+                    }
 
                     if (!unit.AI.SetPath(wanderNavMeshPath))
                         return TryAgainSoon();
                 }
+                //else return TryAgainSoon();
             }
 
             return true;
@@ -118,14 +128,17 @@ namespace Core
                 float diffX = Mathf.Abs(unit.Position.x - WanderNodes[unit.CurrWanderNode].x);
                 float diffY = Mathf.Abs(unit.Position.y - WanderNodes[unit.CurrWanderNode].y);
                 float diffZ = Mathf.Abs(unit.Position.z - WanderNodes[unit.CurrWanderNode].z);
-                return (diffX + diffY + diffZ) < 0.5;
+
+                return (diffX + diffY + diffZ) < 7.0F;
             }
 
             int GetNextNode()
             {
-                if (unit.CurrWanderNode == 5)
+                int RandomNumb = RandomGen.Next(100);
+                if (unit.CurrWanderNode == 20)
                     return 0;
                 else
+                    //return RandomNumb < 50 ? unit.CurrWanderNode + 1 : unit.CurrWanderNode -1;
                     return unit.CurrWanderNode + 1;
             }
 

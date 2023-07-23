@@ -149,14 +149,17 @@ namespace Core
             // what exactly has changed in Bolt to cause this. I'm sure this can be fixed properly, and not with a hack
             // like this, but I'm not going to investigate that at the moment. In another project I've upgraded Bolt to
             // 1.3.2 and the problem is there as well, so I assume this is due to some change in Bolt itself.
+            Debug.Log("SceneLoadLocalDone (PhotonBoltController): " + map);
             if (map == "Launcher") {
                 return;
             }
+            Debug.Log("DOES THIS LOAD1?");
             
             base.SceneLoadLocalDone(map);
 
             if (BoltNetwork.IsConnected)
                 EventHandler.ExecuteEvent(GameEvents.GameMapLoaded, map, networkingMode);
+            Debug.Log("DOES THIS LOAD2?");
         }
 
         public override void Connected(BoltConnection connection)

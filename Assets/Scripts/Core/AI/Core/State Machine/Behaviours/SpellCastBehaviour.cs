@@ -57,9 +57,8 @@ namespace Core
                     targetNear = true;
                     (Unit as Player).SetTarget(closestTarget);
                     targetPos = closestTarget.Position;
-                    Debug.Log("Target near! Me: " + Unit.Name + ", target: " + closestTarget.Name);
                 }
-                targetNear = false; // FOR TESTING
+                //targetNear = false; // For testing wandering state
 
                 // Adjust rotation towards target
                 if (Unit.IsAlive)
@@ -74,8 +73,14 @@ namespace Core
                     {
                         if (Unit.IsAlive)
                         {
-                            //if (newTarget)
-                            //    Unit.Motion.StartChargingMovement(targetPos, 5.0F);
+                            // Stop moving
+                            if (Unit.HasState(UnitControlState.Wander))
+                            {
+                                Unit.RemoveFlag(UnitFlags.Wander);
+                                Unit.RemoveState(UnitControlState.Wander);
+                                Unit.Motion.ModifyWanderMovement(false);
+                            }
+                            // Choose spell
                             if (RandomNumb < 5)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(19, out newSpellInfo); // CoC
                             else if (RandomNumb < 8)
@@ -120,11 +125,6 @@ namespace Core
                                     Unit.GetBalance().SpellInfosById.TryGetValue(16, out newSpellInfo); // Counterspell
                                 else
                                     Unit.GetBalance().SpellInfosById.TryGetValue(17, out newSpellInfo); // Polymorph
-
-                                // Stop moving
-                                Unit.RemoveFlag(UnitFlags.Wander);
-                                Unit.RemoveState(UnitControlState.Wander);
-                                Unit.Motion.ModifyWanderMovement(false);
                             }
                         }
 
@@ -137,7 +137,6 @@ namespace Core
                         Unit.Spells.CastSpell(spellInfo, new SpellCastingOptions());
                         if (spellInfo.Id == 8)
                             Unit.Motion.StartChargingMovement(targetPos, 15.0F); // Apply blazing speed charge
-                        //castTimeTracker.Reset(RandomUtils.Next(1000, 1500));
                         castTimeTracker.Reset(RandomUtils.Next(2000, 3500));
                     }
                 }
@@ -148,11 +147,9 @@ namespace Core
                         Unit.CurrWanderNode = 100;
                         Unit.SetFlag(UnitFlags.Wander);
                         Unit.AddState(UnitControlState.Wander);
-                        //Unit.Motion.ModifyConfusedMovement(true);
                         Unit.Motion.ModifyWanderMovement(true);
                     }
                     //castTimeTracker.Reset(RandomUtils.Next(castIntervalMin, castIntervalMax)); // castIntervalMin = 10000
-                    //castTimeTracker.Reset(RandomUtils.Next(2000, 5000));
                     castTimeTracker.Reset(RandomUtils.Next(3000, 6000));
                 }
             }
