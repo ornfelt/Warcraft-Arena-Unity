@@ -32,9 +32,11 @@ namespace Core
 
             if (!Unit.IsAlive && Unit.HasFlag(UnitFlags.Wander))
             {
+                //Unit.RemoveFlag(UnitFlags.Confused);
+                //Unit.RemoveState(UnitControlState.Confused);
+                //Unit.Motion.ModifyConfusedMovement(false);
                 Unit.RemoveFlag(UnitFlags.Wander);
                 Unit.RemoveState(UnitControlState.Wander);
-                //Unit.Motion.ModifyConfusedMovement(false);
                 Unit.Motion.ModifyWanderMovement(false);
             }
 
@@ -87,15 +89,21 @@ namespace Core
                                 Unit.Motion.ModifyWanderMovement(false);
                             }
                             // Choose spell
-                            if (RandomNumb < 5 && Vector3.Distance(myPos, targetPos) < 7.0F)
+                            if (RandomNumb < 5 && Vector3.Distance(myPos, targetPos) < 8.0F)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(19, out newSpellInfo); // CoC
                             else if (RandomNumb < 8)
+                            {
+                                if (RandomNumb < 6)
+                                    Unit.transform.Rotate(0.0f, (Unit.transform.rotation.y + 40f), 0.0f);
+                                else
+                                    Unit.transform.Rotate(0.0f, (Unit.transform.rotation.y - 40f), 0.0f);
                                 Unit.GetBalance().SpellInfosById.TryGetValue(7, out newSpellInfo); // Blink
-                            else if (RandomNumb < 10 && Unit.Health < 1000.0F)
+                            }
+                            else if (RandomNumb < 11 && Unit.Health < 8000.0F)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(24, out newSpellInfo); // Block
-                            else if (RandomNumb < 14 && Vector3.Distance(myPos, targetPos) < 7.0F)
+                            else if (RandomNumb < 15 && Vector3.Distance(myPos, targetPos) < 8.0F)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(1, out newSpellInfo); // Frost nova
-                            else if (RandomNumb < 15 && Unit.IsAlive && !Unit.IsMovementBlocked && Vector3.Distance(myPos, targetPos) > 10.0F)
+                            else if (RandomNumb < 17 && Unit.IsAlive && !Unit.IsMovementBlocked && Vector3.Distance(myPos, targetPos) > 12.0F)
                             {
                                 Unit.GetBalance().SpellInfosById.TryGetValue(8, out newSpellInfo); // Blazing speed
                                 targetPos = Unit.Target.Position;
@@ -107,7 +115,7 @@ namespace Core
                                 targetPos.z = myPos.z > targetPos.z ? myPos.z - diffZ : myPos.z + diffZ;
                                 //Unit.Motion.StartChargingMovement(targetPos, 15.0F); // Apply charge effect later
                             }
-                            else if (RandomNumb < 18)
+                            else if (RandomNumb < 19)
                             {
                                 Unit.GetBalance().SpellInfosById.TryGetValue(15, out newSpellInfo); // Renew
                                 (Unit as Player).SetTarget(Unit); // Target self

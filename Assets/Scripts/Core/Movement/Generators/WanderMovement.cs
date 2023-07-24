@@ -50,7 +50,7 @@ namespace Core
         {
             bool cantMove = unit.HasAnyState(UnitControlState.Root | UnitControlState.Stunned | UnitControlState.Distracted);
             if (!cantMove)
-                if (unit.ClosestPlayerTarget(unit.Position, 16.0F))
+                if (unit.ClosestPlayerTarget(unit.Position, 16.0F) || !unit.IsAlive)
                     cantMove = true;
             unit.AI.UpdateRotation = !cantMove;
 
