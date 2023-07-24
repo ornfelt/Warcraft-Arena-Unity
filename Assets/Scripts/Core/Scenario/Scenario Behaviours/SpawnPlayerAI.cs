@@ -42,7 +42,7 @@ namespace Core.Scenario
             // HEHE
             //Debug.Log("Spawning player: " + customSpawnSettings.CustomNameId + ", pos: " + customSpawnSettings.SpawnPoint.position);
             //int playerAIsToSpawn = 25;
-            int playerAIsToSpawn = 3;
+            int playerAIsToSpawn = 10;
             if (World.UnitManager.AmountOfEntities() < (playerAIsToSpawn+2))
                 World.UnitManager.Create<Player>(BoltPrefabs.Player, playerCreateToken);
         }

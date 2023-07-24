@@ -47,23 +47,29 @@ namespace Core
                 Vector3 targetPos = Unit.Position;
 
                 // Pick target
-                float radius = 15.0F;
-                List<Unit> targets = new List<Unit>();
-                Unit.Map.SearchAreaTargets(targets, radius, myPos, Unit, SpellTargetChecks.Enemy);
-
-                Unit closestTarget = GetClosestPlayerTarget(myPos, targets);
-                if (closestTarget)
+                float radius = 16.0F;
+                // If AI has close target already, don't switch
+                if (Unit.Target && Unit.Target.IsAlive && Unit.Target != Unit && Vector3.Distance(myPos, Unit.Target.Position) < 12.0F)
                 {
                     targetNear = true;
-                    (Unit as Player).SetTarget(closestTarget);
-                    targetPos = closestTarget.Position;
+                    targetPos = Unit.Target.Position;
+                }
+                else
+                {
+                    // Choose closest target
+                    Unit closestTarget = Unit.ClosestPlayerTarget(myPos, radius);
+                    if (closestTarget)
+                    {
+                        targetNear = true;
+                        (Unit as Player).SetTarget(closestTarget);
+                        targetPos = closestTarget.Position;
+                    }
                 }
                 //targetNear = false; // For testing wandering state
 
                 // Adjust rotation towards target
                 if (Unit.IsAlive)
                     Unit.transform.LookAt(targetPos);
-                //Unit.AI.UpdateRotation = true;
 
                 if (!Unit.IsAlive || targetNear)
                 {
@@ -81,15 +87,15 @@ namespace Core
                                 Unit.Motion.ModifyWanderMovement(false);
                             }
                             // Choose spell
-                            if (RandomNumb < 5)
+                            if (RandomNumb < 5 && Vector3.Distance(myPos, targetPos) < 7.0F)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(19, out newSpellInfo); // CoC
                             else if (RandomNumb < 8)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(7, out newSpellInfo); // Blink
-                            else if (RandomNumb < 10)
+                            else if (RandomNumb < 10 && Unit.Health < 1000.0F)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(24, out newSpellInfo); // Block
-                            else if (RandomNumb < 14)
+                            else if (RandomNumb < 14 && Vector3.Distance(myPos, targetPos) < 7.0F)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(1, out newSpellInfo); // Frost nova
-                            else if (RandomNumb < 15 && Unit.IsAlive && !Unit.IsMovementBlocked)
+                            else if (RandomNumb < 15 && Unit.IsAlive && !Unit.IsMovementBlocked && Vector3.Distance(myPos, targetPos) > 10.0F)
                             {
                                 Unit.GetBalance().SpellInfosById.TryGetValue(8, out newSpellInfo); // Blazing speed
                                 targetPos = Unit.Target.Position;
@@ -105,7 +111,7 @@ namespace Core
                             {
                                 Unit.GetBalance().SpellInfosById.TryGetValue(15, out newSpellInfo); // Renew
                                 (Unit as Player).SetTarget(Unit); // Target self
-                                                                  //Unit.SetMovementFlag(MovementFlags.Forward, false);
+                                //Unit.SetMovementFlag(MovementFlags.Forward, false);
                             }
                             else
                             {
@@ -153,29 +159,6 @@ namespace Core
                     castTimeTracker.Reset(RandomUtils.Next(3000, 6000));
                 }
             }
-        }
-
-        private Unit GetClosestPlayerTarget(Vector3 myPos, List<Unit> targets)
-        {
-            Unit closestTarget = null;
-            float diffX, diffY, diffZ;
-            float closestDiff = 100.0F;
-            foreach (var target in targets)
-            {
-                if (target.Name.Contains("Player") && target.IsAlive)
-                {
-                    diffX = Mathf.Abs(myPos.x - target.Position.x);
-                    diffY = Mathf.Abs(myPos.y - target.Position.y);
-                    diffZ = Mathf.Abs(myPos.z - target.Position.z);
-                    float currDiff = diffX + diffY + diffZ;
-                    if (currDiff < closestDiff)
-                    {
-                        closestTarget = target;
-                        closestDiff = currDiff;
-                    }
-                }
-            }
-            return closestTarget;
         }
     }
 }

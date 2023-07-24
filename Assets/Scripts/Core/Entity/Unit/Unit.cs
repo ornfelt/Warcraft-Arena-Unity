@@ -602,5 +602,26 @@ namespace Core
                 Motion.ModifyConfusedMovement(false);
             }
         }
+
+        public Unit ClosestPlayerTarget(Vector3 myPos, float radius)
+        {
+            List<Unit> targets = new List<Unit>();
+            Map.SearchAreaTargets(targets, radius, myPos, this, SpellTargetChecks.Enemy);
+            Unit closestTarget = null;
+            float closestDiff = 100.0F;
+            foreach (var target in targets)
+            {
+                if (target.Name.Contains("Player") && target.IsAlive)
+                {
+                    float currDiff = Vector3.Distance(myPos, target.Position);
+                    if (currDiff < closestDiff)
+                    {
+                        closestTarget = target;
+                        closestDiff = currDiff;
+                    }
+                }
+            }
+            return closestTarget;
+        }
     }
 }
