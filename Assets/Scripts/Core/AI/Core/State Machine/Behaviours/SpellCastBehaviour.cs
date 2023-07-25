@@ -50,7 +50,7 @@ namespace Core
 
                 // Pick target
                 float radius = 16.0F;
-                // If AI has close target already, don't switch
+                // If AI has nearby target already, don't switch
                 if (Unit.Target && Unit.Target.IsAlive && Unit.Target != Unit && Vector3.Distance(myPos, Unit.Target.Position) < 12.0F)
                 {
                     targetNear = true;
@@ -76,7 +76,7 @@ namespace Core
                 if (!Unit.IsAlive || targetNear)
                 {
                     if (Unit.SpellCast.IsCasting)
-                        castTimeTracker.Reset(RandomUtils.Next(1000, 1500));
+                        castTimeTracker.Reset(500);
                     else
                     {
                         if (Unit.IsAlive)
@@ -142,7 +142,7 @@ namespace Core
                             }
                         }
 
-                        if (!Unit.IsAlive && RandomNumb < 7) // Chance to ress
+                        if (!Unit.IsAlive && RandomNumb < 2) // Chance to ress
                             Unit.GetBalance().SpellInfosById.TryGetValue(2, out newSpellInfo); // Ress
 
                         spellInfo = newSpellInfo;
@@ -151,7 +151,7 @@ namespace Core
                         Unit.Spells.CastSpell(spellInfo, new SpellCastingOptions());
                         if (spellInfo.Id == 8)
                             Unit.Motion.StartChargingMovement(targetPos, 15.0F); // Apply blazing speed charge
-                        castTimeTracker.Reset(RandomUtils.Next(2000, 3500));
+                        castTimeTracker.Reset(RandomUtils.Next(200, 800));
                     }
                 }
                 else
