@@ -99,7 +99,7 @@ namespace Core
                                     Unit.transform.Rotate(0.0f, (Unit.transform.rotation.y - 40f), 0.0f);
                                 Unit.GetBalance().SpellInfosById.TryGetValue(7, out newSpellInfo); // Blink
                             }
-                            else if (RandomNumb < 11 && Unit.Health < 8000.0F)
+                            else if (RandomNumb < 11 && Unit.Health < 10000.0F)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(24, out newSpellInfo); // Block
                             else if (RandomNumb < 15 && Vector3.Distance(myPos, targetPos) < 8.0F)
                                 Unit.GetBalance().SpellInfosById.TryGetValue(1, out newSpellInfo); // Frost nova

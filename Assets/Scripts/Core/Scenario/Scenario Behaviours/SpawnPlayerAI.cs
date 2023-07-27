@@ -1,6 +1,7 @@
 ﻿using Common;
 using JetBrains.Annotations;
 using UnityEngine;
+using System.IO;
 
 namespace Core.Scenario
 {
@@ -41,10 +42,23 @@ namespace Core.Scenario
 
             // HEHE
             //Debug.Log("Spawning player: " + customSpawnSettings.CustomNameId + ", pos: " + customSpawnSettings.SpawnPoint.position);
-            //int playerAIsToSpawn = 25;
-            int playerAIsToSpawn = 10;
+            //int playerAIsToSpawn = 25; // Max
+            int playerAIsToSpawn = PlayerAIsToSpawn();
             if (World.UnitManager.AmountOfEntities() < (playerAIsToSpawn+2))
                 World.UnitManager.Create<Player>(BoltPrefabs.Player, playerCreateToken);
+        }
+
+        private static int PlayerAIsToSpawn()
+        {
+            //TextAsset txt = (TextAsset)Resources.Load("player_ai_to_spawn", typeof(TextAsset));
+            //string content = txt.text;
+            StreamReader sr = new StreamReader(System.Environment.GetEnvironmentVariable("USERPROFILE") + "/player_ai_to_spawn.txt");
+            string content = sr.ReadLine();
+            sr.Close();
+            int result = System.Int32.Parse(content);
+            if (result < 0)
+                return 25;
+            return result;
         }
     }
 }

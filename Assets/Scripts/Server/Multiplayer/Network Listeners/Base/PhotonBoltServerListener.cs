@@ -50,7 +50,7 @@ namespace Server
             if (map == "Launcher") {
                 return;
             }
-            
+
             base.SceneLoadLocalDone(map, token);
 
             if (BoltNetwork.IsConnected)
