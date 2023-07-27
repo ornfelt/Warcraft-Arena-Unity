@@ -299,8 +299,6 @@ namespace Client
             // HEHE
             // Don't use PhotonBolt
             photonReference.StartSinglePlayer(new ServerRoomToken(serverNameInput.text, playerNameInput.text, selectedMapSlot.MapDefinition.MapName), OnServerStartSuccess, OnServerStartFail);
-            //photonReference.StartSinglePlayer(new ServerRoomToken(serverNameInput.text, playerNameInput.text, "Nagrand"), OnServerStartSuccess, OnServerStartFail);
-
             //SinglePlayerNonBolt singlePlayerNonBolt = new SinglePlayerNonBolt();
             //StopAllCoroutines();
             //singlePlayerNonBolt.StartSinglePlayerNonBolt(new ServerRoomToken(serverNameInput.text, playerNameInput.text, selectedMapSlot.MapDefinition.MapName), OnServerStartSuccess, OnServerStartFail);

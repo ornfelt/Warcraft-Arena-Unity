@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   isAvailable: 0
-  mapName: Lordaeron
+  mapName: Launcher
   maxPlayers: 8
   maxVisibilityRange: 10
   mapType: 4

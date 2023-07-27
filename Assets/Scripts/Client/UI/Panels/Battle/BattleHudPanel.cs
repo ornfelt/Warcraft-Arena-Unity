@@ -43,6 +43,12 @@ namespace Client
 
             canvasGroup.alpha = 0.0f;
             actionBars.ForEach(actionBar => actionBar.Initialize());
+            // Hide action bar 3 and 4
+            actionBars.ForEach(actionBar =>
+            {
+                if (actionBar.name.Contains("3") || actionBar.name.Contains("4"))
+                    actionBar.gameObject.SetActive(false);
+            });
             actionErrorDisplay.Initialize();
 
             EventHandler.RegisterEvent<Player, bool>(GameEvents.ClientControlStateChanged, OnControlStateChanged);
