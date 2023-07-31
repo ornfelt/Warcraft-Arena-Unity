@@ -25,6 +25,9 @@ namespace Server
             World = (WorldServer)world;
 
             EventHandler.RegisterEvent<ServerRoomToken>(photon, GameEvents.ServerMapLoaded, OnMapLoaded);
+
+            // HEHE
+            ProcessServerLaunchStateNonBolt();
         }
 
         public override void Deinitialize()
@@ -47,9 +50,8 @@ namespace Server
             // like this, but I'm not going to investigate that at the moment. In another project I've upgraded Bolt to
             // 1.3.2 and the problem is there as well, so I assume this is due to some change in Bolt itself.
             Debug.Log("SceneLoadLocalDone (PhotonBoltServerListener): " + map);
-            if (map == "Launcher") {
+            if (map == "Launcher")
                 return;
-            }
 
             base.SceneLoadLocalDone(map, token);
 
@@ -149,6 +151,13 @@ namespace Server
 
             if (LaunchState == ServerLaunchState.Complete)
                 World.ServerLaunched(ServerToken);
+        }
+        private void ProcessServerLaunchStateNonBolt()
+        {
+            ProcessServerLaunchState(ServerLaunchState.MapLoaded);
+            HandleRoomCreation(ServerToken);
+            World.MapManager.InitializeLoadedMap(2);
+            World.ServerLaunched(ServerToken);
         }
     }
 }

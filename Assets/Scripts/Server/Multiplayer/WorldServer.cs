@@ -126,6 +126,8 @@ namespace Server
         {
             Debug.Log("CreatePlayer called");
             Map mainMap = MapManager.FindMap(1);
+            if (mainMap == null)
+                Debug.Log("MAINMAP IS NULL");
             Transform spawnPoint = RandomUtils.GetRandomElement(mainMap.Settings.FindSpawnPoints(Team.Alliance));
 
             ClassType classType;

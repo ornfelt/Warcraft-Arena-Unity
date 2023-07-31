@@ -8,6 +8,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 
 using EventHandler = Common.EventHandler;
+using UnityEngine.SceneManagement;
 
 namespace Core
 {
@@ -150,16 +151,13 @@ namespace Core
             // like this, but I'm not going to investigate that at the moment. In another project I've upgraded Bolt to
             // 1.3.2 and the problem is there as well, so I assume this is due to some change in Bolt itself.
             Debug.Log("SceneLoadLocalDone (PhotonBoltController): " + map);
-            if (map == "Launcher") {
+            if (map == "Launcher")
                 return;
-            }
-            Debug.Log("DOES THIS LOAD1?");
             
             base.SceneLoadLocalDone(map);
 
             if (BoltNetwork.IsConnected)
                 EventHandler.ExecuteEvent(GameEvents.GameMapLoaded, map, networkingMode);
-            Debug.Log("DOES THIS LOAD2?");
         }
 
         public override void Connected(BoltConnection connection)
@@ -297,8 +295,14 @@ namespace Core
                 if (!singlePlayer)
                     BoltMatchmaking.CreateSession(Guid.NewGuid().ToString(), serverToken);
 
-				Debug.Log("Loading scene: " + serverToken.Map);
-                BoltNetwork.LoadScene(serverToken.Map, serverToken);
+                Debug.Log("Loading scene: " + serverToken.Map);
+                if (serverToken.Map == "Nagrand")
+                {
+                    SceneManager.LoadScene("Nagrand");
+                    SceneLoadLocalDone(serverToken.Map);
+                }
+                else
+                    BoltNetwork.LoadScene(serverToken.Map, serverToken);
             }
             else
             {
