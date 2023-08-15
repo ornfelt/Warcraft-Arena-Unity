@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Arena.Editor.ScriptableAssetPostProcessor" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Asset Processing\ScriptablePostProcessors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arena.Editor.ScriptableAssetModificationProcessor" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Asset Processing\ScriptablePostProcessors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arena.Editor.LocalizedStringEditor" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Editors\LocalizedStringEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arena.Editor.AuraInfoEditor" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Editors\ScriptableObjectEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arena.Editor.AuraEffectInfoEditor" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Editors\ScriptableObjectEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arena.Editor.SpellEffectInfoEditor" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Editors\ScriptableObjectEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arena.Editor.AuraScriptableEditor" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Editors\ScriptableObjectEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arena.Editor.ScriptableObjectEditor" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Editors\ScriptableObjectEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnumFlagDrawer" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Drawers\EnumFlagDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor.AssetUtils" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Unity\Editor\Utils\AssetUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

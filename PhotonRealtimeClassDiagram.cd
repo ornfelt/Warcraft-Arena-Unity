@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Photon.Realtime.AppSettings" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACogAAgAAAAAAQAQDACAABCEAhAgAAAgggOAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\AppSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.ConnectionHandler" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACABQIAAAAEAAAAEEEAAAAAAAAAAAMFQIAAAAAAEQ=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\ConnectionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.CustomTypesUnity" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAIgAAAAAAAAAAAIggAAAAAAAAABAAAAAAAAAAgMAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\CustomTypesUnity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.Extensions" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABAAAAAAIAAAAAAAAAAAAAIAQAgAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.FriendInfo" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEABAAAAwAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\FriendInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.LoadBalancingClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mE3cJpGyYKMeAhzhpGYQTYuCZRAJZk0lDkLgDm9YErE=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Photon.Realtime.ConnectionCallbacksContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAIAAAAAAQAAAEAAAAAAAAAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Photon.Realtime.MatchMakingCallbacksContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAAAAAAAAAAAAAIEAAAAAAAAEEAAABAAAAIA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Photon.Realtime.InRoomCallbacksContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAACEBAgAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Photon.Realtime.LobbyCallbacksContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAAABAAAQAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Photon.Realtime.WebRpcCallbacksContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Photon.Realtime.ErrorInfoCallbacksContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Photon.Realtime.ErrorInfo" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.LoadBalancingPeer" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIEIAAQCAAAAAAAQQARCKAABQAAEAABAAQgCEAAgE=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.FindFriendsOptions" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAgAAAIAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.OpJoinRandomRoomParams" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.EnterRoomParams" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAQAgAAAAAAAAAAAAAAAgAgAAAAAAAABAAEAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.ErrorCode" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAADDA4JAAAEAAAACABAAISAAwBAAAwAgAgBAMAAMgE=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.ActorProperties" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.GamePropertyKey" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAAAAAAAFEAAABBBgAAAAAgAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.EventCode" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAsMAAQAJAAgAAAAAAACAAAEAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.ParameterCode" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AovABGJgyEqbBQggySBgBAqCAAAPiBEiYgokAFAjGQg=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.OperationCode" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAQAAAAAoABAACAAYAAAEAEABAIAQBEEACAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.RoomOptions" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAAAAgAAEQAEABABgBAAAAAAAAAgQgAAACIASAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.RaiseEventOptions" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEQAAAAAAAAAAAAAIAABAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.TypedLobby" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAEAAAAIAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.TypedLobbyInfo" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEABAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.AuthenticationValues" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAIAAAAGAAAEAAAABAgAAAAAAAAABAAAAAABIAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.PhotonPing" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAIAQACAIAIAAAAAAAAAAAAEAAAAAEAICAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\PhotonPing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Photon.Realtime.PingMono" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAAAAAAAAAAAAAAAAgAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\PhotonPing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.Player" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgAIABAAgYBEgAAAAAhCAQgAQIMgAAAAAABAAAQ=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.Region" Collapsed="true">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAABAAAEAEAgAAAAAAAAAAAAAAAAAAAACAQ=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Region.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.RegionHandler" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAEAAAAAJBBCAAAgCBAAAAIAAAAAREAAAAABAAKgw=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\RegionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.RegionPinger" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CADAACQAACCAAWAAAAAAAAxIAAAAAAAQAAAAAAEAAgA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\RegionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.MonoBehaviourEmpty" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAgBAAAAI=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\RegionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.Room" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQBABAAAAIAEIAGABFhiJQAAAigAAAgYAggAAAACAQ=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.RoomInfo" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAiAAAAAQAEIAEgBAACAQAAAAEAIAgAABJAiAACAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\RoomInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.SupportLogger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gELBCFIAAGgACQAAAEQGAIGAAAECAAIGFADEBAgASIQ=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\SupportLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Photon.Realtime.AccountService" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAACAAAAAIBAAAAEAQAIAACAABIAhgAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Unity\Editor\AccountService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.AccountServiceResponse" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Unity\Editor\AccountService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.AccountServiceReturnCodes" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Unity\Editor\AccountService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.PhotonEditorUtils" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQAAAABEAAAMAAAAAAAAAAAAAABBABAAAAAARFAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Unity\Editor\PhotonEditorUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.CleanUpDefinesOnPunDelete" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Unity\Editor\PhotonEditorUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.PhotonAppSettings" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAQAg=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Unity\PhotonAppSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.WebRpcResponse" Collapsed="true">
+    <Position X="13" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAgAAAQAAAAAAAAgAIAAIAAgAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\WebRpc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Photon.Realtime.WebFlags" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAYFAAAAABAIAAAAAAAAAAAAIAAAQAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\WebRpc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Photon.Realtime.PhotonPortDefinition" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAgAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Photon.Realtime.IConnectionCallbacks" Collapsed="true">
+    <Position X="6" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAIAAAAAAQAAAEAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Photon.Realtime.ILobbyCallbacks" Collapsed="true">
+    <Position X="11.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAACAAAAAAEAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Photon.Realtime.IMatchmakingCallbacks" Collapsed="true">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAAAAAAAAAAAAAIEAAAAAAAAEEAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Photon.Realtime.IInRoomCallbacks" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAACEAAgAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Photon.Realtime.IOnEventCallback" Collapsed="true">
+    <Position X="14.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Photon.Realtime.IWebRpcCallback" Collapsed="true">
+    <Position X="16.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Photon.Realtime.IErrorInfoCallback" Collapsed="true">
+    <Position X="7.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Photon.Realtime.ClientState" Collapsed="true">
+    <Position X="9.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgASiAAAAgDKAAAAxAAAAAAEAAAABACAAAAAgQIQAg=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.JoinType" Collapsed="true">
+    <Position X="7.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABABAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAEIA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.DisconnectCause" Collapsed="true">
+    <Position X="13" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAFBAgQAAAAAABAAQEQAAAIAABAEAAAgABAIAEAGAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.ServerConnection" Collapsed="true">
+    <Position X="6" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAEAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.ClientAppType" Collapsed="true">
+    <Position X="7.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.EncryptionMode" Collapsed="true">
+    <Position X="14.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAACAAIAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadBalancingClient.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.RoomOptionBit" Collapsed="true">
+    <Position X="16.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAABAAEAAAAAAAAAAAAAAAgQEAAAAIAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.JoinMode" Collapsed="true">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAICAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.MatchmakingMode" Collapsed="true">
+    <Position X="11.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.ReceiverGroup" Collapsed="true">
+    <Position X="14.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.EventCaching" Collapsed="true">
+    <Position X="16.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAIIEAAAAAAAAAggAAQAAAgCAAACAAAAg=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.PropertyTypeFlag" Collapsed="true">
+    <Position X="13" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.LobbyType" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAIAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.AuthModeOption" Collapsed="true">
+    <Position X="6" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABACAAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.CustomAuthenticationType" Collapsed="true">
+    <Position X="11.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAgAAAAAAAAAAEAAAAQEGAAAAAABABAAAEAgAA=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\LoadbalancingPeer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Photon.Realtime.ServiceTypes" Collapsed="true">
+    <Position X="7.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAACAAAgIAAAACAAIAAAAAgEAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Photon\PhotonRealtime\Code\Unity\Editor\AccountService.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

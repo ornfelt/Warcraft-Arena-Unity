@@ -38,13 +38,6 @@
   </Class>
   <Class Name="Client.EffectReference" Collapsed="true">
     <Position X="9.25" Y="0.5" Width="1.5" />
-    <NestedTypes>
-      <Class Name="Client.EffectReference.EffectContainer" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Assets\Scripts\Client\Effects\Base\EffectReference.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AQAAAAAAAAAAAAAEgAAAAAAgAAABAAAAAAAAgAEAAAA=</HashCode>
       <FileName>Assets\Scripts\Client\Effects\Base\EffectReference.cs</FileName>
