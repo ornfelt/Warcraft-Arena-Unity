@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client.UI.UIPanel" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAQAAQAAQAIQAAEAIAEAAAAAAGAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Components\UIPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UI.UIPanelController" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgQEBAAIAEAIAAAAABAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Components\UIPanelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UI.ScreenController" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBAAAAAACAAEEAAkACAAAAQAAAhAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\ScreenController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UI.UIWindow&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAACAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Windows\UIWindow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Client.UI.UIWindowController&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAACAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Windows\UIWindowController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Client.UI.IPanel&lt;TScreen&gt;" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Interfaces\IPanel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.UI.IPanelRegisterToken&lt;TPanel&gt;" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Interfaces\IPanelTokens.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.UI.IPanelUnregisterToken&lt;TPanel&gt;" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Interfaces\IPanelTokens.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.UI.IPanelShowToken&lt;TPanel&gt;" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Interfaces\IPanelTokens.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.UI.IPanelHideToken&lt;TPanel&gt;" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Interfaces\IPanelTokens.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.IScreenHandler&lt;TScreen&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Interfaces\IScreenHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.IScreenHandler" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Base\Interfaces\IScreenHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

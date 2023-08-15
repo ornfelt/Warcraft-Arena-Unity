@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Server.BaseGameListener" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Server\Multiplayer\Game Listeners\Base\BaseGameListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server.GamePlayerListener" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgAgCAAA=</HashCode>
+      <FileName>Assets\Scripts\Server\Multiplayer\Game Listeners\GamePlayerListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server.GameSpellListener" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAAACgAAAAAAAAAAgAAAAAQAAAAAQAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Server\Multiplayer\Game Listeners\GameSpellListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server.PhotonBoltServerListener" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIBAAQQQEAFIAAAAMAAhBIQAAAAaAAgAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Server\Multiplayer\Network Listeners\Base\PhotonBoltServerListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server.WorldServer" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAGBACAAACAEAAAAkAAAIgLAIUAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Server\Multiplayer\WorldServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server.PlayerServerInfo" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABAAAAAAAAACAAAAEAAAABAAAAAASAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Server\Player\PlayerServerInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Server.ServerLaunchState" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Server\Multiplayer\Enums\ServerLaunchState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Server.PlayerNetworkState" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Server\Player\PlayerNetworkState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

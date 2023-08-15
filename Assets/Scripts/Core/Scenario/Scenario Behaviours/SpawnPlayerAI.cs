@@ -56,7 +56,7 @@ namespace Core.Scenario
             string content = sr.ReadLine();
             sr.Close();
             int result = System.Int32.Parse(content);
-            if (result < 0)
+            if (result <= 0)
                 return 25;
             return result;
         }

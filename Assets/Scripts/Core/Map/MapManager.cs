@@ -53,6 +53,7 @@ namespace Core
         internal void InitializeLoadedMap(int mapId)
         {
             Map map = baseMaps.LookupEntry(mapId);
+            UnityEngine.Debug.Log("Init loaded map: " + mapId + ", scene: " + SceneManager.GetActiveScene().name);
 
             if (map == null)
             {

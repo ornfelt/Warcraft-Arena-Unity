@@ -11,6 +11,7 @@ namespace Client
 
         protected override void OnRegistered()
         {
+            Debug.Log("CameraRef Registered");
             base.OnRegistered();
 
             WarcraftCamera = FindObjectOfType<WarcraftCamera>();

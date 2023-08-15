@@ -1,0 +1,1150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client.AnimationRotationModifier" Collapsed="true">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCEAAAAiAQIAgAAQAAAIBAAAEAAAAAQYAAAABAQQEA=</HashCode>
+      <FileName>Assets\Scripts\Client\Animation\Modifiers\AnimationRotationModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimatorResetTriggerBehaviour" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAAAAAAAAACAAAAAAAAAAIAAAAAAABAAAIAACAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Animation\State Machine Behaviours\AnimatorResetTriggerBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimatorSetBoolBehaviour" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAQQAAAAAAhgACAAAAAAIAAEIAAAAASAAAAAIIACAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Animation\State Machine Behaviours\AnimatorSetBoolBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimatorSetFloatBehaviour" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgACAAAAAAAAAAIAAAAASAAAAAIIACAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Animation\State Machine Behaviours\AnimatorSetFloatBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimatorSetIntBehaviour" Collapsed="true">
+    <Position X="28.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgACAAAAAAAAAAIAAAAASAAAAAIIACAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Animation\State Machine Behaviours\AnimatorSetIntBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimatorSetRandomIntBehaviour" Collapsed="true">
+    <Position X="30.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAAAAAAACAAAAAAAAAAIAAAAAACAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Animation\State Machine Behaviours\AnimatorSetRandomIntBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimatorSyncNormalizedTimeBehaviour" Collapsed="true">
+    <Position X="32.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Animation\State Machine Behaviours\AnimatorSyncNormalizedTimeBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.CameraReference" Collapsed="true">
+    <Position X="17" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAABAAAAAAAAAAAAAAAABAAAAAAAAgAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Camera\CameraReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.MinimapCamera" Collapsed="true">
+    <Position X="32.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Camera\MinimapCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.WarcraftCamera" Collapsed="true">
+    <Position X="39.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACEQIUACQBAgAAIAWAICEDgEgEAhEQAAxAAAAMQAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Camera\WarcraftCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ScriptableReferenceClient" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAABBAAAAAAAAAAAAAAAABAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\ScriptableReferenceClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ClassTypeActionBarSettingsDictionary" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\ClassTypeActionBarSettingsDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ClassTypeSpriteDictionary" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\ClassTypeSpriteDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SoundEntryCharacterSoundDictionary" Collapsed="true">
+    <Position X="30.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\SoundEntryCharacterSoundDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellPowerTypeColorDictionary" Collapsed="true">
+    <Position X="25.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\SpellPowerTypeColorDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipSettingsByAlignmentDictionary" Collapsed="true">
+    <Position X="30.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\TooltipSettingsByAlignmentDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipSettingsBySizeDictionary" Collapsed="true">
+    <Position X="32.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\TooltipSettingsBySizeDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TransformBattleTagDictionary" Collapsed="true">
+    <Position X="37.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\TransformBattleTagDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TransformCanvasTypeDictionary" Collapsed="true">
+    <Position X="39.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\TransformCanvasTypeDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitSoundEmoteTypeDictionary" Collapsed="true">
+    <Position X="35.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Common\Serialized Dictionaries\UnitSoundEmoteTypeDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EffectBehaviourFaceCamera" Collapsed="true">
+    <Position X="32.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAEAAAAACAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Behaviours\EffectBehaviourFaceCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AuraControllerClient" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAgIAAAAAAIgIIAQACAACADBAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Entity\Unit\Behaviours\Aura Controller\AuraControllerClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ActionBarData" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Action Bars\ActionBarData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ActionBarSettings" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACQAQAAgAAAQAQBAAAAAAAABABABAEAAAAAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Action Bars\ActionBarSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ActionBarSettingsContainer" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAIAAAAAAAAAABAAAAAAEAEAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Action Bars\ActionBarSettingsContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ActionButtonData" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAKAAAAAAABAAAAAAACAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Action Bars\ActionButtonData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.InputAction" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Actions\Base\InputAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.InputActionGlobal" Collapsed="true">
+    <Position X="30.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAABAAAAAAAAAAIEAAAAAAAAAAJABAAAAACAAAAkAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Actions\Base\InputActionGlobal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitControllerInputMouseKeyboard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAADAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Controller\UnitControllerInputMouseKeyboard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.InputReference" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAABAQDABAAAAIACAAEIAEMJAAAAAAAAgAEABAE=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\InputReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.HotkeyInputItem" Collapsed="true">
+    <Position X="28.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJSAAAAAAAAAAAEGEEQAAAAABABAAAAAAAAAAGkw=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Settings\HotkeyInputItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TargetingSettings" Collapsed="true">
+    <Position X="25.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgQAAAAAAEAAAAAAAAAAAAAAAAACBAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Settings\TargetingSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TargetingReference" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAQAAAAAQAAIAAAIAAAAAAgAJABAAAAAAgAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Targeting\Selectors\PlayerTargetSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TargetingOptions" Collapsed="true">
+    <Position X="23.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAAAKAAAIAgAAAAEAAAABAAAAAgAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Targeting\TargetingOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TargetingSpellReference" Collapsed="true">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABUAAAAgACAADAAAIgBABAAAAAAgAkAAAI=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Targeting\TargetingSpellReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.LocalizationReference" Collapsed="true">
+    <Position X="30.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAFAACAAAAABAYQYMABAAAEACAA0BAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Localization\Items\LocalizationReference.ClientConnectFailReasonLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.PhotonBoltClientListener" Collapsed="true">
+    <Position X="37.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAEAAAAQAAAEIAAAAAQAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Multiplayer\Network Listeners\Base\PhotonBoltClientListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.GameOptionItem" Collapsed="true">
+    <Position X="5.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Options\GameOptionItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.GameOptionsReference" Collapsed="true">
+    <Position X="19.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAAAAAAAAAAEAAAAABAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Options\GameOptionsReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.GameOptionBool" Collapsed="true">
+    <Position X="5.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAABAAQAAgAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Options\Items\GameOptionBool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Nameplate" Collapsed="true">
+    <Position X="34" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAASAAggUAQkAAANAEAAAEAAACAAAoALAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Nameplates\Nameplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.RenderingReference" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LAAACBkIBQhCIQAAAAABCIAIMAJDAEBgBIgBgAUAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Nameplates\NameplateController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.NameplateSettings" Collapsed="true">
+    <Position X="35.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAwAAAgAAgAEAAIUBAQAoIAAAIEAAAAAAAACAQAM=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Nameplates\NameplateSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SelectionCircleSettings" Collapsed="true">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAICAAACAhAAAAAAAAAAAAAAAAEAAAABAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Selection Circle\SelectionCircleSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AuraVisualsInfoContainer" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAASAAAAAAAAAAAAAABBAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Spell Visuals\AuraVisualsInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellVisualsInfoContainer" Collapsed="true">
+    <Position X="39.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAACAAAAAAAAgAAAAABBAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Spell Visuals\SpellVisualsInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimationInfo" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RQAAAAQAAAAAAAAAAAAAAAAEAAABABAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Animation\AnimationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimationInfoContainer" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Animation\AnimationInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellAnimationInfo" Collapsed="true">
+    <Position X="35.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAAAAAAAAgAAAAAAAACAAAJAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Animation\SpellAnimationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellAnimationInfoContainer" Collapsed="true">
+    <Position X="37.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAACgAAAAAAAAAAAAADAAAAQAAAAAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Animation\SpellAnimationInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitRenderer" Collapsed="true">
+    <Position X="32.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAABIAAYAAEIIIEQAEAAAAMAAAAwACAAAggAKAAE=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Controllers\UnitRenderer.AuraEffectController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TagContainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAYACDAACAAAAAQAgAAQAAAAABAAIgAAgACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\TagContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.UnitModel" Collapsed="true">
+    <Position X="27" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiARBAEAIABgA0IAAgIAHAQCAAACIAQQgAAAASQAAUA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Unit Model\UnitModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitModelSettings" Collapsed="true">
+    <Position X="28.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAQAAAAAAAAAAAAAAAAAAAABABAAASAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Unit Model\UnitModelSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitModelSettingsContainer" Collapsed="true">
+    <Position X="30.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgAAAAACAAAAAAAQAAAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Unit Model\UnitModelSettingsContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitRendererSettings" Collapsed="true">
+    <Position X="34" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAABAAAAAAAAIAABAAAAAgAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\UnitRendererSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SoundController&lt;TSoundKit, TKey&gt;" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAgAAAAAAAAAAEAAAABCgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Controller\SoundController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitSoundController" Collapsed="true">
+    <Position X="8.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Controller\UnitSoundController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SoundEntry" Collapsed="true">
+    <Position X="28.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEACAoAAAggAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Entries\SoundEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellSoundEntry" Collapsed="true">
+    <Position X="27" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAAAAAAAAAAAAAAAIAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Entries\SpellSoundEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitSoundKit" Collapsed="true">
+    <Position X="5.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAAAAAAAAAAAAACBABAEAAAQAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Settings\Character\UnitSoundKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitSoundKitContainer" Collapsed="true">
+    <Position X="37.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAACAAAAAAAAAAAAAABAAAAQAAAAAAgEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Settings\Character\UnitSoundKitContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SoundGroupSettings" Collapsed="true">
+    <Position X="32.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACAQAABAAAAAAAAAAAAAAAAAAABAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Settings\SoundGroupSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SoundGroupSettingsContainer" Collapsed="true">
+    <Position X="34" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAACAAAAAAAAAAAAAAFAAgIIAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Settings\SoundGroupSettingsContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SoundKit&lt;TItem, TTypeKey&gt;" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Settings\SoundKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellSoundInfo" Collapsed="true">
+    <Position X="28.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEQAAAAAAAAAAAAAAAAAAAAAABAAAIAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Settings\SpellSoundInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellSoundInfoContainer" Collapsed="true">
+    <Position X="30.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAIAAAACAABAAAAAAAAAAAAkAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Settings\SpellSoundInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SoundReference" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAQAAABAAAAAEQAAAAAIAAIBAAAAgAAQgACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\SoundReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ButtonContent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACcAABAEAAqkYdAAAJAFAAYAAQgQBEAAIgQgQAgACQ=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Buttons\ButtonContent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.ButtonController" Collapsed="true">
+    <Position X="32.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQEAAABAAAACAAAQAAAAAAAABAAAKAQAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Buttons\ButtonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ButtonSlot" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAABAAIAQAAEABAEAAAAAIAAAACAAEQAAAAAmA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Buttons\ButtonSlot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.AttributeBar" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Components\AttributeBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.CustomDropdown" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEDACWEAFmoAUhBAEAkgCEFCgAgEQSEICBAhCIBAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Components\Base\CustomDropdown.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.DraggingItem" Collapsed="true">
+    <Position X="30.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAAAJAAAAAAAAAAAAAAIAAAAAAAAAAAAABAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Components\DraggingItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.FpsCounter" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABAAAJIAAAAAAAAAAAAAAAIAQAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Components\FpsCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.InputActionsDropdown" Collapsed="true">
+    <Position X="32.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAAAAAAAAAAAAAAACAAAAAAAAgAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Components\InputActionsDropdown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.FloatingText" Collapsed="true">
+    <Position X="39.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABIBCAAAEQAAAgAIICEAAAACAAAABAQIACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Floating Text\FloatingText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.FloatingTextController" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAQAAAAoAEAQAAAAAAAGAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Floating Text\FloatingTextController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.FloatingTextSettings" Collapsed="true">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAAKAQAACABABAgAACAACAAgAAhoAAAAKAQA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Floating Text\FloatingTextSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.InterfaceContainer" Collapsed="true">
+    <Position X="35.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAACAAAAAgBAAAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\InterfaceContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.InterfaceReference" Collapsed="true">
+    <Position X="37.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAABAAAAACAAAQBAAkAAABCCAAAABAgAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\InterfaceReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ActionBar" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAEQAAFAAAEAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Action Bars\ActionBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ActionErrorDisplay" Collapsed="true">
+    <Position X="30.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEQACAAIAEAAAAACAAgEAAAACAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Action Error Display\ActionErrorDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ActionErrorDisplaySettings" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAQAQCAAAEAgAACAACAAgAAggAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Action Error Display\ActionErrorDisplaySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ActionErrorItem" Collapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFABAABAAQwAAAAAAAECAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Action Error Display\ActionErrorItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.BattleHudPanel" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAICAAABAIAAAAABAEAABAAACAEABAACAEAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\BattleHudPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ComboFrame" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAQAAAACgAAAAABIAAAACACAAAAAAIAAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Combo Frames\ComboFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.ComboPointSlot" Collapsed="true">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Combo Frames\ComboPointSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.BuffDisplayFrame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YABAAAAAAAIgAQAAACgAEAAAEAAAAAEAIAAAgQAkAEg=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Unit Frames\Buff Display\BuffDisplayFrame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.BuffSlot" Collapsed="true">
+    <Position X="28.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAEAAAAAAiAIAAAAAEAAAAAAAAAEAEAAAICAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Unit Frames\Buff Display\BuffSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.CastFrame" Collapsed="true">
+    <Position X="35.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAAAAACGAAAIYAAAAEAAAAABAAABAAAAAhAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Unit Frames\CastFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.HealthFrame" Collapsed="true">
+    <Position X="27" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQAAAACgAAAAIBAAEgAAEAAAQAAAABAAAAAUAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Unit Frames\HealthFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.UnitFrame" Collapsed="true">
+    <Position X="25.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZAAAAQAHAEAgEAKIABAAAAAIIAAAAQAAIAGAAgAEIAg=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Battle\Unit Frames\UnitFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.LobbyPanel" Collapsed="true">
+    <Position X="25.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jCIgIAAAUkaAIAwEQAgJEAAuAAAAKggBAoUVQAABGAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Lobby\LobbyPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SinglePlayerNonBolt" Collapsed="true">
+    <Position X="27" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAMAAAEABAAAAAACAAAAAIAAAAAAAEAAAAAAAAAQg=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Lobby\SinglePlayerNonBolt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.LobbyClassSlot" Collapsed="true">
+    <Position X="21.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAGAAgACAAAIAAAAACAAAAAAAAABAAgAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Lobby\Slots\LobbyClassSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.LobbyMapSlot" Collapsed="true">
+    <Position X="23.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQAAAAEAQCAAAIAAAAACAQAAAABAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Lobby\Slots\LobbyMapSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.LobbySessionSlot" Collapsed="true">
+    <Position X="28.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAgAAAEAAAAUAgAAIAAAABCAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Panels\Lobby\Slots\LobbySessionSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.BattleScreen" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAQAAAAIAAAAAAAAAAABAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Screens\BattleScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.LobbyScreen" Collapsed="true">
+    <Position X="27" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Screens\LobbyScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellOverlay" Collapsed="true">
+    <Position X="39.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAGEAAAAFAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Spell Overlay\SpellOverlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellOverlayReference" Collapsed="true">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAiAAAAAEBQgAAAAAEAABACAABBACAABAAAoAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Spell Overlay\SpellOverlayReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Client.SpellOverlaySettings" Collapsed="true">
+    <Position X="21.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABAQAAAQAAAAAAAAAAAAAAAABABAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Spell Overlay\SpellOverlaySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellOverlaySettingsContainer" Collapsed="true">
+    <Position X="23.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Spell Overlay\SpellOverlaySettingsContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipItem&lt;TContent&gt;" Collapsed="true">
+    <Position X="1.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Base\TooltipItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipItem" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Base\TooltipItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipSlot" Collapsed="true">
+    <Position X="35.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAChAAAAQAEAQAAAAEAAAEAAQAgIAKAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Base\TooltipSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipItemNormal" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Items\TooltipItemNormal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipItemSpell" Collapsed="true">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACCAAAIQEACCggAAgAAAAAAAgaAAAAQBAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Items\TooltipItemSpell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellTooltipArgumentSettings" Collapsed="true">
+    <Position X="32.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAABAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Settings\Spells\SpellTooltipArgumentSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellTooltipInfo" Collapsed="true">
+    <Position X="34" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAIRAAAAIAAAAAAEAABAAABAAABAAgIAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Settings\Spells\SpellTooltipInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.SpellTooltipInfoContainer" Collapsed="true">
+    <Position X="35.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAQAAABAAACAAJAAAAACAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Settings\Spells\SpellTooltipInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipAlignmentSettings" Collapsed="true">
+    <Position X="27" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAADAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Settings\TooltipAlignmentSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipSizeSettings" Collapsed="true">
+    <Position X="34" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAgAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\Settings\TooltipSizeSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipContainer" Collapsed="true">
+    <Position X="28.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQACAAEAAAAAAAIAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\TooltipContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.TooltipReference" Collapsed="true">
+    <Position X="14.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAQEAAAAEABAEAFIAAAAAAAgAECAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tooltips\TooltipReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.AnimatorUtils" Collapsed="true">
+    <Position X="34" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Utils\AnimatorUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EffectUtils" Collapsed="true">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Utils\EffectUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EnumUtils" Collapsed="true">
+    <Position X="37.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Client\Utils\EnumUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.InputUtils" Collapsed="true">
+    <Position X="34" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAAAAAAgQAAAAAAAAIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Client\Utils\InputUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.InterfaceUtils" Collapsed="true">
+    <Position X="39.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAgAAAAICAAAAAwgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Utils\InterfaceUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Conditions.PlayerHasSelectedElementWithTag" Collapsed="true">
+    <Position X="39.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Contitions\Global\PlayerHasSelectedElementWithTag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Conditions.PlayerIsSelectingSpellTarget" Collapsed="true">
+    <Position X="21.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Contitions\Global\PlayerIsSelectingSpellTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Spells.EffectSpellSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEQAAAAAAAAYAAIAAEAAAAAABAAQAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\EffectSpellSettings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.Spells.AuraVisualsInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAQQAAAAAAAYAAICAIAAAACABAhIAAIAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Spell Visuals\AuraVisualsInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.Spells.SpellVisualsInfo" Collapsed="true">
+    <Position X="37.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAQAAACAAQAAgAIAAAAAABAAABAQAIAAAACAACA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Spell Visuals\SpellVisualsInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Actions.DoEmote" Collapsed="true">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Actions\DoEmote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Actions.SelectTarget" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Actions\SelectTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Actions.StopCasting" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Actions\StopCasting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Actions.StopSpellTargeting" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Actions\StopSpellTargeting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Actions.SwitchClass" Collapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Actions\SwitchClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Actions.ToggleOption" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Actions\ToggleOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatFrame" Collapsed="true">
+    <Position X="37.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQBAQAEEAIAACAgAAQQAAAAAAgAABAAAAIAAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Chat\ChatFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatFrameMessage" Collapsed="true">
+    <Position X="39.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAAABBAAAAAAAAgAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Chat\ChatFrameMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimatorPointerNotifier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIEAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Components\AnimatorPointerNotifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScrollRectVelocityModifier" Collapsed="true">
+    <Position X="23.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAACAAAAAAAAgAAAAgAAAAEAAAAAAAAQAAAAAACI=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Components\ScrollRectVelocityModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.Tweener.TweenRunner&lt;T&gt;" Collapsed="true">
+    <Position X="21.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAQAAAAgAAAgAAAAACAACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tweener\TweenRunner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.WorldClient" Collapsed="true">
+    <Position X="21.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\World\WorldClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Client.UnitModelInitializer" Collapsed="true">
+    <Position X="25.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAEAAAAAAAAAAEAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Unit Model\UnitModelInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Client.Tweener.ColorTween" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABIAAAACAAAAIIAIAAAACAQAAIAAQAAAAEEAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tweener\TweenRunner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Client.Tweener.FloatTween" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABIAAAACAAQAIKAAAAAgAAAAAIQAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tweener\TweenRunner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="Client.IEffectPositioner" Collapsed="true">
+    <Position X="21.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\IEffectPositioner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.IEffectPositionerSettings" Collapsed="true">
+    <Position X="23.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAYAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\IEffectPositionerSettings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.IVisibleAura" Collapsed="true">
+    <Position X="28.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAACAAAAAAAAAEBAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Entity\Unit\Behaviours\Aura Controller\Interfaces\IVisibleAura.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.IVisibleAuraHandler" Collapsed="true">
+    <Position X="30.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Entity\Unit\Behaviours\Aura Controller\Interfaces\IVisibleAuraHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.IUnitRendererHandler" Collapsed="true">
+    <Position X="27" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Interfaces\IUnitRendererHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Client.Tweener.ITweenValue" Collapsed="true">
+    <Position X="25.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Tweener\TweenRunner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Client.EffectTagType" Collapsed="true">
+    <Position X="25.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAQEACAAAAAAAAAAAAAAAADAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\EffectTagType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.HotkeyModifier" Collapsed="true">
+    <Position X="27" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAACAAAAAACAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Enums\HotkeyModifier.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.HotkeyState" Collapsed="true">
+    <Position X="28.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Enums\HotkeyState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.TargetingDeathState" Collapsed="true">
+    <Position X="34" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Enums\TargetingDeathState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.TargetingDistance" Collapsed="true">
+    <Position X="35.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Enums\TargetingDistance.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.TargetingEntityType" Collapsed="true">
+    <Position X="37.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Enums\TargetingEntityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.TargetingMode" Collapsed="true">
+    <Position X="39.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAIAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Input\Enums\TargetingMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.UnitModelReplacementMode" Collapsed="true">
+    <Position X="25.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEAACAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Client\Rendering\Unit Renderer\Unit Model\UnitModelReplacementMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.UnitSounds" Collapsed="true">
+    <Position X="27" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAAAQAAQAIACAAIAAAAAACAAAAAiAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Sound\Enums\UnitSounds.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.ButtonContentType" Collapsed="true">
+    <Position X="23.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Buttons\ButtonContentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.BattleHudTagType" Collapsed="true">
+    <Position X="21.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Enums\BattleHudTagType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.InterfaceCanvasType" Collapsed="true">
+    <Position X="30.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Enums\InterfaceCanvasType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.SpellTooltipArgumentType" Collapsed="true">
+    <Position X="32.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Enums\SpellTooltipArgumentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.TooltipAlignment" Collapsed="true">
+    <Position X="21.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAAAAAAAAABAAAAACAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Enums\TooltipAlignment.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Client.TooltipSize" Collapsed="true">
+    <Position X="23.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\UI\Enums\TooltipSize.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

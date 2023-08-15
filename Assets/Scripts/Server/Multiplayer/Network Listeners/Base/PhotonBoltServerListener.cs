@@ -27,7 +27,8 @@ namespace Server
             EventHandler.RegisterEvent<ServerRoomToken>(photon, GameEvents.ServerMapLoaded, OnMapLoaded);
 
             // HEHE
-            ProcessServerLaunchStateNonBolt();
+            //if (World.WorldMap() == "Nagrand")
+            //ProcessServerLaunchStateNonBolt();
         }
 
         public override void Deinitialize()
@@ -156,7 +157,7 @@ namespace Server
         {
             ProcessServerLaunchState(ServerLaunchState.MapLoaded);
             HandleRoomCreation(ServerToken);
-            World.MapManager.InitializeLoadedMap(2);
+            //World.MapManager.InitializeLoadedMap(1);
             World.ServerLaunched(ServerToken);
         }
     }

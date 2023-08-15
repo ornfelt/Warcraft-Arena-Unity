@@ -68,6 +68,7 @@ namespace Core
 
         public void StartServer(ServerRoomToken serverToken, bool withClientLogic, Action onStartSuccess, Action onStartFail)
         {
+            Debug.Log("StartServer");
             StopAllCoroutines();
 
             networkingMode = withClientLogic ? NetworkingMode.Both : NetworkingMode.Server;
@@ -78,6 +79,7 @@ namespace Core
 
         public void StartClient(Action onStartSuccess, Action onStartFail, bool forceRestart)
         {
+            Debug.Log("StartClient");
             StopAllCoroutines();
 
             networkingMode = NetworkingMode.Client;
@@ -86,6 +88,7 @@ namespace Core
 
         public void StartSinglePlayer(ServerRoomToken serverToken, Action onStartSuccess, Action onStartFail)
         {
+            Debug.Log("StartSingleplayer");
             StopAllCoroutines();
 
             networkingMode = NetworkingMode.Both;
@@ -137,6 +140,7 @@ namespace Core
 
         public override void BoltShutdownBegin(AddCallback registerDoneCallback, UdpConnectionDisconnectReason disconnectReason)
         {
+            Debug.Log("BoltShutdownBegin");
             base.BoltShutdownBegin(registerDoneCallback, disconnectReason);
 
             if (world != null && world.HasServerLogic)
@@ -228,6 +232,7 @@ namespace Core
 
         private void OnWorldStateChanged(World world, bool created)
         {
+            Debug.Log("OnWorldStateChanged, created: " + created);
             if (created)
             {
                 this.world = world;
@@ -269,6 +274,7 @@ namespace Core
 
         private IEnumerator StartServerRoutine(ServerRoomToken serverToken, bool singlePlayer, Action onStartSuccess, Action onStartFail)
         {
+            Debug.Log("StartServerRoutine");
             if (BoltNetwork.IsRunning && !BoltNetwork.IsServer)
             {
                 BoltLauncher.Shutdown();
@@ -298,6 +304,7 @@ namespace Core
                 Debug.Log("Loading scene: " + serverToken.Map);
                 if (serverToken.Map == "Nagrand")
                 {
+                    // Try to load map without bolt, since I can't recompile it
                     SceneManager.LoadScene("Nagrand");
                     SceneLoadLocalDone(serverToken.Map);
                 }
@@ -312,6 +319,7 @@ namespace Core
 
         private IEnumerator StartClientRoutine(Action onStartSuccess, Action onStartFail, bool forceRestart)
         {
+            Debug.Log("StartClientRoutine");
             if (BoltNetwork.IsRunning && !BoltNetwork.IsClient || BoltNetwork.IsRunning && forceRestart)
             {
                 BoltLauncher.Shutdown();
@@ -339,6 +347,7 @@ namespace Core
 
         private IEnumerator ConnectClientRoutine(UdpSession session, ClientConnectionToken token, Action onConnectSuccess, Action<ClientConnectFailReason> onConnectFail)
         {
+            Debug.Log("ConnectClientRoutine");
             if (BoltNetwork.IsRunning && !BoltNetwork.IsClient)
             {
                 BoltLauncher.Shutdown();

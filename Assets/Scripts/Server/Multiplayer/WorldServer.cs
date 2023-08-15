@@ -26,7 +26,7 @@ namespace Server
             spellListener = new GameSpellListener(this);
             playerListener = new GamePlayerListener(this);
 
-            Debug.Log("WorldServer Started");
+            Debug.Log("WorldServer Started, scene: " + UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         }
 
         public override void Dispose()
@@ -125,6 +125,7 @@ namespace Server
         internal void CreatePlayer(BoltConnection boltConnection = null)
         {
             Debug.Log("CreatePlayer called");
+            MapManager.InitializeLoadedMap(1);
             Map mainMap = MapManager.FindMap(1);
             if (mainMap == null)
                 Debug.Log("MAINMAP IS NULL");
@@ -182,5 +183,10 @@ namespace Server
         }
 
         public bool IsControlledByHuman(Player player) => playerInfosByPlayerId.ContainsKey(player.Id);
+
+        public string WorldMap()
+        {
+            return serverRoomToken.Map;
+        }
     }
 }

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Client.EffectBehaviour" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAFAAFAAAAAAAAgQAAAAEAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\Behaviours\EffectBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EffectBehaviourAnimated" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCBAAAABAAIAAAAAAAIAAAAFAAAgEAEAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\Behaviours\EffectBehaviourAnimated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EffectBehaviourParticles" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\Behaviours\EffectBehaviourParticles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EffectBehaviourReplayable" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\Behaviours\EffectBehaviourReplayable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EffectEntity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAAAAEYIAAIIAFAQAAAQAAAAAoQAABBAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\EffectEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Client.EffectReference" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Client.EffectReference.EffectContainer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Client\Effects\Base\EffectReference.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEgAAAAAAgAAABAAAAAAAAgAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\EffectReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EffectSettings" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgQAAACIAAAAAAAABAAAAAwQAAAICAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\EffectSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Client.EffectStateUtils" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\EffectState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Client.IEffectEntity" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAIAAIAABAQAAAQAAAAAIQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\IEffectEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Client.EffectState" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAQAgAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Client\Effects\Base\EffectState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

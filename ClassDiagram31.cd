@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Common.Assert" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAABAAAAAAAAAgAgAQAAIhAAAAAAAAIAAAAkAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Assertions\Assert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.EnumFlagAttribute" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Attributes\EnumFlagAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.EventHandler" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAIgBAAAAAAAAAAQAAAIEAACAAAAEABAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Common\EventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.GameObjectPool" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACAgACIAAAAAAAACgEAABAAABQAEAkAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Common\GameObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.ListPoolContainer&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Common\ListPoolContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.ObjectPool&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Common\ObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.Drawing" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Debug\Drawing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.SingleReference&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Generic\Reference\SingleReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Common.SerializedDictionary&lt;TItem, TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAgAAAAAAABBAAAAQAAgAEAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Generic\Serialized Dictionary\SerializedDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Common.Logging" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAQAAAAEAAAAAAAAEAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Logging\Logging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.AgentMoveTo" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Misc\AgentMoveTo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.ScriptableContainer" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAgAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Scriptables\ScriptableContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.ScriptableReference" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAAAAgAEAEAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Scriptables\ScriptableReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.ScriptableUniqueInfo&lt;TUnique&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAEAAAAAAAAAAAABABAEAAAAAAAAEgA=</HashCode>
+      <FileName>Assets\Scripts\Common\Scriptables\ScriptableUniqueInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Common.ScriptableUniqueInfoContainer&lt;TUnique&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAEAAAAAgACAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Scriptables\ScriptableUniqueInfoContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Common.CommonUtils" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAIAAAAAEACAAAQAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Utils\CommonUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.ComponentUtils" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Utils\ComponentUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.MathUtils" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAQAAACAAAABAAAAAABAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Utils\MathUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.PrefUtils" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Utils\PrefUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.RandomUtils" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABAIAAAAAAAAAAAAAAAAAABBAAACAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Utils\RandomUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Common.TimeUtils" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAAAAAAAAIAAQIgAAAQACIEAAAAEIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Utils\TimeUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Common.TimeTracker" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Time\TimeTracker.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Common.IReadOnlyReference&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Generic\Reference\IReadOnlyReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Common.IReadOnlySerializedDictionary&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Generic\Serialized Dictionary\IReadOnlySerializedDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Common.ISerializedKeyValue&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Generic\Serialized Dictionary\ISerializedKeyValue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Common.IScriptablePostProcess" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Common\Scriptables\Interfaces\IScriptablePostprocess.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Common.GameEvents" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQABCAASIAYAIOQEAAoBACKCAwSGCMAAAggQAAAAExA=</HashCode>
+      <FileName>Assets\Scripts\Common\Common\GameEvents.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Common.ComparisonOperator" Collapsed="true">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAQQAAAAQAAAE=</HashCode>
+      <FileName>Assets\Scripts\Common\Enums\ComparisonOperator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

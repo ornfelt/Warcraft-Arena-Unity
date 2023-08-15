@@ -84,6 +84,7 @@ namespace Client
         [UsedImplicitly]
         private void Start()
         {
+            Debug.Log("WarcraftCamera Started");
             Vector3 angles = transform.eulerAngles;
             xDeg = angles.x;
             yDeg = angles.y;

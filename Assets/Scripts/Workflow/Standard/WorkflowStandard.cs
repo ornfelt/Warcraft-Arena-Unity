@@ -36,6 +36,7 @@ namespace Game.Workflow.Standard
 
         private void OnGameMapLoaded(string map, NetworkingMode mode)
         {
+            Debug.Log("OnGameMapLoaded workflow standard, scene: " + UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
             bool hasServerLogic = mode == NetworkingMode.Server || mode == NetworkingMode.Both;
             bool hasClientLogic = mode == NetworkingMode.Client || mode == NetworkingMode.Both;
 

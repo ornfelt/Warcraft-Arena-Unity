@@ -1,0 +1,2103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.UnitInfoAISettings" Collapsed="true">
+    <Position X="18.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\Settings\UnitInfoAISettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitInfoAIStateMachine" Collapsed="true">
+    <Position X="18.5" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\Settings\UnitInfoAIStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.DoRandomEmoteBehaviour" Collapsed="true">
+    <Position X="0.5" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAQQEAAAAAAAAAAAIAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\State Machine\Behaviours\DoRandomEmoteBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellCastBehaviour" Collapsed="true">
+    <Position X="2.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQgAAAgEAAAQCAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\State Machine\Behaviours\SpellCastBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitStateMachine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="92" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAIAAIAAAAAACAAAAAAAAAAAAAAhAAgA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\State Machine\UnitStateMachine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.UnitStateMachineBehaviour" Collapsed="true">
+    <Position X="1.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAAAAAAAAAMAAAQCAAAIAQAAAAAAAAIKACAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\State Machine\UnitStateMachineBehaviour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.UnitAI" Collapsed="true">
+    <Position X="1.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAAAAAgCAAAAAAAIAJAIAAYCIEEAABQAEAQAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\UnitAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitInfoAI" Collapsed="true">
+    <Position X="86.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAQAAAAAAQAAAAAAAAAAAACAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\UnitInfoAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitInfoAIContainer" Collapsed="true">
+    <Position X="88.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\UnitInfoAIContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.CreatureAI" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\CreatureAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.PlayerAI" Collapsed="true">
+    <Position X="2.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\PlayerAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.BalanceDefinition" Collapsed="true">
+    <Position X="90.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAgAMAgACAAoAAgACAAAAAgBAIAAFoAkAAAAEEA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\BalanceDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.BalanceReference" Collapsed="true">
+    <Position X="92" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgBAAIIQoAIAEAACAgABAAAAIBAIAAEAAEgBCAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\BalanceReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellAuraRestrictionsEntry" Collapsed="true">
+    <Position X="93.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAABRAgAgAAAAAAgAAAAAAAAAACAAACAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\Spells\SpellAuraRestrictionsEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellCategoriesEntry" Collapsed="true">
+    <Position X="97.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgAAAAAAgAAgAAAEAAAAAAAAICAACGAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\Spells\SpellCategoriesEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellChargeCategoryEntry" Collapsed="true">
+    <Position X="83.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\Spells\SpellChargeCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellPowerCostInfo" Collapsed="true">
+    <Position X="86.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAABEAACAQAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\Spells\SpellPowerCostInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellProcsPerMinuteModifier" Collapsed="true">
+    <Position X="93.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAEQAiAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\Spells\SpellProcsPerMinuteEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.PlayerControllerDefinition" Collapsed="true">
+    <Position X="88.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBAAAAAQAAAAAABABAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\Units\PlayerControllerDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitMovementDefinition" Collapsed="true">
+    <Position X="90.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAQAAAAAAAAACAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\Units\UnitMovementDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MapDefinition" Collapsed="true">
+    <Position X="86.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgSAAAQAAAAEAAAAABAAAAAQBAAAAAQgAAoAICAGgA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\World\MapDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MapSettings" Collapsed="true">
+    <Position X="92" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAgCAACIkAACgAAAAoACAAAAAgAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Balance\World\MapSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EntityAttribute&lt;TValueType&gt;" Collapsed="true">
+    <Position X="11.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UIAAAAAAABAABAgAMAAAAAEAAAAAAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EntityAttributeFloat" Collapsed="true">
+    <Position X="10.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttributeFloat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EntityAttributeInt" Collapsed="true">
+    <Position X="12.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttributeInt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.FactionDefinition" Collapsed="true">
+    <Position X="95.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoAAAACAAAAAEIAAAACAAQAAwAEAAEAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\FactionDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitAttributeDefinition" Collapsed="true">
+    <Position X="85" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAACAAQAAgAEAAEAAAABAAAAAAAAAAAAQAAAIEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\UnitAttributeDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Entity" Collapsed="true">
+    <Position X="13.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADgBIAABAAAAAAAAgEEAAKAAAgAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Base\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.WorldEntity" Collapsed="true">
+    <Position X="13.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAggQAABAAsJAggAQEAAUAiEQARQAACAAACGAADAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Base\WorldEntity\WorldEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Creature" Collapsed="true">
+    <Position X="12.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAACAIAAAAAAAAAAAgAABUABAAAAAAEAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Creature\Creature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.CreatureInfo" Collapsed="true">
+    <Position X="88.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAGAAQAAAAACAAAgAgAAIAAAAAAABAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Creature\CreatureInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.CreatureInfoContainer" Collapsed="true">
+    <Position X="90.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAEACAAAAAAAAEAAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Creature\CreatureInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EntityManager&lt;T&gt;" Collapsed="true">
+    <Position X="15.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAABCAAAAIAAAAAEAAAAIJJAQAAAAkAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\EntityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EntityPool" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="93.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAQAAAAZAAAAAAABAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\EntityPool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.ClassInfo" Collapsed="true">
+    <Position X="93.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAyAQAAAEAACAQAAAAAAAAAAABABAEgABAQIAAAEg=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Player\Classes\ClassInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.ClassInfoContainer" Collapsed="true">
+    <Position X="95.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Player\Classes\ClassInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Player" Collapsed="true">
+    <Position X="14.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RcAEAgIAAAAAABBAQAUEABUCBABAACIgEAgAAAAgEAM=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Player\Controllers\Player.SpellController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitBehaviour" Collapsed="true">
+    <Position X="1.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAIBAAAAIAAAAAAAAIAAACAAAAABAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Unit\Behaviours\UnitBehaviour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.Unit" Collapsed="true">
+    <Position X="13.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ZaYXTYXAAkDAmFhwD3dktLywxFpAYaJFwihcQEMCWQU=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Unit\Controllers\Unit.AttributeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitManager" Collapsed="true">
+    <Position X="15.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABBAUAAAAEAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\UnitManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.VehicleSeat" Collapsed="true">
+    <Position X="85" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAAAAAAAAAAAABAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Vehicle\Seats\VehicleSeat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.VehicleSeatInfo" Collapsed="true">
+    <Position X="86.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACBAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Vehicle\Seats\VehicleSeatInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.VehicleSeatInfoContainer" Collapsed="true">
+    <Position X="88.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAgAAAAAAgAAAABAAAAAAAAAAAgEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Vehicle\Seats\VehicleSeatInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Vehicle" Collapsed="true">
+    <Position X="95.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgEAAiAAAAAAIAAAAAIAAAAAAAAAAIAAAAAABAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Vehicle\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.VehicleInfo" Collapsed="true">
+    <Position X="97.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAQAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Vehicle\VehicleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.VehicleInfoContainer" Collapsed="true">
+    <Position X="83.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAACAAAAAAAAAAAAAABAAAAEAAAABAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Vehicle\VehicleInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Map" Collapsed="true">
+    <Position X="85" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACADAAAAACAAAEUwACAAgAAAAAgAAAADAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Map\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MapManager" Collapsed="true">
+    <Position X="90.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAACAAAAAAAEAAEIAAAAAAAAACAACAEAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Map\MapManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MapUpdater" Collapsed="true">
+    <Position X="93.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAABAAABQAAAAAgAACAQAAEACAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Map\MapUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.IdleControllerInputProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="83.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Controller\Input Providers\IdleControllerInputProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.WarcraftCharacterController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="90.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAAEAAsrCggMAAAAAIAAAADQIGABQBAAAAEAkAI=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Controller\WarcraftCharacterController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.ChargeMovement" Collapsed="true">
+    <Position X="0.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEBAAAAAQAAAAAAAAAEAAAAQEAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Generators\ChargeMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.ConfusedMovement" Collapsed="true">
+    <Position X="3" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAAgAAAAAAAAAAAEAAAAQAQAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Generators\ConfusedMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.IdleMovement" Collapsed="true">
+    <Position X="5.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAAAAAAAAAAAAAAEAAAAQAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Generators\IdleMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MovementGenerator" Collapsed="true">
+    <Position X="5.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAAAAAAAAAAAAAAEAAAAQAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Generators\MovementGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.PounceMovement" Collapsed="true">
+    <Position X="7.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAAAAQAAAAAAEAAGAAAAQAQAAAAAQg=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Generators\PounceMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.WanderMovement" Collapsed="true">
+    <Position X="9.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAQABAAAgAAAAAAAAAAAEAAAQQAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Generators\WanderMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.GroundChecker" Collapsed="true">
+    <Position X="97.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\GroundChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.PhysicsReference" Collapsed="true">
+    <Position X="86.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAABiAAAAAAIgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\PhysicsReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.ConnectionAttemptInfo" Collapsed="true">
+    <Position X="86.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAABABAAAACAAAAAAAAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\ConnectionAttemptInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.PhotonBoltBaseListener" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAQAAAAIAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Listeners\PhotonBoltBaseListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.PhotonBoltSharedListener" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Listeners\PhotonBoltSharedListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.PhotonBoltController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="83.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JIESEIAREAHAYEAggCAAAQIAAAABIAAEAAYAShAAEAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\PhotonBoltController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.PhotonBoltReference" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="85" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAACAAEAgACAAAAAgAAABAAAAABAAwAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\PhotonBoltReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.ClientConnectionToken" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="97.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABAAAAAAAgAAAQhAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Tokens\ClientConnectionToken.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.ClientRefuseToken" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="83.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Tokens\ClientRefuseToken.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.ServerRoomToken" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="90.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAAAAAAAQgAAAAAQAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Tokens\ServerRoomToken.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.HotStreakAura" Collapsed="true">
+    <Position X="5.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Scriptables\HotStreakAura.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Core.LivingBombAura" Collapsed="true">
+    <Position X="7.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Scriptables\LivingBombAura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Aura" Collapsed="true">
+    <Position X="83.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gDBQEAKaABDCCggAQgQAtABUAAAAAAABQoAgAoCABCA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraApplication" Collapsed="true">
+    <Position X="85" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAACAAAgEAAAgAAECAAAAAAAAAAABAAAAAIAEA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\AuraApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffect" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJQAAAAACAAAAMAAAAAAEAAAAAAAAAACAAEgAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\AuraEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffectInfo" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAoCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\AuraEffectInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraInfo" Collapsed="true">
+    <Position X="86.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hIAigMYCAYFCChAAAEgggAAAAAAAUBAQAIAgCICAIIA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\AuraInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraInfoContainer" Collapsed="true">
+    <Position X="88.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAACAAAAAAAAAAAAAABAAAAAAAEAACAEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\AuraInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraScriptable" Collapsed="true">
+    <Position X="6.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\AuraScriptable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectAddComboPoints" Collapsed="true">
+    <Position X="17.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAIEAAAgBAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectAddComboPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Spell" Collapsed="true">
+    <Position X="92" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>akAQEGlCQGYASAEAiVAAMAAABhJQAQAAAhc4wKzRCow=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectAddComboPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectAddPower" Collapsed="true">
+    <Position X="19.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAgAAAAIAAAAgQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectAddPower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectApplyAura" Collapsed="true">
+    <Position X="22" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAIAgAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectApplyAura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectApplyAuraDurationOverride" Collapsed="true">
+    <Position X="24.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAAAAAAAAAAAAAAAAACAAAAAAAIAAIQgAACAAIA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectApplyAuraDurationOverride.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectChargeTarget" Collapsed="true">
+    <Position X="26.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAQAAAAACAQAAAAQIAAAEgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectChargeTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectDispelMechanic" Collapsed="true">
+    <Position X="1.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAACAAAIAAAIAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectDispelMechanic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectHeal" Collapsed="true">
+    <Position X="4" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAACAAAAAAAAAgABAAICAAACAAAIAAAAgAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectHeal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectKill" Collapsed="true">
+    <Position X="6.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectKill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectResurrect" Collapsed="true">
+    <Position X="8.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAAABgAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectResurrect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectSchoolDamage" Collapsed="true">
+    <Position X="10.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAACAAAAAAAAAgBAEAICAAACAAAIAAAAgAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectSchoolDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectTeleportDirect" Collapsed="true">
+    <Position X="13" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAAAAACAAAAAAAIAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectTeleportDirect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.EffectTriggerSpell" Collapsed="true">
+    <Position X="15.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAAAABAAAAACAAAAAAAIABAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Effects\EffectTriggerSpell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.ConditionalModiferValue" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Modifiers\ConditionalModiferValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.ConditionalModifier" Collapsed="true">
+    <Position X="85" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIAAAACAAAAAAAAAAAAAAAAIACAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Modifiers\ConditionalModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.ConditionalModifierPerResourceConsumed" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Modifiers\ConditionalModifierPerResourceConsumed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellPowerTypeInfo" Collapsed="true">
+    <Position X="88.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAADAAQAAQAAAAABAACAAQQAggAAABMABAABQAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Powers\SpellPowerTypeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellPowerTypeInfoContainer" Collapsed="true">
+    <Position X="90.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Powers\SpellPowerTypeInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellCast" Collapsed="true">
+    <Position X="95.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAAAAEIAAACAAAAAAAAYAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Cast\SpellCast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellDispelInfo" Collapsed="true">
+    <Position X="88.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Damage\SpellDispelInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellChargeCooldown" Collapsed="true">
+    <Position X="85" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\History\SpellChargeCooldown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellCooldown" Collapsed="true">
+    <Position X="86.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAhAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\History\SpellCooldown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellHistory" Collapsed="true">
+    <Position X="92" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAEgAAAAAAoAAAEIAAQAAAAQcICAAgAAAwAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\History\SpellHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellExplicitTargets" Collapsed="true">
+    <Position X="90.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\SpellExplicitTargets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellImplicitTargets" Collapsed="true">
+    <Position X="93.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACECAAACAAAAAAIAAACAAAAABAAACAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\SpellImplicitTargets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellProcessingToken" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="92" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAEAAAgAAAAAAAEAAAACAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\SpellProcessingToken.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Core.SpellTargetEntry" Collapsed="true">
+    <Position X="95.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAAAAAACAAAAACAAAAAoAAQBAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\SpellTargetEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellTargeting" Collapsed="true">
+    <Position X="18.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Targeting\SpellTargeting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellTargetingArea" Collapsed="true">
+    <Position X="17.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgEAAABCQAAAAAAIAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Targeting\SpellTargetingArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellTargetingCone" Collapsed="true">
+    <Position X="17.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAQACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Targeting\SpellTargetingCone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellTargetingSingle" Collapsed="true">
+    <Position X="19.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Targeting\SpellTargetingSingle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellValueModifier" Collapsed="true">
+    <Position X="17.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Values\SpellValueModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellValueModifierAddCastFlags" Collapsed="true">
+    <Position X="16.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Values\SpellValueModifierAddCastFlags.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellValueModifierIgnoreAuraState" Collapsed="true">
+    <Position X="18.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Values\SpellValueModifierIgnoreAuraState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellEffectInfo" Collapsed="true">
+    <Position X="14" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAABCAAAAAAAAAAAACAAAAAAAIAAAQgAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\SpellEffectInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellInfo" Collapsed="true">
+    <Position X="95.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xKIjUIcwJAM4CjEAAD4xFIwVFCbp0X4cgAAuXIBAEUA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\SpellInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellInfoContainer" Collapsed="true">
+    <Position X="97.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAIAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\SpellInfoContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellManager" Collapsed="true">
+    <Position X="83.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEQAAACAQAAAAAAAAFAAAAAAAAAQAQAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\SpellManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellModifier" Collapsed="true">
+    <Position X="85" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAgCAAAAAAAAAAAAAAAAAAoAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\SpellModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MovementUtils" Collapsed="true">
+    <Position X="95.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQgAAESAoAwAABAAAQAQwAgAAAAkAAgCgAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Utils\MovementUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MultiplayerUtils" Collapsed="true">
+    <Position X="97.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAQAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Utils\MultiplayerUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.SpellUtils" Collapsed="true">
+    <Position X="97.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAoAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Utils\SpellUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.StatUtils" Collapsed="true">
+    <Position X="83.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAQAAAAAAEIFgAAAAAAgAAAAAAAAQAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\Core\Utils\StatUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitUtils" Collapsed="true">
+    <Position X="93.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAAGAAAAAAAAAAQAQAAAAAAAiAABAAAAIBRg=</HashCode>
+      <FileName>Assets\Scripts\Core\Utils\UnitUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.MapGrid" Collapsed="true">
+    <Position X="88.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAIQCBAAlAAAAQFkAAiAAACAAkAAIAAAAAAAAU=</HashCode>
+      <FileName>Assets\Scripts\Core\World\Grid\MapGrid.Base.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.World" Collapsed="true">
+    <Position X="92" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAAAAAAAEAAAAAkAASAAAAAAEAEEAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\World\World.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.Condition" Collapsed="true">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAKkAEQAAAAAACIBAACEAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Base\Condition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.InverseCondition" Collapsed="true">
+    <Position X="1.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Base\InverseCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.SpellCastCondition" Collapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAEAAAgBEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Base\SpellCastCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.Always" Collapsed="true">
+    <Position X="6.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Constant\Always.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.Never" Collapsed="true">
+    <Position X="8.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Constant\Never.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.SpellInCollection" Collapsed="true">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Spell\SpellInCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.SpellIsTarget" Collapsed="true">
+    <Position X="13" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Spell\SpellIsTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.SpellWithBaseCastTime" Collapsed="true">
+    <Position X="15.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAgAEAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Spell\SpellWithBaseCastTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.SourceUnitIsCasting" Collapsed="true">
+    <Position X="17.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Unit\SourceUnitIsCasting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.TargetUnitHasAuraState" Collapsed="true">
+    <Position X="19.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Unit\TargetUnitHasAuraState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.TargetUnitIsAlive" Collapsed="true">
+    <Position X="22" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Unit\TargetUnitIsAlive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.TargetUnitIsCreature" Collapsed="true">
+    <Position X="24.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Unit\TargetUnitIsCreature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.TargetUnitIsDead" Collapsed="true">
+    <Position X="26.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Unit\TargetUnitIsDead.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Conditions.TargetUnitIsPlayer" Collapsed="true">
+    <Position X="28.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Conditions\Unit\TargetUnitIsPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Scenario.ScenarioAction" Collapsed="true">
+    <Position X="6.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAQAAAAoAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Scenario\Base\ScenarioAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Scenario.SpawnCreature" Collapsed="true">
+    <Position X="5.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAAAAAAQAAAAIAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Scenario\Scenario Behaviours\SpawnCreature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Scenario.SpawnPlayerAI" Collapsed="true">
+    <Position X="7.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABAAAAAAAAQAAAAIAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Scenario\Scenario Behaviours\SpawnPlayerAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.Scenario.CustomSpawnSettings" Collapsed="true">
+    <Position X="92" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQEAAAABAAAAAAAAAQAAAAEAAAAAQAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Scenario\Settings\CustomSpawnSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectAbsorbDamage" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectAbsorbDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectChangeDisplayModel" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectChangeDisplayModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectConfuse" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectConfuse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectControlVehicle" Collapsed="true">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectControlVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectDetectAllStealth" Collapsed="true">
+    <Position X="21.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectDetectAllStealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectDummy" Collapsed="true">
+    <Position X="25.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectDummy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInvisiblity" Collapsed="true">
+    <Position X="30.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectInvisibility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectMechanicsImmunity" Collapsed="true">
+    <Position X="34.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectMechanicsImmunity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectModifyInvisibilityDetection" Collapsed="true">
+    <Position X="39.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectModifyInvisibilityDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectModifyMaxPower" Collapsed="true">
+    <Position X="43.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectModifyMaxPower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectModifySpellHaste" Collapsed="true">
+    <Position X="46" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectModifySpellHaste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectModifyStatPercent" Collapsed="true">
+    <Position X="48.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectModifyStatPercent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectModifyStealthDetection" Collapsed="true">
+    <Position X="50.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectModifyStealthDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectPeriodic" Collapsed="true">
+    <Position X="53.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAGAAAAMAAAAAAECAAAAAAAAAAAAAAAgABQAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectPeriodic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectPeriodicDamage" Collapsed="true">
+    <Position X="52.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectPeriodicDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectPeriodicHealing" Collapsed="true">
+    <Position X="55" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectPeriodicHealing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectPreventCasting" Collapsed="true">
+    <Position X="57.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectPreventCasting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectRoot" Collapsed="true">
+    <Position X="59.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectSchoolImmunity" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectSchoolImmunity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectShapeShift" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectShapeShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectSharedBasicModifer" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectSharedBasicModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectSharedSpeedChange" Collapsed="true">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectSharedSpeedChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectSlowFall" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectSlowFall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectSpellModifier" Collapsed="true">
+    <Position X="28" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectSpellModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectSpellTrigger" Collapsed="true">
+    <Position X="32.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectSpellTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectStealth" Collapsed="true">
+    <Position X="37" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectStealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectStun" Collapsed="true">
+    <Position X="41.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effect Handlers\AuraEffectStun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoAbsorbDamage" Collapsed="true">
+    <Position X="42.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAACAAAIAAAAAgAAAAAAAAAAAABAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoAbsorbDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoChangeDisplayModel" Collapsed="true">
+    <Position X="49.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoChangeDisplayModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoConfuse" Collapsed="true">
+    <Position X="53.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoConfuse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoControlVehicle" Collapsed="true">
+    <Position X="58.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoControlVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoDescreaseSpeed" Collapsed="true">
+    <Position X="60.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoDescreaseSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoDetectAllStealth" Collapsed="true">
+    <Position X="62.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoDetectAllStealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoDummy" Collapsed="true">
+    <Position X="69.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoDummy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoIgnoreTargetAuraState" Collapsed="true">
+    <Position X="71.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoIgnoreTargetAuraState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoIncreaseSpeed" Collapsed="true">
+    <Position X="74" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoIncreaseSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoInvisibility" Collapsed="true">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoInvisibility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoMechanicsImmunity" Collapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgCEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoMechanicsImmunity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifyDamagePercentDone" Collapsed="true">
+    <Position X="13.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifyDamagePercentDone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifyDamagePercentTaken" Collapsed="true">
+    <Position X="17.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifyDamagePercentTaken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifyInvisibilityDetection" Collapsed="true">
+    <Position X="20" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifyInvisibilityDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifyMaxPower" Collapsed="true">
+    <Position X="24.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAgEAAAIAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifyMaxPower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifyPowerRegenPercent" Collapsed="true">
+    <Position X="29" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAoCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifyPowerRegenPercent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifySpellCritDamageBonus" Collapsed="true">
+    <Position X="33.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifySpellCritDamageBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifySpellHaste" Collapsed="true">
+    <Position X="38" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifySpellHaste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifyStatPercent" Collapsed="true">
+    <Position X="44.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAgCAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifyStatPercent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoModifyStealthDetection" Collapsed="true">
+    <Position X="51.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoModifyStealthDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoOverrideSpellCritCalculation" Collapsed="true">
+    <Position X="56" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAgCACAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoOverrideSpellCritCalculation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoPacify" Collapsed="true">
+    <Position X="78.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoPacify.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoSilencePacify" Collapsed="true">
+    <Position X="80.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoPacifySilence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoPeriodic" Collapsed="true">
+    <Position X="66" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoPeriodic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoPeriodicDamage" Collapsed="true">
+    <Position X="65" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAIACAAAIAAAAAgAAEAIAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoPeriodicDamage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoPeriodicHealing" Collapsed="true">
+    <Position X="67.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAACAAAAAAAAAgABAAIAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoPeriodicHealing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoPreventCasting" Collapsed="true">
+    <Position X="78.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoPreventCasting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoRoot" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoSchoolImmunity" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoSchoolImmunity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoShapeShift" Collapsed="true">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoShapeShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoSilence" Collapsed="true">
+    <Position X="76.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoSilence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoSlowFall" Collapsed="true">
+    <Position X="22.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoSlowFall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoSpellModifier" Collapsed="true">
+    <Position X="26.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAACAAQAAAAACAIAAAgAAAAAAIAAAAAoCAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoSpellModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoSpellTrigger" Collapsed="true">
+    <Position X="31.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCABAAAgQEAAEAAAAACAAAABgEAAAQAAAQgCAAAAQQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoSpellTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoStealth" Collapsed="true">
+    <Position X="35.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoStealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoStun" Collapsed="true">
+    <Position X="40.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoStun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.AuraEffects.AuraEffectInfoSuppressMovementSlowEffects" Collapsed="true">
+    <Position X="47" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Effects\AuraEffectInfoSuppressMovementSlowEffects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Core.SpellDamageInfo" Collapsed="true">
+    <Position X="85" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACCQAAAIQAgAAAAACAAAAAAAgAAAAAAEACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Damage\SpellDamageInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core.SpellHealInfo" Collapsed="true">
+    <Position X="86.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAIAAAQCAAABAACAAIAAgAAAAAAAAAACAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Damage\SpellHealInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core.SpellCastingOptions" Collapsed="true">
+    <Position X="83.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\SpellCastingOptions.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core.SpellResourceCost" Collapsed="true">
+    <Position X="88.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\SpellResourceCost.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core.SpellTriggerActivationInfo" Collapsed="true">
+    <Position X="90.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAABgAAAAAAACAAAAIAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\SpellTriggerActivationInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Core.SpellValue" Collapsed="true">
+    <Position X="92" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Processing\Values\SpellValue.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Core.IUnitAIModel" Collapsed="true">
+    <Position X="88.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\IUnitAIModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.IUnitStateMachineBehaviour" Collapsed="true">
+    <Position X="92" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Core\AI\Core\State Machine\IUnitStatemachineBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.IUnitBehaviour" Collapsed="true">
+    <Position X="90.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAAAAEAAAAAAAACAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Unit\Behaviours\IUnitBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.IControllerInputProvider" Collapsed="true">
+    <Position X="85" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Interfaces\IControllerInputProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.IPhotonBoltController" Collapsed="true">
+    <Position X="86.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAACAAEAgACAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Interfaces\IPhotonBoltController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.IAuraScriptSpellDamageHandler" Collapsed="true">
+    <Position X="83.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Script Handlers\IAuraScriptSpellDamageHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Core.IUnitVisitor" Collapsed="true">
+    <Position X="93.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\World\Interfaces\IUnitVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Core.EntityAttributes" Collapsed="true">
+    <Position X="86.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RURYHREn1sJamOABMUomzGSZwZSGS/G1BWMP6kSLFAQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.BaseEntityAttributes" Collapsed="true">
+    <Position X="86.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.GameEntityAttributes" Collapsed="true">
+    <Position X="92" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABCAAAABAAAAAAAAEAAGAAAQEEAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.DynamicEntityAttributes" Collapsed="true">
+    <Position X="97.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAQAAAEAAAAAAAAEAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.UnitAttributes" Collapsed="true">
+    <Position X="86.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>REQIPBE2xCQIiIABMkAMzGCJgZACS/ClATIKKEGLEAE=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.PlayerAttributes" Collapsed="true">
+    <Position X="90.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEQABAoAQECAAAEAAAAIQQAAEAAAQAAABwgRABBA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Attributes\Base\EntityAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.DeathState" Collapsed="true">
+    <Position X="93.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\DeathState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.EmoteType" Collapsed="true">
+    <Position X="83.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAQGAQgIACAQIQAQAgACIACAACAECAAAEAAEA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\EmoteType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.EntityType" Collapsed="true">
+    <Position X="88.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQABAAAAEAAICAAAAAkgAACAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\EntityType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.EnityTypeMask" Collapsed="true">
+    <Position X="85" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQABAAAAEAAIAAAAAAEgAACAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\EntityTypeMask.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.HitType" Collapsed="true">
+    <Position X="95.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAgAAAAAgAAIAQAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\HitType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.ShapeShiftForm" Collapsed="true">
+    <Position X="93.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\ShapeshiftForm.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.StatModifierType" Collapsed="true">
+    <Position X="97.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\StatModifierType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.StatType" Collapsed="true">
+    <Position X="83.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAQBAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\StatType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.UnitControlState" Collapsed="true">
+    <Position X="88.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAAI8CEACAAAAAAAAAGAAAhAAAAEAQAAAIQIJA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\UnitControlState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.UnitFlags" Collapsed="true">
+    <Position X="90.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgQAIAAAAAIAEAAAAACAEAACAAAgAAAAAJAAgACQAAI=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\UnitFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.UnitModifierType" Collapsed="true">
+    <Position X="92" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QiCADAEABAAEgAQBAIgEAAAAEEhEAMAUgAAAYAAABIQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\UnitModifierType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.UnitMoveType" Collapsed="true">
+    <Position X="93.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\UnitMoveType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.UnitVisualEffectFlags" Collapsed="true">
+    <Position X="95.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Enums\UnitVisualEffectFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.VehicleSeatFlags" Collapsed="true">
+    <Position X="97.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAgAAAAAABAEAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Entity\Vehicle\Seats\VehicleSeatFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.MovementFlags" Collapsed="true">
+    <Position X="83.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAKAACACACAAAEBAAAAECAAAAMAAAACAAAAAAJI=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Enums\MovementFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.MovementSlot" Collapsed="true">
+    <Position X="85" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAEAAAAAAAAIAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Enums\MovementSlot.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.MovementType" Collapsed="true">
+    <Position X="86.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAASFAAAQAgAAAAAAAAgAAEAQgBAAAAAAAAAAQgAE=</HashCode>
+      <FileName>Assets\Scripts\Core\Movement\Enums\MovementType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.ClientConnectFailReason" Collapsed="true">
+    <Position X="90.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAEAAAABAAAAIAAAAAAAAAAAAAMAAEA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Enums\ClientConnectFailReason.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.ConnectRefusedReason" Collapsed="true">
+    <Position X="92" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAMAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Enums\ConnectRefusedReason.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.DisconnectReason" Collapsed="true">
+    <Position X="95.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAQAAAIAAAAAAgAAABA=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Enums\DisconnectReason.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.NetworkingMode" Collapsed="true">
+    <Position X="88.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgEAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Multiplayer\Enums\NetworkingMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraAttributes" Collapsed="true">
+    <Position X="83.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAkAUAAgAAAAAAAAAAAAyAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraEffectHandleGroup" Collapsed="true">
+    <Position X="85" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAgAAAAAAAgAAAAAgAIQAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraEffectHandleGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraEffectHandleMode" Collapsed="true">
+    <Position X="86.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraEffectHandleMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraEffectType" Collapsed="true">
+    <Position X="88.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>la3/3x9/Tv91ufW85P7jfj7b6j+4r3/w43/nfff13/4=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraEffectType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraFlags" Collapsed="true">
+    <Position X="90.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAACAAAAAAAAAAAAAAABAAAAQAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraInterruptFlags" Collapsed="true">
+    <Position X="92" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAJAAAAAAAEAAAEAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraInterruptFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraInterruptValueCalculationType" Collapsed="true">
+    <Position X="93.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraInterruptValueCalculationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraRemoveMode" Collapsed="true">
+    <Position X="95.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAIABAAAIAABAAAAAIAhAAAAAAECAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraRemoveMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraStateFlags" Collapsed="true">
+    <Position X="97.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAAAAEAAAAAAAAAAAgAAAAAABBAAAAAAgAwAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraStateFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraStateType" Collapsed="true">
+    <Position X="83.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAAAAEAAAAAAAAAAAgAAAAAABBAAAAAAgEwAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraStateType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.AuraTargetingMode" Collapsed="true">
+    <Position X="85" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAIAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Auras\Aura Enums\AuraTargetingMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellAbsorbCalculationType" Collapsed="true">
+    <Position X="95.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellAbsorbCalculationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellAttributes" Collapsed="true">
+    <Position X="97.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAIAAAiAAAEAAAIAtAAABIAUAAAAEAgIQASAQBA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellCastFlags" Collapsed="true">
+    <Position X="83.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAQAQAAAsACCABAgAAAEABoAAAACAAAgAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellCastFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellCastResult" Collapsed="true">
+    <Position X="85" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgCRjIAIngAAEyEGhGCAAgACgkBwgAYBADLzEQgSaBI=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellCastResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellCastTargetFlags" Collapsed="true">
+    <Position X="86.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellCastTargetFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellCustomAttributes" Collapsed="true">
+    <Position X="88.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAQRAAAAQABAAAIRCAgAAAAAAAAAAkAKAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellCustomAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellCustomErrors" Collapsed="true">
+    <Position X="90.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellCustomErrors.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellDamageCalculationType" Collapsed="true">
+    <Position X="92" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellDamageCalculationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellDamageClass" Collapsed="true">
+    <Position X="93.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAACAAAAAAAAAAAAABAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellDamageClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellDamageType" Collapsed="true">
+    <Position X="95.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAACAAAABAAAACAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellDamageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellDiminishingGroup" Collapsed="true">
+    <Position X="97.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAgAAAAACAAAAAAAAAAAAAAAIgAAQAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellDiminishingGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellDiminishingLevel" Collapsed="true">
+    <Position X="83.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellDiminishingLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellDispelType" Collapsed="true">
+    <Position X="85" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAGAAAAgAAAAAgAAAAAAAAABAABAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellDispelType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellEffectHandleMode" Collapsed="true">
+    <Position X="86.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAAAABgAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellEffectHandleMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellEffectType" Collapsed="true">
+    <Position X="88.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>PTHtyzuhW8U5pWLSFAmC7A9hqPWCDmn4ozqfmg2BnrI=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellEffectType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellExecutionState" Collapsed="true">
+    <Position X="90.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAEAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellExecutionState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellExplicitTargetType" Collapsed="true">
+    <Position X="92" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAACAAAAAAAAAEAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellExplicitTargetType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellExtraAttributes" Collapsed="true">
+    <Position X="93.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgCAAAEAAAAABAgAACFAAEAAIAACCAAAIAAAAAEAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellExtraAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellInterruptFlags" Collapsed="true">
+    <Position X="95.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellInterruptFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellMechanics" Collapsed="true">
+    <Position X="97.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEwSCRIYGAACAAEEAAAAAEAIAAAQghEQBAAAECAII=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellMechanics.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellMechanicsFlags" Collapsed="true">
+    <Position X="83.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEwSCRIYGAACAAEEAAAAAEAIAAAQghEQBAAAACAII=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellMechanicsFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellMissType" Collapsed="true">
+    <Position X="85" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGUAAAAAgAAAAAgAAAAAABBhAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellMissType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellModifierApplicationType" Collapsed="true">
+    <Position X="86.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellModifierApplicationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellModifierType" Collapsed="true">
+    <Position X="88.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAqBACAAwCSKAAAgAABCBAA6AAEAIAgAAgAAIAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellModifierType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellPowerType" Collapsed="true">
+    <Position X="90.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QiAACAAABAAAgAAAAIgEAAAAEEgEAMAUgAAAIAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellPowerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellPreventionType" Collapsed="true">
+    <Position X="92" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellPreventionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellProcsPerMinuteModType" Collapsed="true">
+    <Position X="93.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellProcsPerMinuteModType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellRangeFlags" Collapsed="true">
+    <Position X="95.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAIAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellRangeFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellSchoolMask" Collapsed="true">
+    <Position X="97.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAgAEAAAEAAQAABMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellSchoolMask.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellSchools" Collapsed="true">
+    <Position X="83.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAEAAAAAAQAABMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellSchools.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellSingleTargetType" Collapsed="true">
+    <Position X="85" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellSingleTargetType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellState" Collapsed="true">
+    <Position X="86.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAQAAAAAAAAAgAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellTargetChecks" Collapsed="true">
+    <Position X="88.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellTargetChecks.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellTargetDirections" Collapsed="true">
+    <Position X="90.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAQAAAAAAAAAAAAAAAAAAAAACACACAEAIAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellTargetDirections.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellTargetReferences" Collapsed="true">
+    <Position X="92" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAgAAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellTargetReferences.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellTargetSelection" Collapsed="true">
+    <Position X="93.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAggAAAAAAAAAAAgIAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellTargetSelection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.SpellTriggerFlags" Collapsed="true">
+    <Position X="95.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAEAACAAgAAAAAAAABAAAAAAAAEAAAAAAAIQ=</HashCode>
+      <FileName>Assets\Scripts\Core\Spells\Spell Enums\SpellTriggerFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.ClassType" Collapsed="true">
+    <Position X="88.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAABIAAAAAAAADAAEAAAgECAAAAUAAAAAAMAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\World\Enums\ClassType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.Expansion" Collapsed="true">
+    <Position X="90.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAABHAAAAAAAAAIAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Core\World\Enums\Expansion.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.Gender" Collapsed="true">
+    <Position X="93.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\World\Enums\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.MapType" Collapsed="true">
+    <Position X="97.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAYAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Core\World\Enums\MapType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.Races" Collapsed="true">
+    <Position X="92" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAgBAEEgkBAAIAIAAgARAAAACEIAAAgBBAAABUAQAg=</HashCode>
+      <FileName>Assets\Scripts\Core\World\Enums\Races.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Core.Team" Collapsed="true">
+    <Position X="85" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Core\World\Enums\Team.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
